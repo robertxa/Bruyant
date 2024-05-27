@@ -1,0 +1,14 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Vallier-plan-tot -title "Grotte Vallier"
+	SP-Vallier-1
+endmap
+
+#map MC-Vallier-coupe-tot -title "Grotte Vallier"
+#	SC-Vallier-1
+#endmap
+   

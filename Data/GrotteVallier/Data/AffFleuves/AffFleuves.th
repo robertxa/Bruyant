@@ -1,0 +1,124 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey AffFleuves -title "Grotte Vallier"
+
+  centerline
+	  date 1990
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino   
+#Feuille n° 64
+#Réseau : affluents Fl. Imp.
+#Départ (n° 550) : marmite
+#Arrivée (n° 1323) : affl P actif
+#Correction compteur :
+#Visée inverses ? : 
+550	1305		3506	3549	62	156	# Départ marmite. Arrivée soupirail
+1305	1306		3549	3575	360	132	# blocs
+1306	1307		3575	3595	76	77	# CF
+1307	1308		3595	3611	21	100	# CF
+1308	1309		3611	3669	343	111	# 1,5 m après 1308, diacl imp » 1306
+1309	1310		3669	3763	333	118	# 1309 soupirail vers actif, h 1,5.
+1310	1311		0 15 	 	0	0	 
+1311	1312		3763	3788	30	61	# Base PR +15, actif. Faille
+1312	1313		3788	3850	322	132	# Visée sur faille. c.a
+1313	1314		3850	3901	380	93	 
+1314	1315		3901	3954	310	69	# CF mont., argile verte. Ar l1,5/h2,5
+1315	1316		3954	3985	339	100	 
+1316	1317		3985	4052	0	200	# P7
+										
+545	1318		4052	4301	134	100	# Affluent du puits actif (départ seuil)
+1318	1319		4110	4213	110	80	 
+1319	1320		0 30 	 	0	0	 
+1320	1321		0 50 	 	107	87	# Diacl. Boyau
+1321	1322		0 40 	 	325	100	# Base P (h3/l1). Diacl boyau
+1322	1323		0 50 	 	67	60	# Etr à désob. Pas de c.a. Boyau. 
+
+  endcenterline
+
+  centerline
+	  date 1990
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+#Feuille n° 65
+#Réseau : Point Noir + “Rempl perché”
+#Départ (n° 542) : R
+#Arrivée (n° 1333) : 
+#Correction compteur :
+#Visée inverses ? : 
+542	1324		4301	4382	138	87	# Gal sur Faille. Ressaut MC
+1324	1325		4382	4428	115	143	# Pass entre blocs, entrée gal
+1325	1326		4428	4552	68	90	# Diffl RG qq m à mi-dist. Bruit actif
+											
+540	1327		4896	4944	196	65	# Départ cairn
+1327	1328		4671	4735	317	59	# E2. Petite gal latérale à G
+1328	1329		4620	4671	309	100	# CF
+1329	1330		4552	4620	327	100	# Faille
+1330	1331		0 80 	 	290	100	# Obstr
+							
+1327	1332		4735	4793	104	81	# Gal ébouleuse
+1332	1333		4793	4896	85	100	# Balcon (5 m), faille transv
+
+  endcenterline
+
+  centerline
+	  date 1990
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+#  Feuille n° 66
+#Réseau : affl de l'Oasis
+#Départ (n° 535) :  R etr aval Oasis
+#Arrivée (n° 1345) : bout affl
+#Correction compteur :
+#Visée inverses ? : 
+535	1334		5391	5412	190	45	# R étroit dans blocs
+1334	1335		5372	5391	258	100	 
+1335	1336		5321	5372	134	79	# moitié visée dans l'affl
+1336	1337		5295	5321	122	100	 
+1337	1338		0 5 	 	0	200	 
+1338	1339		5248	5295	129	100	# Arrivée etr. En RD salle, donnant sur la gal
+1339	1340		5202	5248	106	100	# etr à mi-dist. Bon c.a remontant
+1340	1341		5176	5202	174	79	# Niche en RG
+1341	1342		5151	5176	116	100	# Boyau
+1342	1343		5082	5151	109	100	# Base PR (+10) actif Oasis. Faille
+1343	1344		4982	5082	119	90	# Base PR (+10) actif. Terrasses varves 
+1344	1345		4934	4982	57	100	# Colmatage
+  endcenterline
+
+endsurvey

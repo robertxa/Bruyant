@@ -1,0 +1,51 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Plaie -title "Grotte Vallier"
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino   
+#Feuille n° 63
+#Réseau : Plaie (diverticules)
+#Départ (n°1105) : pendule P15
+#Arrivée (n° 1304) : ancienne MC
+#Correction compteur : 
+#Visée inverses ? : 
+# 	1105						Galerie du Poudingue
+1105	1291		0 15 	 	167	100	# Départ soupirail (Pied corde P15)
+1291	1292		3155	3181	222	69	 
+1292	1293		3100	3155	245	58	# Diacl etr
+1293	1294		3035	3100	224	65	 
+1294	1295		0 15 	 	231	100	 
+1295	1296		3007	3035	330	50	# Trémie poudingue. Gal // vers P15
+1296	1297		2973	3007	178	63	# +5 m (boyau remontant(c.a) vers P100) 
+											
+1110	1298		0 6 	 	0	200	 
+1298	1299		3181	3227	157	119	# Face : gal » ancien R. RD : diacl qq m
+1299	1300		3227	3251	40	100	 
+1300	1301		3251	3293	170	146	# Concrétions gréseuses
+							
+1301	1302		3293	3338	21	125	# Soupirail sableux à G » Ouestern amont
+1302	1303		3338	3375	70	100	# Soup. sableux. + 40 m diacl etr (az 35)
+							
+1301	1304		3375	3506	208	82	# Base ancienne MC. c.a. remontant
+
+  endcenterline
+
+endsurvey

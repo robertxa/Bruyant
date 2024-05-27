@@ -1,0 +1,34 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Bruyant -title "Résurgence du Bruyant"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/Bruyant.th
+	
+   #centerline
+## Rajout des longueurs explorées, non topo, ou topos perdues
+#	station Ca.31@jb-amonts1 "+78 m explorés et topographiés le 1979.11.02 par Pierre Rias et France Guillaume, mais topographie perdue" continuation explored 78m	# Aval Gadoue (station Ca.31, 78 m)
+## Pour assembler plusieurs fichiers topos
+    #equate  6@Bruyant_entree  0@BruyantSiphons
+   #endcenterline
+ 
+ 
+##########################################################################################
+## Pour importer les différents fichiers de dessins en plan
+	## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
+	## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
+
+## Pour le plan
+input Data/Bruyant.th2
+
+## Pour la coupe développée
+input Data/Bruyant-coupe.th2
+
+## Appel des maps
+input Bruyant-maps.th
+
+endsurvey

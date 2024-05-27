@@ -1,0 +1,57 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Vallier -title "Grotte Vallier"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   #input Data/Vallier.th
+   input Data/1-24/Vallier.th
+   input Data/25-50/Vallier.th
+      equate 381@Vallier 381@Vallier2
+   input Data/51-55/Ouestern.th
+      equate 603@Ouestern 603@Vallier2
+   input Data/JardinEnfants/JardinEnfants.th
+      equate 641@JardinEnfants 641@Vallier2
+   input Data/Escargot/Escargot.th
+      equate 569@Escargot  569@Vallier2
+   input Data/Sisyphe/Sisyphe.th
+      equate 559@Sisyphe   559@Vallier2
+   input Data/Plaie/Plaie.th
+      equate 1105@Plaie 1105@Ouestern
+      equate 1110@Plaie 1110@Ouestern
+   input Data/AffFleuves/AffFleuves.th
+      equate 550@AffFleuves 550@Vallier2
+      equate 545@AffFleuves 545@Vallier2
+      equate 540@AffFleuves 540@Vallier2
+      equate 542@AffFleuves 542@Vallier2
+      equate 535@AffFleuves 535@Vallier2
+   input Data/Baguettes/Baguettes.th
+      equate 256@Baguettes 256@Vallier
+
+	
+   #centerline
+## Rajout des longueurs explorées, non topo, ou topos perdues
+#	station Ca.31@jb-amonts1 "+78 m explorés et topographiés le 1979.11.02 par Pierre Rias et France Guillaume, mais topographie perdue" continuation explored 78m	# Aval Gadoue (station Ca.31, 78 m)
+## Pour assembler plusieurs fichiers topos
+    #equate  6@Vallier_entree  0@VallierSiphons
+   #endcenterline
+ 
+ 
+##########################################################################################
+## Pour importer les différents fichiers de dessins en plan
+	## Et Pour assembler plusieurs scraps entre eux, il faut utiliser la commande
+	## join scrap1 scrap2 -count n (où n = nombre de galerie à connecter, par défaut n = 1). C'est tout simple !
+
+## Pour le plan
+#input Data/Vallier.th2
+
+## Pour la coupe développée
+#input Data/Vallier-coupe.th2
+
+## Appel des maps
+#input Vallier-maps.th
+
+endsurvey

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Folder>
+<Style id="ThSurveyLine"> <LineStyle> <color>ffffff00</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>https://therion.speleo.sk/downloads/KmlIconModel.png</href> </Icon>
+<name><![CDATA[Résurgence du Bruyant]]></name>
+<description><![CDATA[Longueur 90 m<br>Dénivellation 8 m]]></description>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Résurgence du Bruyant]]></name>
+<Point> <coordinates>5.61728500000000,45.14655580000000,1012.00000000000000</coordinates> </Point>
+</Placemark>
+<Folder>
+<name><![CDATA[Résurgence du Bruyant]]></name>
+<Placemark>
+<name>S1-0</name>
+<styleUrl>#ThSurveyLine</styleUrl>
+<MultiGeometry>
+<LineString><coordinates>
+	5.61742171697260,45.14644947603939,1012.70656447443719 	5.61742171697260,45.14644947603939,1012.70656447443719 	5.61739608215110,45.14643852882102,1012.70656447443719 	5.61737098986106,45.14640425878267,1012.70656447443719 	5.61733975447419,45.14636611292232,1012.16557432075831 	5.61733975447419,45.14636611292232,1012.16557432075831 	5.61729622255460,45.14634330997772,1012.16557432075831 	5.61723983572699,45.14634358203480,1011.74632178492436 	5.61718314852992,45.14637831957535,1011.00121571138459 	5.61721985656801,45.14642481767981,1011.00121571138459 	5.61727554454830,45.14653198020373,1012.00000000000000 	5.61728500000000,45.14655580000000,1012.00000000000000 
+</coordinates></LineString>
+</MultiGeometry>
+</Placemark>
+<Placemark>
+<name>S1</name>
+<styleUrl>#ThSurveyLine</styleUrl>
+<MultiGeometry>
+<LineString><coordinates>
+	5.61742171697260,45.14644947603939,1012.70656447443719 	5.61750412116024,45.14642568936695,1012.70656447443719 	5.61768030848672,45.14637483112732,1011.70656447443719 	5.61783648158888,45.14632974989431,1004.70656447443719 	5.61787179752511,45.14631955548801,1008.70656447443719 
+</coordinates></LineString>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Folder>
+</kml>

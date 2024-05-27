@@ -1,0 +1,207 @@
+therion 6.0.6+dev (compiled on 2022-03-27)
+  - using Proj 9.0.0, compiled against 9.0.0
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: Bruyant.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM31
+meridian convergence (deg): -1.8561
+geomag declinations (deg):
+  2021.1.1  2.1833
+  2022.1.1  2.3454
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+
+therion: warning -- can't open cavern log file for input
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.02%
+writing Data/Bruyant-2021-map.xvi ... done
+processing projection extended ... done
+average distortion: 0.00%
+writing Data/Bruyant-2021-coupe.xvi ... done
+
+
+############### export maps & scraps selection #################
+M     0.00 MC-Bruyant-coupe-tot@Bruyant (Résurgence du Bruyant)
+S     0.00 SC-Bruyant-1@Bruyant ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Bruyant-coupe2021.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  5 DEC 2022 08:59
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+[Warning: obsolete transparent colour definition 'tr_lgrey']
+[Warning: obsolete transparent colour definition 'tr_lchamois']
+[Warning: obsolete transparent colour definition 'tr_lqueue']
+[Warning: obsolete transparent colour definition 'tr_largile'] [1]
+[Warning: scrap outline intersects itself in scrap SC-Bruyant-1@Bruyant] [2]
+[3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3619 strings using 95518 characters
+ 3706384 bytes of node memory
+ 1750 symbolic tokens
+ 9i,81n,16p,333b,5f stack positions out of 16i,96n,20p,390b,6f
+21 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  5 DEC 2022 08:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 308 strings out of 494671
+ 4185 string characters out of 6148971
+ 45789 words of memory out of 5000000
+ 1937 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,712b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/cs/csti10.pfb>
+Output written on data.pdf (1 page, 64228 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M  1011.29 MP-Bruyant-plan-tot@Bruyant (Résurgence du Bruyant)
+S  1011.29 SP-Bruyant-1@Bruyant ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Bruyant-plan2021.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  5 DEC 2022 08:59
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+[Warning: obsolete transparent colour definition 'tr_lgrey']
+[Warning: obsolete transparent colour definition 'tr_lchamois']
+[Warning: obsolete transparent colour definition 'tr_lqueue']
+[Warning: obsolete transparent colour definition 'tr_largile'] [1]
+[Warning: scrap outline intersects itself in scrap SP-Bruyant-1@Bruyant] [2]
+[3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3867 strings using 107056 characters
+ 3724920 bytes of node memory
+ 1752 symbolic tokens
+ 9i,81n,18p,445b,5f stack positions out of 16i,96n,22p,487b,6f
+21 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  5 DEC 2022 08:59
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 309 strings out of 494671
+ 4189 string characters out of 6148971
+ 55782 words of memory out of 5000000
+ 1938 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,712b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 67831 bytes).
+PDF statistics:
+ 61 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Bruyant-2021.lox .... done
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  5 DEC 2022 08:59
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
+1 output file written: data.1
+
+
+#################### end of metapost log file ####################
+writing Outputs/Bruyant ... done
+writing Outputs/Bruyant ... done
+writing Outputs/Bruyant-2021.kml ... done
+writing Outputs/Bruyant-2021-filaire.kml ... done
+compilation time: 4 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.02%    0.23%  SP-Bruyant-1@Bruyant
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.07%  SC-Bruyant-1@Bruyant
+################### end of scrap distortions ###################

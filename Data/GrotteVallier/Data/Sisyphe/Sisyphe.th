@@ -1,0 +1,60 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Sisyphe -title "Grotte Vallier"
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+#Feuille n° 62
+#Réseau : galerie de Sisyphe
+#Départ (n° 559) : spit MC P100
+#Arrivée (n° 1 290) : colm. gal G
+#Correction compteur : x 1,02
+#Visée inverses ? :
+559	1267		7806	7898	113	85
+1267	1268		7898	7979	172	68
+1268	1269		7979	8177	156	100
+						
+1269	1270		8177	8218	114	100
+1270	1271		8218	8282	177	68
+1271	1272		8282	8322	186	100
+1272	1273		8322	8371	99	81
+1273	1274		8371	8443	130	93
+1274	1275		0 1.5 	 	0	0
+1275	1276		8443	8511	134	83
+1276	1277		8552	8597	132	73
+1277	1278		8597	8636	272	31
+						
+						
+1269	1279		9593	9684	363	74
+1279	1280		0 20 	 	0	0
+1280	1281		9455	9593	108	73
+1281	1282		9360	9455	134	84
+1282	1283		9255	9360	154	35
+1283	1284		9198	9255	98	146
+1284	1285		9063	9198	49	79
+1285	1286		8971	9063	95	92
+1286	1287		8881	8974	102	72
+1287	1288		8758	8881	139	74
+1288	1289		8720	8758	276	125
+1289	1290		8636	8720	102	128    
+
+  endcenterline
+
+endsurvey

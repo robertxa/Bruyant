@@ -1,0 +1,60 @@
+# 2020.09.12 created by TopoDroid v 5.0.5c
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Bruyant -title "Résurgence du Bruyant" -entrance Bruyant
+
+  centerline
+	  date 2021.01.17 
+    	team "Xavier Robert"
+		  team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  cs lat-long
+	  fix Bruyant	45.1465558  5.6172850 1012
+    
+    units length meters
+    units compass clino grads
+    units counter centimeters
+    calibrate counter 0 0.500
+
+    data topofil from to fromcount tocount backcompass clino right left up down
+    S1-0	S1	0	0	0	0	2.5	0.5	0.3	0.3	# Départ fil S1, au niveau de l'eau
+    S1	1	21956	22427	63	0	2	1.5	0.5	0	
+    1	2	22427	23285	28	0	1	2	0.5	0	
+    2	3	23285	24271	31	-7	1	2	0.5	0	# Départ Laminoir vers siphon
+    3	4	24271	24271	0	0	1	2	0.5	0.7	
+    4	5	24271	25123	57	0	2	1	1.2	0	
+    5	6	25123	26014	98	-6	2	1.5	1.5	0	
+    6	7	26014	27203	143	-8	3	3	1.5	0	
+    7	8	28094	29278	230	0	1	2	0.8	0.2	# v.m.
+    8	9	29278	31824	220	5	1	1	1.5	1.5	# Griller - Porte
+    9	Bruyant	31824	32374	215	0	1	2	1.5	1.5	# Entrée 
+
+
+  endcenterline
+
+centerline
+	  date 2021.01.17 
+		  team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+    units length meters
+    units compass clino degrees
+
+    data diving from to length compass fromdepth todepth left right up down
+    S1	S1-1  7 110 0 0 2 1 1 0.5	# cloche
+    S1-1  S1-2  15  110 0 -1  1 1 0.3 0.3 # Blocs
+
+    flags approximate
+    # Approx d'après la description de Manu Tessane
+    S1-2  S1-3 15 110 -1  -8  2 2 4 0 # salle
+    S1-3  S1-4  5 110 -8  -4  0.5 0.5 0 4 # trémie, à revoir, mais probablement non franchissable
+
+  endcenterline
+
+endsurvey

@@ -1,0 +1,250 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Ouestern -title "Grotte Vallier"
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino   
+#Cavité : Vallier
+#Feuille n° 51
+#Réseau : Plaie
+#Départ (n° 603) : sommet P15
+#Arrivée (n° 1 123) : avant P7
+#Correction compteur : x 1,02
+#Visée inverses ? : 
+603	1104		4656	4669	263	152
+1104	1105		4594	4656	0	200
+1105	1106		4537	4594	59	109
+1106	1107		4502	4537	98	90
+1107	1108		4450	4502	172	100
+1108	1109		4430	4550	226	119
+1109	1110		4417	4430	143	100
+1110	1111		4347	4417	214	79
+1111	1112		4261	4347	232	76
+1112	1113		4203	4261	197	69
+						
+1113	1114		4144	4203	94	122
+1114	1115		4103	4244	62	109
+1115	1116		4068	4103	0	200
+1116	1117		4013	4068	42	138
+1117	1118		3910	4013	212	66
+1118	1119		3861	3905	243	115
+1119	1120		3851	3861	128	106
+1120	1121		3769	3851	242	88
+1121	1122		3730	3767	209	85
+1122	1123		3657	3730	248	105
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino  
+#Cavité : Vallier
+#Feuille n° 52
+#Réseau : Plaie - Ouestern amont
+#Départ (n° 1 113) : bif Plaie
+#Arrivée (n° 1 166) : fin Ouestern amont
+#Correction compteur : x 1,02
+#Visée inverses ? : 
+1113	1150		4196	4235	196	100
+1150	1151		4235	4302	259	64
+1151	1152		4302	4381	227	71
+1152	1153		4381	4405	91	155
+1153	1154		4405	4423	254	134
+1154	1155		4423	4487	224	171
+1155	1123		4487	4547	170	140
+						
+1123	1124		3569	3657	184	123
+1124	1125		3504	3569	200	167
+						
+1125	1156		4602	4696	0	100
+1156	1157		4696	4748	3	116
+1157	1158		4748	4873	398	100
+1158	1159		4873	4897	351	35
+1159	1160		4897	4915	78	108
+1160	1161		4915	4948	16	144
+1161	1162		4948	5004	33	100
+1162	1163		0 4 	 	0	0
+1163	1164		5004	5100	3	100
+1164	1165		5100	5134	29	91
+						
+1165	1166		5134	5167	59	100
+						
+1165	1167	0 50	 	 	30	100
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+#  Cavité : Vallier
+#Feuille n° 53
+#Réseau : Ouestern aval
+#Départ (n° 1125) : base P7
+#Arrivée (n° 1149) : gal sup
+#Correction compteur : x 1,02
+#Visée inverses ? : 
+1125	1126		5167	5208	224	88
+1126	1127		5208	5304	235	113
+1127	1128		5304	5352	263	126
+1128	1129		5352	5421	301	127
+1129	1130		5421	5463	250	89
+					 	 
+1130	1131		5463	5636	202	92
+1131	1132		5636	5671	263	114
+1132	1133		5671	5711	191	102
+1133	1134		5711	5771	264	140
+						
+1130	1135		5771	5841	0	0
+1135	1136		5841	5888	392	100
+						
+1136	1137		5888	5970	127	60
+1137	1138		0 4 	 	0	0
+1138	1139		5970	5998	197	86
+1139	1140		5998	6082	101	64
+1140	1141		6082	6129	53	76
+1141	1142		6129	6160	169	47
+1142	1143		6160	6205	68	64
+1143	1144		6205	6239	362	154
+1144	1145		6243	6267	50	87
+1145	1146		6267	6299	369	85
+1146	1147		6299	6334	379	114
+1147	1148		6334	6349	8	114
+1148	1149		6349	6406	4	107
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+#Cavité : Vallier
+#Feuille n° 54
+#Réseau : Ouestern aval
+#Départ (n° 1136) : sommet E9
+#Arrivée (n° 1188) : point bas Ouestern
+#Correction compteur : x 1,02
+#Visée inverses ? : 
+1136	1168		6406	6447	240	109
+						
+1168	1169		6447	6568	208	86
+1169	1170		6568	6640	224	92
+1170	1171		6640	6704	216	111
+1171	1172		6704	6747	197	79
+						
+1172	1173		0 10 	 	0	200
+1173	1174		6747	6761	154	115
+1174	1175		6761	6813	189	93
+1175	1176		6813	6827	288	100
+						
+						
+1172	1177		6827	6888	240	74
+1177	1178		6888	6937	248	121
+1178	1179		6937	6969	225	156
+1179	1180		6969	6997	330	122
+						
+1180	1181		0 4 	 	0	0
+1181	1182		6997	7058	316	141
+1182	1183		7058	7120	37	147
+						
+1183	1184		7120	7202	176	103
+1184	1185		7202	7249	104	112
+1185	1186		7249	7380	27	87
+1186	1187		7380	7438	30	132
+						
+1183	1188		7584	7692	259	100
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+#Cavité : Vallier
+#Feuille n° 55
+#Réseau : Fond Ouestern + Dolomites
+#Départ (n° 1183) : Trifurcation
+#Arrivée (n° 1206) : base E30
+#Correction compteur : x 1,02
+#Visée inverses ? : 
+1183	1189		7702	7753	380	96
+1189	1190		7753	7781	385	126
+1190	1191		7781	7839	292	100
+1191	1192		7839	7899	372	110
+1192	1193		7899	7985	9	123
+1193	1194		7985	8079	388	98
+1194	1195		8079	8157	390	93
+						
+1180	1196		8917	8948	330	42
+1196	1197		8890	8917	0	0
+1197	1198		8705	8890	240	63
+1198	1199		8663	8705	364	80
+1199	1200		8599	8663	173	40
+1200	1201		8534	8599	266	58
+1201	1202		8407	8534	47	28
+1202	1203		8370	8407	82	71
+1203	1204		8317	8370	49	60
+1204	1205		8225	8317	270	38
+1205	1206		8166	8225	238	83
+  endcenterline
+endsurvey

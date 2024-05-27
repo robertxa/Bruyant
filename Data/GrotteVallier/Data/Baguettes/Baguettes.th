@@ -1,0 +1,39 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Baguettes -title "Grotte Vallier"
+
+  centerline
+	  date 1990 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.101
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino   
+#Feuille n° 67
+#Réseau : Baguettes
+#Départ (n° 256) : base etr verticale
+#Arrivée (n°1352) : fond Baguettes
+#Correction compteur : x 1,01
+#Visée inverses ? :
+256	1346		4354	4389	377	117	# Base etr étrier. Fin visée = entrée boyau
+1346	1347		4389	4434	53	100	# Sortie boyau, sommet R 4.
+1347	1348		4434	4523	40	100	# Cheminée
+1348	1349		4523	4592	95	81	# 1e trémie
+1349	1350		4592	4655	65	84	# Plafond
+1350	1351		4655	4685	76	137	# soupirail au N de -3 m
+1351	1352		4685	4716	50	70	# trémie ventilée
+  endcenterline
+
+endsurvey

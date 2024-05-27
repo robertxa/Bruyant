@@ -1,0 +1,172 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey JardinEnfants -title "Grotte Vallier"
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino   
+#Cavité : Vallier
+#Feuille n° 56
+#Réseau : Jardins d'Enfants
+#Départ (n°641) : carrefour TP
+#Arrivée (n°1223) : 1er aval, bif des ressauts
+#Correction compteur : x1,02
+#Visée inverses ? : non
+641	1207		9489	9566	240	119		
+1207	1208		9566	9643	276	139		# Ld=5 (salle). C air remonte
+1208	1209		9643	9690	234	139		# Nœud. Lame.
+1209	1210		9692	9786	0	200		# P 10. Lucarne
+1210	1211		9786	9887	130	129		 
+1211	1212		9887	9953	286	135		# R.
+								
+1212	1213		9953	10020	178	115		# Bif vers 2e réseau aval
+								 
+1213	1214		20	98	145	80		# Colimaçon remontant vers sommet P 10
+1214	1215		98	134	308	62		 
+1215	1216		134	216	323	71		# Lucarne au dessus de 1213
+1216	1217		216	281	235	58		 
+1217	1218		281	339	360	51		 
+1218	1219		339	393	39	100		 
+								
+1212	1220		393	494	0	111		# Arrivé P
+1220	1221		494	576	362	159		# P jusqu'au spit P suivant. Salle
+1221	1222		576	620	298	158		# Etr vert. Barrémien inf
+1222	1223		620	731	377	173		# urgonien. Bif div ressauts. boyau RD
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+#Cavité : Vallier
+#Feuille n° 57
+#Réseau : Jardins d'Enfants (suite)
+#Départ (n°1223) : 1er aval, bif des ressauts
+#Arrivée (n°) : fond Jardins d'Enfants
+#Correction compteur : x1,02
+#Visée inverses ? : non
+1223	1224		731	865	22	127		# Concrétions érodées
+1224	1225		865	923	91	138		# Arrivée P
+1225	1226		1835	1998	33	157		# P13
+1226	1227		1768	1835	6	158		# Arrivée P
+								
+1223	1231		923	965	264	59		# R montant
+1231	1232		965	1050	282	147		 
+1232	1233		1050	1087	0	200		# R
+1233	1234		1087	1136	119	105		# boyau
+1234	1235		1136	1161	127	127		# shunt
+1235	1236		1161	1206	110	178		# R actif
+1236	1237		1206	1300	17	156		# Arrivée P (non équipé). Shunt en RD (-305)
+1237	1238		1300	1355	38	168		# P
+1238	1239		1355	1428	49	141		# R (perte)
+1239	1240		1428	1525	13	130		 
+1240	1227		1525	1580	90	146		# Arrivée P16
+1227	1228		1580	1598	11	128		# MC
+1228	1229		1598	1709	135	170		# P16
+1229	1230		1709	1768	0	200		# jonction Taggers, à 10 m de la lucarne du P100 (bas R4)
+  endcenterline
+
+  centerline
+	  date 1990
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+#Feuille n° 59
+#Réseau : Jardins d'Enfants
+#Départ (n° 1 213) : bif 2e réseau
+#Arrivée (n° 1 248) : proche jonction Dolomites
+#Correction compteur : x 1,02
+#Visée inverses ?:
+1213	1231		5305	5392	298	151
+1231	1232		5392	5477	297	113
+1232	1233		5477	5556	380	146
+1233	1234		5556	5592	326	113
+						
+1234	1235		5592	5650	122	143
+1235	1236		5650	5713	125	100
+1236	1237		5713	5741	0	200
+1237	1238		5741	5785	247	137
+1238	1239		5785	5819	256	152
+1239	1240		5819	5981	300	184
+						
+1240	1241		5981	6129	255	47
+						
+1240	1242		6129	6177	55	121
+1242	1243		6177	6264	390	151
+1243	1244		6264	6322	253	134
+1244	1245		0 4 	 	0	200
+1245	1246		6322	6507	266	175
+1246	1247		6507	6556	384	79
+						
+1247	1248		6556	6645	136	122
+						
+1247	1249		6645	6746	225	49
+1249	1250		6746	6820	184	48
+1250	1251		6820	6865	52	73  
+  endcenterline
+
+  centerline
+	  date 1990
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+#  Feuille n° 60
+#Réseau : Jardins d'Enfants
+#Départ (n° 1 234) : bif puits Luccio
+#Arrivée (n° 1 255) :  P luccio
+#Correction compteur : x 1,02
+#Visée inverses ? : 
+1234	1252		0 5 	 	295	100
+1252	1253		6867	6987	253	136
+1253	1254		6987	7045	265	151
+1254	1255		7045	7081	170	92
+  endcenterline
+
+endsurvey

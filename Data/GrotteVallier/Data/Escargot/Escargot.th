@@ -1,0 +1,43 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Escargot -title "Grotte Vallier"
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.102
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino   
+#Feuille n° 61
+#Réseau : galerie de l'Escargot
+#Départ (n° 569) : cairn gal P100
+#Arrivée (n°) : balcon
+#Correction compteur : x 1,02
+#Visée inverses ? : 
+569	1256		7179	7314	244	114
+1256	1257		7314	7416	232	69
+1257	1258		7416	7503	288	115
+1258	1259		7503	7562	211	100
+1259	1260		 0  4	 	0	0
+1260	1261		7562	7605	243	112
+1261	1262		7605	7641	247	120
+1262	1263		7641	7666	17	41
+1263	1264		7666	7701	152	51
+1264	1265		7701	7764	136	71
+1265	1266		7764	7805	96	145
+  endcenterline
+
+endsurvey

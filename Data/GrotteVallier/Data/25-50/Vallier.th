@@ -1,0 +1,1101 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Vallier2 -title "Grotte Vallier"
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino   
+#Fiche 25 et 26			Topo du 1989			
+#Du Cairn de la salle aux Pets aux Fleuves Impassibles						
+#				grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+381	527	597	845	340	76	
+527	528	513	597	348	132	# Flèche Bruyant 2 km -> bout de la salle aux Pets
+528	529	808	868	25	152	# Trémie
+529	530	868	936	352	142	
+530	531	936	1071	303	135	
+531	532	1071	1274	282	110	
+532	533	1274	1532	338	100	
+533	534	1532	1804	283	119	
+534	535	1804	2137	310	94	
+535	536	2137	2193	305	136	
+536	537	2193	2391	320	109	
+537	538	2391	2590	315	108	
+538	539	2590	2821	325	113	
+539	540	2821	2897	262	82	
+540	541	2897	3049	335	104	
+541	542	3049	3291	337	104	
+542	543	3291	3446	340	120	# Ressaut
+543	544	3446	3528	365	162	
+544	545	3528	3643	345	97	# Actif
+545	546	3643	3877	333	110	
+546	547	3877	3969	303	90	
+547	548	3969	4232	326	111	# Spit P5
+548	549	4232	4313	254	149	
+549	550	4313	4379	318	84	# méandre
+550	551	4379	4496	280	112	# CF au sommet
+551	552	4496	4583	256	110	
+552	553	4583	4644	118	126	
+553	554	4644	4712	225	102	
+554	555	4712	4794	264	116	
+555	556	4794	4900	236	135	
+556	557	4900	4983	355	82	
+557	558	4983	5063	290	94	
+558	559	5063	5309	272	112	# Arrivée MC --> bifurcation vers P100
+559	560	843	921	363	104	# Galerie supérieure
+560	561	921	1013	325	119	# Sommet de la galerie ; galerie supérieure
+561	562	1013	1079	312	108	# Galerie supérieure
+						
+						
+559	604	1079	1143	310	98	# Rive Gauche
+604	605	1143	1277	257	127	# Rive Gauche
+605	606	1277	1331	255	111	# Rive Gauche ; bifurcation
+606	607	1331	1522	248	122	# Bifurcation
+607	608	1522	1543	338	90	
+608	609	1543	1609	290	105	# Regard sur la rive droite
+609	610	1609	1646	372	145	# Balcon, galerie en face
+						
+607	611	0	15	0	0	
+611	612	1646	1717	210	125	
+612	613	1717	1807	245	100	
+613	614	1807	1879	172	104	
+614	615	1879	1942	304	100	# Boyau rive Gauche
+615	616	1942	1969	268	140	# Resserement
+616	617	1969	2014	300	100	
+617	618	2014	2097	284	118	# Bifurcation
+618	619	2097	2147	10	105	# Canyon, galerie en face
+						
+618	620	2147	2177	150	37	# Galerie supérieure
+620	621	2177	2234	292	57	
+621	622	2234	2262	246	100	
+622	623	2266	2320	160 45	# Ressaut	
+623	624	0	5	200	100	# Suite P29
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino  
+#Fiche 27			Topo du 1989			
+#Black Hole à partir de la bifurcation fossile / P100						
+#				grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+559	564	5844	5913	70	130	# MC
+564	565	5913	5943	0	200	# Sous bloc
+565	566	5943	5995	315	125	# Spit
+566	567	6070	6122	0	200	# Puits
+567	568	6122	6318	336	130	
+568	569	6318	6416	255	85	
+569	570	6416	6556	220	113	
+570	571	6556	6629	260	107	
+571	572	6629	6700	210	76	# Bloc
+572	573	6700	6838	237	131	
+573	574	6838	6916	242	140	# 1er spit de la MC du P100
+574	575	7021	7087	225	115	
+575	576	7087	7125	274	126	
+576	577	7125	7179	268	147	
+577	578a	7194	7821	0	200	# P98 ;  1er relais à 7821, 2d relais à 8069
+578a	578b	7821	8069	0	200	# P98 ;  1er relais à 7821, 2d relais à 8069
+578b	578	8069	8170	0	200	# P98 ;  1er relais à 7821, 2d relais à 8069
+						
+						
+# Réseau de la Lucarne						
+578	579	8181	8318	330	84	# Lucarne, départ du réseau de la Lucarne
+579	580	8318	8335	205	100	
+580	581	8335	8465	295	153	
+581	582	8480	8536	310	137	# Sommet Puits, courant d'air remontant
+582	583	8536	8737	295	147	# P4
+583	584	8737	8756	360	132	
+584	585	8756	8815	270	120	# Arrivée à gauche
+585	586	8815	8936	380	122	
+586	587	8936	9005	15	100	# Etr.
+587	588	9005	9077	70	95	# Etr. Boueuse
+588	589	9077	9120	120	65	# en rive Gauche : Puits remontant, direction de 10 m, E7 Az 140 gr
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 						
+#Fiche 27			Topo du 1989			
+#Black Hole, aval des diaclases, à partir du pied du P100						
+#				grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+578	590	9120	9203	300	100	# Tour base du P100
+590	591	9203	9384	28	125	
+591	592	9384	9522	384	85	
+592	593	9522	9630	77	118	# Bifurcation, aval Diaclases
+593	594	9630	9689	130	122	# Paroi
+594	595	9689	9812	215	114	# Puits bas
+595	578	9812	10038	225	74	# Cascade
+						
+						
+593	594b	38	195	385	152	# Réseau aval Diaclases
+594b	595b	115	165	45	148	
+595b	596	165	189	183	133	# Boyau
+596	597	0	20	0	200	# R3
+597	598	189	265	12	136	# Trémie derrière?
+598	599	265	281	40	100	
+599	600	281	390	25	155	# Ressaut glissant
+600	601	397	434	40	113	# Traversée Puits
+601	602	434	485	57	127	
+602	603	485	509	206	100	# P10
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 												
+#Fiche 29 et 30			Topo du 1989			
+#Galeries supérieures						
+#				grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+624	625	2320	2368	322	38	# Cheminée
+625	626	2368	2389	320	93	
+626	627	2389	2469	196	112	
+627	628	2469	2524	300	70	
+628	629	2524	2606	310	125	
+629	630	2606	2659	285	100	# Sommet de Ressaut
+630	631	2659	2713	307	161	# Ressaut
+631	632	2713	2753	277	91	
+632	633	2753	2803	288	100	# Laminoir
+633	634	2803	2890	305	137	
+634	635	2890	3000	310	150	# Puits remontant à 1/2 visée
+635	636	3000	3077	0	200	# Puits, jonction à voix P8
+						
+618	637	3077	3148	280	118	# Balcon
+637	638	3148	3235	272	126	# Bifurcation, Puits
+638	639	3235	3313	258	105	
+639	640	3313	3461	325	176	# P15
+640	641	3486	3595	320	118	# PR 20 m, bifurcation avec Jardin d'enfant
+641	642	3595	3815	326	92	# Arrivée CF en plafond, boucle 1 en rive Gauche
+642	643	3815	3848	377	75	# CF sup de 3 m de diam à 105 gr ; suçoir à côté cairn
+643	644	3848	3931	270	108	# Lucarne
+644	645	3931	3988	325	114	# Trifurcation (CF amont, aval surcreusement)
+645	646	3988	4084	0	74	
+646	647	4084	4124	363	46	# Escalade glissante (E3)
+647	648	4124	4173	385	124	# Suçoir vers méandre aval
+648	649	4173	4247	325	92	# Puits remontant
+						
+ 645	650	4247	4380	200	94	# Lucarne 1 à Gauche à 55 gr + Puits Remontant en rive droite, alerie supérieure
+650	651	4380	4442	230	112	# Arrivée sur R3
+651	652	4442	4657	310	112	# R2
+652	653	4657	4804	383	102	
+653	654	4804	4965	275	118	
+654	655	4965	5056	203	100	
+655	656	5056	5197	170	96	
+656	657	5342	5427	240	117	
+657	658	5427	5706	272	110	# Faille suçoir, 658 à 1.5 m du sol
+658	659	5706	5803	185	87	# Bloc, suite galerie au sol (laminoir)
+659	660	5803	5887	235	52	# E4
+660	661	5902	6022	296	114	
+661	662	6022	6143	304	126	# Faille
+662	663	6143	6277	185	103	
+663	664	6277	6347	298	108	# Laminoir
+664	665	6347	6546	282	94	
+665	666	6546	6660	296	38	# E15
+666	667	6660	6724	238	68	# E15
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 						
+#Fiche 31			Topo du 1989			
+#Galerie de la Raie Amont à partir de la galerie des Aragonite jusqu'au puits du Mémoire						
+#		Counter +2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+650	677	1021	1162	276	51	# Escalade
+677	678	1162	1223	277	100	# 1 petit départ en face
+678	679	0	16	0	200	
+679	680	1223	1308	305	91	
+680	681	0	10	0	200	
+681	682	1308	1464	305	92	
+682	683	1464	1518	217	65	
+683	684	1518	1583	310	115	
+684	685	1583	1717	282	93	
+685	686	1717	1791	305	106	# faille
+686	687	1791	1844	275	124	# Point bas
+687	688	1844	1874	370	95	# Baïonnette
+688	689	1874	1921	304	100	
+689	690	1921	2074	327	92	# Faille
+690	691	2074	2170	325	117	# Carrefour, sommet Ressaut
+691	692	0	20	0	200	# Ressaut
+						
+692	693	2170	2292	74	93	# Vers la Raie amont
+693	694	2292	2442	74	97	
+694	695	2442	2541	62	78	
+695	696	2541	2739	93	100	# Départ à mi-chemin en hauteur
+696	697	2739	2804	75	86	# Départ en haut
+697	698	2804	2913	92	100	# Départ en haut
+698	699	2913	2963	127	125	
+699	700	2963	3139	92	100	# Puits Remontant, courant d'air vers l'amont
+700	701	3139	3225	122	117	
+701	702	3225	3298	302	126	# Lame, puits du Mémoire
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 							
+#Fiche 32 et 33			Topo du 1989			
+#Galerie de la Raie Amont - Clolimaçon - Rut à partir du Puits du Mémoire						
+#		Counter +2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+700	703	4686	4795	132	80	# Puits remontant, Raie amont vers Puits du Rut
+703	704	4651	4686	160	84	
+704	705	4618	4651	148	110	
+705	706	4500	4618	147	100	# Courant d'air vers amont, passage bas
+706	707	4471	4500	148	91	
+						
+707	708	4277	4311	313	37	# Vers le Puits du Rut
+708	709	4311	4328	243	100	# Courant d'air vers amont
+709	710	4328	4387	180	92	
+710	711	4387	4437	150	126	# Soupirail, puits du Rut
+						
+707	712	4184	4277	135	55	
+712	713	4184	4208	0	0	# Compteur inversé par Xav
+713	714	4127	4184	245	25	# R5
+714	715	4061	4090	103	72	# Faille
+715	716	4024	4061	50	132	
+716	717	3982	4024	97	104	# Boyau au plancher, courant d'air vers réseau amont
+717	718	3956	3982	110	95	
+718	719	3905	3956	65	129	
+719	720	3867	3905	76	119	# Bifurcation vers le Colimaçon
+						
+720	721	3713	3738	26	77	# Vers le Colimaçon
+721	722	3644	3713	94	95	
+722	723	3607	3644	33	107	
+723	724	3559	3607	100	83	
+724	725	3513	3559	355	114	
+725	726	3487	3513	53	100	
+726	727	3463	3487	398	160	# Shunt par soutirage (+2 * 5 m)
+727	728	3434	3463	68	109	# Etr.
+728	729	3411	3434	12	125	
+729	730	3343	3411	350	155	
+730	731	3300	3343	114	118	# Colmatage 3 m + loin, pas de courant d'air
+						
+720	732	3739	3776	26	135	# Etr.
+732	733	3776	3811	100	130	# Sommet Puits
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 							
+#Fiche 34			Topo du 1989			
+#Galerie de la Raie Amont - Clolimaçon - Rut à partir du Puits du Mémoire						
+#		Counter +2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+692	734	4798	4892	308	110	
+734	735	4892	4996	330	88	
+735	736	5230	5390	295	115	
+736	737	5500	5712	313	109	
+737	738	5712	5808	322	115	
+738	739	5808	5873	316	98	# Base de l'Escalade
+739	740	5873	5975	380	38	# E9
+740	741	5975	6097	340	89	
+741	742	6097	6160	10	78	# Blocs, bifurcation vers galerie sur faille
+						
+742	743	6160	6200	0	94	
+743	744	6200	6233	334	160	# Ressaut, départ en dessous ?
+744	745	6233	6289	373	140	
+745	746	6289	6337	340	130	# Cairn au sol, galerie sur faille
+						
+742	747	6465	6543	225	75	# Eboulis
+747	748	6543	6582	225	142	# Bifurcation, repère, vers le P25 du Méchoui
+748	749	6582	6640	296	148	# Etr.
+749	750	6640	6688	305	66	# Salle Trémie
+750	751	6696	6743	213	128	# Fissure
+751	752	6743	6777	255	158	
+752	753	6777	6898	232	98	
+753	754	6898	6970	140	123	
+754	755	6970	7001	238	100	# Etr., gours
+755	756	7001	7048	228	73	
+756	757	7048	7123	283	140	# Arrivée réseau du Grand Retour
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 							
+#Fiche 35			Topo du 1989			
+#Galerie du Grand Retour, à partir de la bifurcation de la Raie aval						
+#		Counter +2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+757	758	7123	7271	280	125	
+758	759	7271	7412	245	100	
+759	760	7412	7507	295	87	
+760	761	7507	7675	286	131	# Arrivée de la salle du Diadème
+						
+761	762	7675	7793	225	80	
+762	763	7793	7839	270	100	# Bifurcation vers le Quinté Plus à Flash-Back
+						
+763	764	7839	7906	215	118	# Etr. Au départ
+764	765	7906	7952	265	96	
+765	766	7958	8018	216	94	
+766	767	8018	8097	220	96	# Cairn n°17, à droite, galerie de 3 m de diamètre
+						
+767	768	8097	8163	170	150	# Tripode
+768	769	8163	8257	106	140	# Passage supérieur, repère n°18, 2 galeries
+						
+769	770	0	15	0	200	
+770	771	9177	9272	85	120	# Passage bas
+771	772	9272	9476	200	120	# Base du Flash-Back
+772	773	9476	9625	205	118	
+773	774	9625	9778	195	115	# Gour dynamité
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 		
+#Fiche 36			Topo du 1989			
+#Réseau du Quinté Plus à partir du sommet de l'E15 jusqu'au carrefour sommet du FlashBack						
+#				grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+667	668	6724	6796	370	87	
+668	669	6796	6836	390	109	# Courant d'air descendant
+669	670	6836	6908	315	110	# Vasque
+670	671	6908	7015	325	132	# Bifurcation vers siphon
+671	672	7015	7107	293	85	
+672	673	7107	7165	320	64	
+673	674	7165	7290	300	64	
+674	675	7290	7324	200	53	
+675	676	7324	7451	292	100	# Vasque
+676	775	1903	1945	295	120	# Traversée vasque
+775	776	0	20	0	0	# Sortie Vasque
+776	777	1807	1903	282	113	# Cascatelle Rive Gauche
+777	778	1712	1807	305	120	
+778	779	1659	1712	242	100	# Vasque
+779	780	1608	1659	335	123	# Marmite dans mondmilch
+780	781	1543	1608	230	117	# Puits Remontant 4 m
+781	782	1502	1543	300	107	# Passage supérieur
+782	783	1456	1502	205	120	# Passage Sup, fin rivière
+783	784	1424	1456	315	100	
+784	785	1370	1424	290	126	# 2 ressauts
+785	786	1334	1370	325	133	# Etr. Cristaux
+786	787	1288	1334	330	80	# Courant d'air descendant
+787	788	0	3	0	0	
+788	789	1218	1288	310	125	# R1.5, arrivée galerie parallèle en rive droite
+789	790	1154	1218	225	115	
+790	791	1109	1154	260	100	
+791	792	1065	1109	350	100	
+792	793	0	5	0	0	# Carrefour +
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 							
+#Fiche 36			Topo du 1989			
+#Réseau du Quinté Plus + diverticules à partir des 2 diverticules vers le fond						
+#				grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+793	794	9962	9987	0	200	
+794	795	9930	9962	15	118	# Gour, VM
+795	796	0	3	0	0	
+796	797	9884	9930	15	130	# Dôme, Flach-Back
+797	798	9839	9884	25	175	# Dôme, Flach-Back
+798	799	0	10	60	100	# Dôme, Flach-Back
+799	772	9778	9839	330	178	# Arrivée base du Puits, Flash-Back
+						
+793	800	9987	10017	20	100	# Diverticule en rive droite
+800	801	99	158	20	80	# Courant d'air remontant
+801	802	158	216	35	84	
+802	803	216	253	60	95	# Etr. À 1/2 visée
+803	804	253	321	20	93	# Passage bas
+804	805	0	5	0	0	
+805	806	321	389	300	110	
+806	807	389	414	40	53	
+807	808	414	466	15	116	
+808	809	466	499	350	100	# Point Bas
+809	810	499	571	255	53	
+810	811	571	625	45	59	# Ressaut remontant
+811	812	625	690	25	93	# Ecoulement d'eau vers aval, +5 m vers trémie
+						
+793	813	0	10	0	200	# Diverticule en rive Gauche (Colimaçon)
+813	814	690	778	235	75	
+814	815	778	883	260	76	# Courant d'air descendant
+815	816	883	975	270	85	# Base Ressaut
+816	817	0	20	0	0	
+817	818	975	1027	45	76	
+818	819	1027	1065	110	44	# Ressaut remontant
+819	820	0	50	160	75	# Colmatage
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 							
+#Fiche 38			Topo du 1989			
+#Réseau du Lac à partir de l'E15						
+#				grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+667	821	1945	2076	270	100	
+821	822	2076	2150	186	40	# E6, pont rocheux
+822	823	2150	2228	267	90	
+823	824	2228	2331	290	81	
+824	825	2331	2471	170	89	# Shunt supérieur au déart affluent en rive gauche, +10 m, Regard sur 5 m jusqu'à colmatage
+825	826	2471	2607	270	108	
+826	827	2607	2800	305	105	# R2.5, avant terminus, direction puits
+827	828	2800	2873	300	80	# Lucarne vers Puits en Rive Droite, diaclase supérieure à gauche
+828	829	2873	2950	290	100	
+829	830	2950	3004	270	120	
+830	831	3004	3033	388	115	# Carrefour
+						
+831	832	3033	3110	26	90	# A droite, 3 m avant la fin, lucarne vers un puits
+832	833	3110	3162	275	100	# VM
+833	834	3162	3233	20	80	
+834	835	3233	3260	396	82	
+835	836	3260	3291	15	100	
+836	837	0	2	0	200	# Cheminée
+837	838	3291	3329	35	100	# Boyau
+838	839	3329	3409	20	93	# Etr.
+  
+  data normal from to length compass clino						
+#D A L m Az Clino Remarques 						
+839	840		12	20	100	# Trémie
+						
+  data topofil from to fromcount tocount compass clino
+831	841	3409	3473	285	135	# Bifurcation vers diverticule
+841	842	3473	3555	112	110	# Sommet P7 en Rive Droite
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino 							
+#Fiche 39			Topo du 1989			
+#Boucle du Grand Retour (Serpentin), à partir du Diadème						
+#				grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+763	843	3566	3666	307	81	# Bifurcation vers Diadème - Flash Back ; départ de galerie 3 m après à droite
+843	844	3666	3813	261	68	
+844	845	3813	3879	261	122	# Colmatage de calcite
+						
+843	846	3879	3935	249	74	# Bifurcation vers Flash Back
+846	847	3935	4056	222	104	# Galerie transversale
+847	848	4056	4097	225	135	# Galerie du Tripode, dôme colmaté en amont
+#848	767b	4097	4181	.	.	# Repère n°17, jonction avec station 767, trouver Az et pente !
+						
+769	849	4181	4269	334	70	# Repère n°18, shunt inférieur vers Diadème par la galerie sup
+849	850	4269	4314	386	71	# Point haut, argiles
+850	851	4314	4441	9	120	
+851	852	4441	4530	381	102	
+852	853	4530	4569	17	96	
+853	854	4569	4654	357	116	# Arrivée sur Serpentine
+854	855	4654	4798	4	114	# Retrecissement à mi-parcours
+855	856	4798	4842	18	97	
+856	857	4842	4931	37	119	# Petit
+857	858	0	12	0	0	# Shunt boucle à gauche
+858	859	4931	4976	7	105	
+859	860	4976	5080	44	124	
+860	861	5080	5170	71	106	# Courant d'air
+861	862	5170	5256	43	107	
+862	863	5256	5302	11	92	# Repère Diadème K7
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino						
+#Fiche 40			Topo du 1989			
+#Grand Retour (Serpentin), à partir du Diadème au siphon K7						
+#				grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+761	864	7637	7709	377	102	# Bifurcation en Rive Droite
+864	865	7525	7637	393	116	# Bifurcation en Rive Droite
+865	866	7369	7525	40	115	
+866	867	7273	7369	18	142	# Argiles litées + micacées
+867	868	7202	7273	20	118	
+868	863	7132	7202	372	109	# Bifurcation vers Serpentin
+						
+863	869	5302	5468	371	105	
+869	870	5468	5531	375	121	# faille inclinée, galerie supérieure
+870	871	5531	5696	33	162	# Galerie supérieure
+871	872	5696	5776	388	118	
+872	873	5776	5816	6	46	# Diaclase sur 3 m à gauche
+873	874	5816	5919	28	121	
+874	875	5919	5954	101	83	
+875	876	5954	6053	12	133	# Interstrate dédoublé apr galerie horizontale
+876	877	6053	6179	382	112	
+877	878	6179	6260	371	100	# VM
+878	879	6260	6295	315	100	# Etr.
+879	880	6295	6355	370	100	# Courant d'air
+880	881	6355	6419	358	68	# Faille
+881	882	6419	6476	324	58	
+882	883	6476	6554	315	120	
+883	884	6554	6641	274	106	
+884	885	6641	6687	225	143	
+885	886	6687	6753	198	136	# Rétrécissement en baïonnette
+886	887	6753	6812	276	140	# Cairn en haut à gauche, sommet ressaut
+887	888	6812	6909	246	147	# Ressaut, galerie à gauche à mi-distance, galerie à droite + 2 galeries supérieures
+888	974	7710	7811	335	115	# 888 = carin n°19
+974	975	7811	7924	10	150	# Siphon K7
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino						
+#Fiche 41			Topo du 1989			
+#Puits du Méchoui, du sommet vers le fond						
+#		Erreur + 2% (ou +9.8% ?)		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+748	889	769	966	179 179	# 2 lucarnes, une vers le réseau parallèle, l'autre vers la perte de l'actif à +3 m ; P20	
+889	890	966	999	338	100	# Sommet etr.
+890	891	999	1047	278	177	# Ressaut étroit
+891	892	1047	1103	34	172	# P5
+892	893	1160	1372	0	200	# P22
+893	894	1372	1440	369	191	# Arrêt intermédiaire 1440, dernier puits + ressaut : P6+ R5
+894	894b	1440	1480	369	191	# Arrêt intermédiaire 1440, dernier puits + ressaut : P6+ R5
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino						
+#Fiche 42			Topo du 1989			
+#Réseau du lac, diverticule de la VM vers le fond du diverticule						
+#		Erreur + 2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+841	895	0	8	0	200	
+895	896	1480	1542	318	100	# Passage mare de Mondmilch (bas)
+896	897	1542	1627	274	122	
+897	898	1627	1661	209	116	
+898	899	1661	1726	271	106	
+899	900	1726	1825	216	108	
+900	901	1825	1841	104	136	
+901	902	1841	1912	215	135	# Carrefour vers la VM
+						
+902	903	1912	1953	158	79	# Vers la VM
+903	904	1953	1984	136	86	# Courant d'air
+904	905	1984	2014	204	100	# VM (Az 97)
+						
+902	906	2014	2078	261	131	
+906	907	2078	2135	233	114	
+907	908	2135	2189	0	200	# Ressaut colimaçon
+908	909	2189	2330	269	107	# Passage bas au milieu, cloche 3.5 m de haut
+909	910	0	8	0	200	
+910	911	2330	2413	274	110	# Carrefour
+						
+911	912	2413	2515	216	116	# Point bas au dpart vers l'aval
+912	913	0	15	0	200	
+913	914	0	40	216	100	# Siphon
+						
+911	915	2515	2568	4	82	# vers l'amont
+915	916	0	100	358	85	# Colmatage
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino						
+#Fiche 43 et 44			Topo du 1989			
+#Réseau du lac,Sommet du P7 vers le fond du lac + Amont						
+#		Erreur + 2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+842	917	0	15	42	100	
+917	918	2568	2685	55	112	# Margelle à 1.5 m (105 gr), Puits Remontant en face
+						
+917	920	2568	2617	0	200	# P6
+920	921	2726	2806	246	141	
+921	922	2806	2952	224	127	# Bifurcation vers VM
+922	923	2952	3035	205	85	# VM, Colimaçon à Gauche
+923	924	3035	3113	250	67	# Toboggan
+924	925	3113	3140	273	59	
+925	926	3140	3175	319	84	# Eau, VM
+						
+922	927	3175	3261	162	106	# Galerie basse
+927	928	3261	3344	161	126	
+928	929	3344	3611	208	114	# Soupirail à 350 gr
+929	930	3611	3682	193	147	# Ressaut argileux, donne sur un amont
+930	931	3682	3729	154	156	
+931	932	3729	3796	224	117	# En rive droite, seuil d'un Puits, lac
+932	933	3796	3866	158	175	# Bord du lac, P7
+933	934	3866	3923	206	100	# Lac (1et tronàon), profondeur 1.5 m
+934	935	3923	4022	252	100	# Passage bas, puis diamètre 3 m ; colmatage
+						
+934	936	4201	4261	132	100	# vers base lac ; az 132 ou 332 ?
+936	937	4022	4075	170	75	# Galerie aont
+937	938	4075	4104	70	76	
+938	939	4104	4201	127	60	# Faille, pied d'escalade, colmatage au sommet
+939	940	4261	4318	276	96	# Tête de puits ; Compteur départ changé de 3261 en 4261 ?
+940	941	4318	4367	66	42	
+941	942	4367	4399	292	66	# Sommet Ressaut
+942	943	0	20	0	200	# Distance donnée par Xav, par défautl 2 m
+943	944	4399	4432	0	84	
+944	945	4432	4492	70	66	# A droite, un amont
+945	946	4492	4533	32	53	
+946	947	4533	4644	325	87	# Courant d'air
+947	948	4644	4678	143	30	
+948	949	4678	4698	78	41	
+949	950	4698	4733	283	60	# Plan de faille
+950	951	4733	4772	320	100	
+951	952	4772	4825	296	160	# Tube
+952	953	4864	5004	347	120	
+953	954	5004	5130	74	65	# Courant sans perpendiculaire à topo, tube
+954	955	5130	5191	362	111	
+955	956	5191	5218	275	117	# Puits Bas (cigares)
+956	957	5218	5285	312	67	# Base Ressaut
+957	958	0	20	0	0	# Silex, ressaut remontant, distance donnée par Xav, par défaut 2 m
+958	959	5285	5328	388	100	# A 3 m, vasque, chunt colmaté à droite
+						
+671	961	8960	9025	341	126	# Dev 103.9 m
+961	962	8857	8960	342	103	# Gours
+962	963	8787	8857	313	94	# Arrivée Gours
+963	964	8687	8857	358	133	# Petit plan d'eau
+964	965	8625	8687	316	112	
+965	966	8553	8625	53	122	
+966	967	8498	8553	30	112	
+967	968	8381	8466	58	110	
+968	969	8317	8381	328	103	# Plan d'eau, salle
+969	970	8186	8317	290	102	
+970	971	8106	8186	242	144	# Escalade
+971	972	7952	8106	376 129		
+972	973	7947	7952	375	118	# Siphon des Caraïbes (-261 m)
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino						
+#Fiche 45			Topo du 1989			
+#Galeries affluentes à K7 et diverticule vers le puits du Méchoui						
+#		Erreur + 2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+887	976	8252	8349	185	75	# bifurcation, coulée et escalade
+976	977	8157	8252	200	94	
+977	978	8094	8187	125	88	
+978	979	8012	8094	105	100	
+979	980	7924	8012	45	100	# Colmatage de calcite
+						
+887	981	8349  8374	180	100	# Ecchange compteur, + report visée en dessous
+981	982	8374	8408	0	200	# Ressaut
+982	983	8408	8553	185	95	# Surcreusement faille, bifurcation, cairn n°19
+983	984	8582	8636	155	100	
+984	985	8636	8673	75	100	
+985	986	8673	8747	175	97	
+986	987	8747	8794	155	84	
+987	988	8794	8890	220	100	
+988	989	8890	8909	160	100	# Trifluence
+989	990	8909	8939	197	199	# Arrivée triffluence, petite sale
+990	991	8939	9036	152	100	# Pince en boyau imp.
+						
+757	992	9166	9253	35	100	# Diffluence vers galerei à Ben côté ouest
+992	993	9037	9166	55	59	# Colmaté
+						
+746	994	9256	9286	240	80	# Topo vers repère 993, pas bouclé
+994	995	9256	9286	285	100	# C'est bon pour le compteur ?
+995	996	9286	9362	225	110	
+996	997	9362	9385	312	116	# Baïonnette
+997	998	9385	9417	225	123	# Faille
+998	999	9417	9445	295	100	# Arrivée salle
+999	1000	9445	9504	257	70	# Rétrécissement
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino									
+#Fiche 46			Topo du 1989			
+#Perte sous l'E7 des Travaux Publics						
+#		Erreur + 2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+658	1001	0	240	0	200	# R6 + P18
+1001	1002	7740	7905	247	116	#
+1002	1003	7702	7740	231	157	# Ressaut
+1003	1004	7657	7702	155	130	
+1004	1005	7577	7657	110	111	# Colmatage
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino						
+#Fiche 47 et 48			Topo du 1989			
+#Réseau des Tagers, du soupirail de l'entrée du rseau						
+#		Erreur + 2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+645	1006	0	10	0	200	# Distance ajoutée par Xav
+1006	1007	7907	7933	7	106	
+1007	1008	7933	7993	60	119	
+1008	1009	7993	8041	390	113	# Carrefour
+1009	1010	8041	8100	320	130	
+1010	1011	8100	8173	346	148	
+1011	1012	8173	8240	65	102	
+1012	1013	8240	8336	338	102	# AN, Puits + départ en face
+1013	1013b	8336	8375	5	162	
+1013b	1013c	0	50	0	200	# P5, boucle sur 1029 ?
+1013b	1014	8375	8549	5	162	# Traversée P5 à 8375
+1014	1015	8549	8549	5	162	# Diaclase
+1015	1016	8549	8565	298	115	
+1016	1017	8565	8602	335	102	
+1017	1018	8602	8645	80	115	
+1018	1019	8645	8707	64	141	
+1019	1020	8707	8757	330	128	
+1020	1021	8767	8807	332	123	
+1021	1022	8807	8891	305	160	# 2eme puits
+1022	1023	8891	8916	35	157	
+1023	1024	8926	8989	0	200	
+1024	1025	8989	9101	100	132	
+1025	1026	9101	9132	86	98	# Sommet Puits
+						
+1013	1027	0	60	0	200	# AN, P6, longueur donnée par xav
+1027	1028	9200	9220	60	113	# Diaclase
+1028	1029	9220	9251	345	84	# Passage sous P5
+1029	1030	9251	9286	85	86	
+1030	1031	9296	9330	106	144	# Départ (?)
+1031	1032	9340	9376	30	149	
+1032	1033	9376	9412	120	100	
+1033	1034	9412	9424	5	100	
+1034	1035	9424	9482	58	166	# Ressaut
+1035	1036	9482	9506	10	114	
+1036	1037	0	20	295	100	# Distance de 2 m mise par Xav
+1037	1038	9506	9697	0	200	# P20
+1038	1039	9697	9771	26	110	# Départ supérieur
+1039	1040	9771	9804	90	114	
+1040	1041	9804	9836	85	114	# R4
+1041	1042	9836	9895	88	136	
+1042	1043	9895	9932	70	167	
+1043	1044	9932	10011	382	173	# P4
+1044	1045	11	52	43	138	
+1045	1046	52	96	395	115	# Méandre
+1046	1047	113	170	25	137	
+1047	1048	170	212	40	131	# P20 du Port-Bonheur
+1048	1049	295	486	0	200	# P20 du Port-Bonheur
+1049	1050	486	536	130	100	
+1050	1051	536	634	135	168	# P9
+1051	1052	634	654	85	115	# MC
+1052	1053	654	763	190	170	# Nœud
+1053	1054	763	876	190	173	# Base 8 *3
+1054	1055	876	919	340	42	
+1055	1056	919	963	250	125	# MC
+1056	1057	963	999	225	75	# CF sur faille --> 20 m plus loin, point 589 du réseau de la Lucarne ; courant d'air provenant du réseau de la lucarne ; aval CF colmaté
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino						
+#Fiche 49			Topo du 1989			
+#Réseau des Tagers, laine de verre du méandre avant le Puits du Porte Bonheur, vers le fond						
+#		Erreur + 2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+1046	1058	2374	2407	25	67	
+1058	1059	0	20	0	0	# R2, donné par Xav
+1059	1060	2315	2374	20	132	
+1060	1061	2260	2315	35	100	# Boyau dans le prolongement
+1061	1062	2230	2260	383	100	# Fin de la galerie
+1062	1063	2184  2230	30	110	# Traversée 1er Ressaut remontant, 3 passages avec 2ème puits remontant vers étages
+1063	1064	2074	2184	7	137	# Traversée 2eme puits remontant ; aval supérieur à niveau, L = 30 m
+1064	1065	2031	2074	25	126	# Méandre
+1065	1066	1969	2031	15	116	# Affluent en rive droite
+1066	1067	1869	1969	65	119	
+1067	1068	1818	1869	135	180	# Ressaut
+1068	1069	1761	1818	12	130	# Base ressaut
+1069	1070	1681	1761	18	154	# Ressaut
+1070	1071	1629	1681	145	122	# Base ressaut vers boyau
+1071	1072	1591	1625	136	140	
+1072	1073	1466	1591	100	157	# 5 ressauts descendants
+1073	1074	1357	1421	127	120	
+1074	1075	0	20	240	100	# Compteur ajoutés par Xav
+1075	1076	1321	1357	140	118	
+1076	1077	1216	1321	120	168	# Ressaut
+1077	1078	1006	1150	110	158	# P12 sur faille, AZ 116 sur 20 m, courant d'air à désober
+
+  endcenterline
+
+  centerline
+	  date 1989 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.103 # + 2 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino										
+#Fiche 50			Topo du 1989			
+#Réseau des Tagers						
+#		Erreur + 2%		grad	grad	
+#D	A	fromcount	tocount	Az	Clino	Remarques
+1031	1079	0	20	0	200	# Ajout longueur de 2 m par Xav ?
+1079	1080	2408	2450	323	100	
+1080	1081	2450	2501	53	100	# Arrivée Ressaut
+1081	1082	2501	2543	18	164	# Ressaut
+1082	1083	2543	2587	314	100	# Arrivée Ressaut
+1083	1084	2587	2621	0	200	# Ressaut
+1084	1085	2621	2644	284	100	
+1085	1086	2644	2702	321	132	
+1086	1087	2702	2755	83	149	# Arrivée Ressaut
+1087	1088	2755	2820	63	167	# Ressaut dans la 1ere moitié
+1088	1089	0	20	125	100	# Compteur donné par Xav, 2 m
+1089	1090	2820	2854	64	147	
+1090	1091	2854	2871	121	128	# Courant d'air montant
+1091	1092	2871	2879	32	124	# Arrivée jonction Ressaut
+1092	1093	2879	2902	28	141	# Ressaut
+1093	1094	0	20	0	0	# Compteur donné par Xav, 2 m
+1094	1095	2902	3088	79	107	# Galerie sur faille
+1095	1096	0	20	335	120	# Compteur donné par Xav, 2 m
+1096	1097	3379	3499	75	105	# Croquis
+1097	1098	3098	3121	176	131	# Courant d'air montant, galerie sur faille
+1098	1099	3121	3217	206	106	
+1099	1100	3217	3231	123	44	# Ressaut
+1100	1101	3231	3241	217	50	
+1101	1102	3241	3310	125	103	# Arrivée sur Puits
+1102	1103	3310	3379	67	174	# Puits, suit R2 + P20, en face 30 m de galerie sur Faille
+
+  endcenterline
+
+endsurvey

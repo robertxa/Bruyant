@@ -1,0 +1,238 @@
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: Vallier.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM31
+meridian convergence (deg): -1.8752
+geomag declinations (deg):
+  1987.1.1  -1.9237
+  1988.1.1  -1.8185
+  1989.1.1  -1.7134
+  1990.1.1  -1.6083
+  1991.1.1  -1.5042
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 12.13%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.8
+ 2> Copyright © 1990-2024 Olly Betts
+ 3> 
+ 4> La topographie contient 1378 stations, connectées par 1393 visées.
+ 5> Il y a 16 bouclages.
+ 6> Longueur totale de la topographie = 9586.41m (9562.75m ajusté)
+ 7> Longueur totale en projection horizontale = 8102.92m
+ 8> Longueur totale verticale = 3447.09m
+ 9> Intervalle vertical = 401.51m (de 2 à 1520.35m jusqu’à 1208 à 1118.84m)
+10> Intervalle Nord-Sud = 339.99m (de 1084 à 5002783.13m jusqu’à 955 à 5002443.15m)
+11> Intervalle Est-Ouest = 1125.38m (de 1 à 707866.64m jusqu’à 902 à 706741.25m)
+12>   92 1-nœuds.
+13> 1188 2-nœuds.
+14>   77 3-nœuds.
+15>   18 4-nœuds.
+16>    3 5-nœuds.
+17> 
+######################### transcription ########################
+ 4> 1378 : 1352@Baguettes.Vallier
+ 5> 16 : 14@Vallier.Vallier
+ 9> 2 : 1@Vallier.Vallier -- 1208 : 1193@Ouestern.Vallier
+10> 1084 : 1070@Vallier2.Vallier -- 955 : 940@Vallier2.Vallier
+11> 1 : Vallier@Vallier.Vallier -- 902 : 974@Vallier2.Vallier
+12> 92 : 97@Vallier.Vallier
+13> 1188 : 1173@Ouestern.Vallier
+14> 77 : 75@Vallier.Vallier
+15> 18 : 16@Vallier.Vallier
+16> 3 : 2@Vallier.Vallier
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... 
+therion: warning -- Vallier.thconfig [327] -- object not found -- "MP-Vallier-plan-tot"
+
+therion: warning -- Vallier.thconfig [328] -- object not found -- "MC-Vallier-coupe-tot"
+done
+processing projection extended ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Vallier-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  24 MAY 2024 16:08
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+[Warning: obsolete transparent colour definition 'tr_lgrey']
+[Warning: obsolete transparent colour definition 'tr_lchamois']
+[Warning: obsolete transparent colour definition 'tr_lqueue']
+[Warning: obsolete transparent colour definition 'tr_largile'] [1] [2]
+(./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 145103 strings using 4785370 characters
+ 6406080 bytes of node memory
+ 1746 symbolic tokens
+ 9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  24 MAY 2024 16:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 304 strings out of 494671
+ 4139 string characters out of 6148971
+ 1422003 words of memory out of 5000000
+ 1933 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,393b,70s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csti10.pfb>
+Output written on data.pdf (1 page, 384914 bytes).
+PDF statistics:
+ 53 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection plan ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/Vallier-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  24 MAY 2024 16:08
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+[Warning: obsolete transparent colour definition 'tr_lgrey']
+[Warning: obsolete transparent colour definition 'tr_lchamois']
+[Warning: obsolete transparent colour definition 'tr_lqueue']
+[Warning: obsolete transparent colour definition 'tr_largile'] [1] [2]
+(./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] )
+ 
+Here is how much of MetaPost's memory you used:
+ 138386 strings using 4392348 characters
+ 6352728 bytes of node memory
+ 1746 symbolic tokens
+ 9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+19 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  24 MAY 2024 16:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 304 strings out of 494671
+ 4139 string characters out of 6148971
+ 1360882 words of memory out of 5000000
+ 1933 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,322b,66s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 362978 bytes).
+PDF statistics:
+ 48 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/Vallier.lox ... done
+writing Outputs/Vallier-filaire.kml ... done
+compilation time: 7 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+ 98.88%    8.6m    8.7m   2    8.2m   -2.4m    0.4m [1233@JardinEnfants.Vallier - 1234 - 1233]
+ 78.26%    8.5m   10.9m   2    5.6m    6.1m   -1.9m [1238@JardinEnfants.Vallier - 1239 - 1238]
+ 68.22%    6.9m   10.1m   2    3.7m    5.2m   -2.5m [1237@JardinEnfants.Vallier - 1238 - 1237]
+ 61.14%    7.6m   12.4m   2    1.2m    6.0m   -4.5m [1236@JardinEnfants.Vallier - 1237 - 1236]
+ 59.48%    6.6m   11.0m   2   -4.5m    2.0m   -4.3m [1235@JardinEnfants.Vallier - 1236 - 1235]
+ 58.85%   15.5m   26.4m   2    5.4m    9.0m   11.5m [1239@JardinEnfants.Vallier - 1240 - 1239]
+ 52.75%    6.2m   11.8m   2    2.2m   -5.6m    1.6m [1232@JardinEnfants.Vallier - 1233 - 1232]
+ 49.06%   26.7m   54.5m   7    7.6m  -22.7m   11.8m [1212@JardinEnfants.Vallier - 1220 - 1221 - 1222 - 1223 - 1231 - 1213 - 1212]
+ 41.50%    3.5m    8.5m   2   -2.3m    0.5m    2.6m [1234@JardinEnfants.Vallier - 1235 - 1234]
+ 34.49%   39.0m  113.0m  15   23.4m   29.8m    9.2m [1240@JardinEnfants.Vallier - 1227 - 1226 - 1225 - 1224 - 1223 - 1231 - 1232 - 1233 - 1234 - 1235 - 1236 - 1237 - 1238 - 1239 - 1240]
+ 28.25%    4.9m   17.3m   2    2.4m   -1.3m   -4.1m [1231@JardinEnfants.Vallier - 1232 - 1231]
+ 13.13%   13.3m  101.0m  17   11.5m    6.6m    0.3m [1113@Ouestern.Vallier - 1150 - 1151 - 1152 - 1153 - 1154 - 1155 - 1123 - 1122 - 1121 - 1120 - 1119 - 1118 - 1117 - 1116 - 1115 - 1114 - 1113]
+  3.41%    3.7m  109.6m  14    0.3m    2.4m   -2.8m [381@Vallier.Vallier - 394 - 393 - 392 - 391 - 390 - 389 - 388 - 387 - 386 - 385 - 384 - 383 - 382 - 381]
+  3.21%    2.9m   91.8m   7   -0.5m   -1.6m   -2.4m [578@Vallier2.Vallier - 595 - 594 - 593 - 592 - 591 - 590 - 578]
+  2.68%   22.7m  847.5m 103   12.1m   18.8m    3.6m [650@Vallier2.Vallier - 677 - 678 - 679 - 680 - 681 - 682 - 683 - 684 - 685 - 686 - 687 - 688 - 689 - 690 - 691 - 692 - 734 - 735 - 736 - 737 - 738 - 739 - 740 - 741 - 742 - 747 - 748 - 749 - 750 - 751 - 752 - 753 - 754 - 755 - 756 - 757 - 758 - 759 - 760 - 761 - 762 - 763 - 764 - 765 - 766 - 767 - 768 - 769 - 770 - 771 - 772 - 799 - 798 - 797 - 796 - 795 - 794 - 793 - 792 - 791 - 790 - 789 - 788 - 787 - 786 - 785 - 784 - 783 - 782 - 781 - 780 - 779 - 778 - 777 - 776 - 775 - 676 - 675 - 674 - 673 - 672 - 671 - 670 - 669 - 668 - 667 - 666 - 665 - 664 - 663 - 662 - 661 - 660 - 659 - 658 - 657 - 656 - 655 - 654 - 653 - 652 - 651 - 650]
+  0.77%    1.8m  230.3m  29    0.2m    0.7m   -1.6m [761@Vallier2.Vallier - 864 - 865 - 866 - 867 - 868 - 863 - 862 - 861 - 860 - 859 - 858 - 857 - 856 - 855 - 854 - 853 - 852 - 851 - 850 - 849 - 769 - 768 - 767 - 766 - 765 - 764 - 763 - 762 - 761]
+##################### end of loop errors #######################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (5.644, 45.148) (5.644, 45.148)
+  [LAT-LONG → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LAT-LONG → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LAT-LONG → UTM31] AoU: [yes] transformation: [axis order change (2D) + UTM zone 31N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=31 ellps=WGS84] accuracy: [0.000 m]
+  [LAT-LONG → EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM31 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM31 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM31] AoU: [yes] transformation: [axis order change (2D) + UTM zone 31N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=31 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########
