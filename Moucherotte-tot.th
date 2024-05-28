@@ -9,6 +9,8 @@ survey Moucherotte -title "Résurgence du Moucherotte"
 # Pour importer les différentes données de différents fichiers topos : 
    input Data/Bruyant_resurgence/Bruyant-tot.th
    input Data/GrotteVallier/Vallier-tot.th
+
+   input Data/Prospection/Data/Prospection.th
 	
    #centerline
 ## Rajout des longueurs explorées, non topo, ou topos perdues

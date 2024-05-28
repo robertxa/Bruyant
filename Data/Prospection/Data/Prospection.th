@@ -1,0 +1,116 @@
+encoding  utf-8
+
+# Copyright (C) 2024 Jurets Jaunes de Seyssins et Groupe Spéléologique Vulcain, Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+ 
+survey Prospection -title "Prospection Moucherotte"
+
+# Fichier contenant les positions des entrées vues en prospection sur le Moucherotte par les FJS.
+# Par simplification, pour la représentation 3D, nous les considérons comme de simples puits verticaux.
+
+	centerline -extend right
+
+		#cs lat-long
+		cs EPSG:27573	# Lambert III
+
+		#fix B2 46.1045667 6.7893   2067	# 2066
+		#station B2 "B2" entrance continuation explored 10m 
+
+		units length meters
+		units compass clino degrees
+
+	fix	C4	858340 	3320120	1615
+	station	C4	" Scialet Dominique - C4" entrance
+	data normal	from to 	length	compass	clino
+	C4	C4-1	45	0	-90
+	#Scialet C4 = sc. Dominique 	858,34 	3320.12	1615	-45
+
+	fix	C3	858470	3320230	1615
+	station	C3	"Scialet n°6 - C3"	 entrance
+	data normal	from to 	length	compass	clino
+	C3	C3-1	17	0	-90
+	#Scialet n°6 = sc. C3	858,47	3320.23	1615	-17
+
+	fix	Grotte	858700	3320870	1540
+	station Grotte	"Petite grotte"	 entrance continuation	explored 10m
+	#data normal	from to 	length	compass	clino
+	#	0	-90
+	#Petite grotte	858,70	3320.87	1540	0
+
+	fix	A5 	858850	3320310	1640
+	station	A5	"Scialet Martine - A5" entrance
+	data normal	from to 	length	compass	clino
+	A5	A5-1	46	0	-90
+	#Scialet Martine = Sc. A5 	858,85	3320.31	1640	-46
+
+	fix	A1	858860	3320280	1670
+	station	A1	"Scialet Jean-Pierre - A1" entrance
+	data normal	from to 	length	compass	clino
+	A1	A1-1	20	0	-90
+	#Scialet Jean-Pierre = Sc. A1	858,86	3320.28	1670	-20
+
+	fix	A11 	858900	3320400	1650
+	station	A11	"A11" entrance
+	data normal	from to 	length	compass	clino
+	A11	A11-1	12	0	-90
+	#Trou A11 	858,90	3320,40	1650	-12
+
+	fix	B5	859260	3320670	1745
+	station	B5	"B5" entrance
+	data normal	from to 	length	compass	clino
+	B5	B5-1	20	0	-90
+	#Scialet B5	859,26	3320.67	1745	-20
+
+	fix	B3	859310	3320830	1755
+	station	B3	"B3" entrance
+	data normal	from to 	length	compass	clino
+	B3	B3-1	25	0	-90
+	#Scialet B3	859,31	3320.83	1755	-25
+
+	fix B4	859350	3320820	1765
+	station	B4	"B4" entrance
+	data normal	from to 	length	compass	clino
+	B4	B4-1	26	0	-90
+	#Scialet B4	859,35	3320.82	1765	-26
+
+	fix	B2 	859370	3320920	1765
+	station	B2	"Grotte B2" entrance continuation	explored 10m
+	#data normal	from to 	length	compass	clino
+	#Grotte B2 	859,37	3320.92	1765	0
+
+	fix	B1	859390	3321050	1760
+	station	B1	"Diaclase B1" entrance
+	data normal	from to 	length	compass	clino
+	B1	B1-1	10	0	-90
+	#Diaclase B1	859,39	3321.05	1760	-10
+
+	fix	B9 	859480	3321050	1800
+	station	B9	"Diaclase B9"	 entrance
+	data normal	from to 	length	compass	clino
+	B9	B9-1	5	0	-90
+	#Diaclase B9 	859,48	3321.05	1800	-5
+
+	fix	F1	859530	3321820	1848
+	station	F1	"Scialet du Caillou - F1" entrance
+	data normal	from to 	length	compass	clino
+	F1	F1-1	35	0	-90
+	#Scialet du Caillou = F1 	859,53	3321.82	1848	-35
+
+	fix	F13	859820	3321840	1875
+	station	F13	"F13"	entrance continuation	explored 10m
+	#data normal	from to 	length	compass	clino
+	#Trou F13 	859,82	3321.84	1875	0
+
+	fix	F15	860420	3322220	1700
+	station	F15	"F15" entrance
+	data normal	from to 	length	compass	clino
+	F15	F15-1	12	0	-90
+	#Trou F15	860,42	3322.22	1700	-12
+	#explo-date 1976.08.06
+	#	explo-team "Pierre Rias"
+  
+	endcenterline
+
+endsurvey
