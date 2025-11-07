@@ -1,2 +1,9 @@
 *.zip
 Data/GrotteVallier/Docs
+
+**.DS_Store
+**.pdf
+**.log
+**.sql
+**.docx
+**.doc

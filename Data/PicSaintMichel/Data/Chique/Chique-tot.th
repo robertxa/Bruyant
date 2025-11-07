@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Chique -title "Scialet Chique"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/Chique.th
+
+## Pour le plan
+#input Data/Chique.th2
+
+## Pour la coupe développée
+#input Data/Chique-coupe.th2
+
+## Appel des maps
+#input Chique-maps.th
+
+endsurvey

@@ -1,0 +1,14 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-PicSaintMichel-plan-tot -title "Pic Saint Michel"
+	SP-PicSaintMichel-1
+endmap
+
+#map MC-PicSaintMichel-coupe-tot -title "Grotte PicSaintMichel"
+#	SC-PicSaintMichel-1
+#endmap
+   

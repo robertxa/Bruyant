@@ -12,13 +12,13 @@ encoding  utf-8
 # les donnees du dessin, comme ça, ce fichier thconfig appelera 
 # nomcavite.th" et a son tour, "nomcavite.th" appelera
 # "nomcavite.th2")
-source Vallier-tot.th
+source Gaston-tot.th
 
 # Add Coordinates
 #input legendes/entrances_coordinates.th
 
 # Add config file
-input ../../config.thc
+input ../../../../config.thc
   
 # 2-LAYOUT   
 # Debut de la definition du Layout "xviexport"
@@ -38,12 +38,12 @@ layout my_layout
   
 	# Call the config settings (Layout config inside the config.thc file)
 	
-	#copy Coords_Header_Vallier
+	#copy Coords_Header_Gaston
 	copy drawingconfig
 	copy headerl
 	copy langue-fr
 	# Titre  
-	doc-title "Grotte Vallier - Plan"
+	doc-title "Grotte Gaston - Plan"
 	doc-author "Xavier Robert"
   
 	# Pour faire la topo dans le system UTM  
@@ -156,7 +156,7 @@ layout my_layout
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Grotte Vallier} 		
+			\cavename={Grotte Gaston} 		
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Furets Jaunes de Seyssins}
@@ -171,13 +171,13 @@ endlayout
 layout my_layout-coupe
 
 	# Call the config settings (Layout config inside the config.thc file)
-	#copy Coords_Header_Vallier
+	#copy Coords_Header_Gaston
 	copy drawingconfig 
 	copy header_coupe 
 	copy langue-fr
 
 	# Titre  
-	doc-title "Grotte Vallier - Coupe développée"
+	doc-title "Grotte Gaston - Coupe développée"
 	doc-author "Xavier Robert"
   
 	# "base-scale" specifie l echelle auquel nous avons
@@ -299,7 +299,7 @@ layout my_layout-coupe
 		\edef\nostring{}            % empty string
 		\ifx\temp\nostring          % test if cavename is empty
 			% if empty reassign cavename to describe selected maps as a group
-			\cavename={Grotte Vallier}
+			\cavename={Grotte Gaston}
 		\else % if not empty keep the value set by therion, or assign an override cavename here
 		\fi
 		\newtoks\club \club={Furets Jaunes de Seyssins}
@@ -320,27 +320,27 @@ endlayout
 
   
 # 3-EXPORTS   
-#export map -fmt xvi -layout xviexport -o Data/Vallier-2022-map.xvi
-#export map -proj extended -layout xviexport -fmt xvi -o Data/Vallier-2022-coupe.xvi
+#export map -fmt xvi -layout xviexport -o Data/Gaston-2022-map.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Data/Gaston-2022-coupe.xvi
 
 # Select maps
-	select MP-Vallier-plan-tot@Vallier
-	select MC-Vallier-coupe-tot@Vallier
+	select MP-Gaston-plan-tot@Gaston
+	select MC-Gaston-coupe-tot@Gaston
 
-export map -projection extended -layout my_layout-coupe -o Outputs/Vallier-coupe.pdf
-export map -o Outputs/Vallier-plan.pdf -layout my_layout
+export map -projection extended -layout my_layout-coupe -o Outputs/Gaston-coupe.pdf
+export map -o Outputs/Gaston-plan.pdf -layout my_layout
 
-#export map -projection extended -layout my_layout-coupe-Continuations -o Outputs/Vallier-coupe-Continuations.pdf
-#export map -o Outputs/Vallier-plan-Continuations.pdf -layout my_layout-Continuations
+#export map -projection extended -layout my_layout-coupe-Continuations -o Outputs/Gaston-coupe-Continuations.pdf
+#export map -o Outputs/Gaston-plan-Continuations.pdf -layout my_layout-Continuations
 
-export model -o Outputs/Vallier.lox
+export model -o Outputs/Gaston.lox
   
 # Export des fichiers ESRI
-# export map -proj plan -fmt esri -o Outputs/Vallier -layout my_layout
+# export map -proj plan -fmt esri -o Outputs/Gaston -layout my_layout
   
 # Export des fichiers kml
-#export map -proj plan -fmt kml -o Outputs/Vallier.kml -layout my_layout
-export model -fmt kml -o Outputs/Vallier-filaire.kml
+#export map -proj plan -fmt kml -o Outputs/Gaston.kml -layout my_layout
+export model -fmt kml -o Outputs/Gaston-filaire.kml
 
 # export de la base de données
 export database -o Outputs/database.sql

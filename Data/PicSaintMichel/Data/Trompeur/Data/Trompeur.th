@@ -1,0 +1,66 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Trompeur -title "Scialet Trompeur" -entrance Trompeur
+
+  centerline
+	  date 1987.07.18 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  #cs lat-long
+    cs EPSG:27573	# Lambert III
+    #fix	C4	858340 	3320120	1615
+	  fix Trompeur	858130 3318830 1460
+    fix Chique 858130 3318820 1460
+    #station Chique "Scialet de la Chique" entrance
+    station Trompeur "Scialet Trompeur" entrance
+
+    
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+    
+    flags surface
+      2a Chique 7593  8018  380 108
+      2a  Trompeur 8018  8209  166 100 # Azimuth douteux ?
+    flags not surface
+  
+    #data topofil from to fromcount tocount backcompass backclino
+    #Trompeur 2 1866  1972  200 40
+    #2 3 1972  2295  0 100
+    #3 4 2295  2602  205 15
+    #4 5 2602  2644  180 75  # R4, Diametre 3 m
+    #5 6 2644  2675  220 40
+    #6 7 2675  2702  192 92
+    #7 8 2702  2739  0 100 # R2
+    #8 9 2739  2781  185 140
+    #9 10  1781  1814  225 160
+    #10  11  2811  2875  132 160 # R3
+
+    calibrate clino 0 1
+    data topofil from to fromcount tocount compass clino
+    Trompeur 2 1866  1972  200 -60
+    2 3 1972  2295  0 -100
+    3 4 2295  2602  205 -85
+    4 5 2602  2644  180 25  # R4, Diametre 3 m
+    5 6 2644  2675  220 60
+    6 7 2675  2702  192 8
+    7 8 2702  2739  0 -100 # R2
+    8 9 2739  2781  185 -40
+    9 10  1781  1814  225 -60
+    10  11  2811  2875  132 -60 # R3
+
+  endcenterline
+
+endsurvey

@@ -1,0 +1,47 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Gaston -title "Scialet Gaston" -entrance Gaston
+
+  centerline
+	  date 1989
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  #cs lat-long
+    cs EPSG:27573	# Lambert III
+    #fix	C4	858340 	3320120	1615
+	  fix Gaston	858150 3318790 1475
+    fix Chique 858130 3318820 1460
+    #station Chique "Scialet de la Chique" entrance
+    station Gaston "Scialet Gaston" entrance
+    #station Trompeur "Scialet Trompeur" entrance
+
+    
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+    
+    flags surface
+      Gaston 1 7039 7068  363 100
+      1 2 7068  7200  250 113 
+      2 Chique 7593  8018  380 108
+      #2  Trompeur 8018  8209  166 100 
+    flags not surface
+
+    data normal from to length compass clino
+    Gaston 1a  40  0 200
+    
+  endcenterline
+
+endsurvey

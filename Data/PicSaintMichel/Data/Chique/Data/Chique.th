@@ -1,0 +1,51 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Chique -title "Grotte Chique" -entrance Chique
+
+  centerline
+	  date 1989
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  explo-date 1968
+    explo-date 1971
+    explo-date 1989
+	  #	explo-team "Inconnus"
+	
+	  cs EPSG:27573	# Lambert III
+    fix Chique 858130 3318820 1460
+    station Chique "Scialet de la Chique" entrance
+    
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+    Chique 1 8209  8339  282 141  # Entrée Chique
+    1 2 8339  8579  0 200 #LW = 2 m, Ln = 5 m ; P24
+    2 3 8579  8647  221 111 # Lucarne
+    3 4 8647  8723  195 127 # l = 0.5, h = 1.5
+    4 5 8723  8780  155 147 # L = 1, H = 5, sommet puits
+    5 6 8780  8825  222 176 # P27 ; l = 1.5, L = 4
+    6 7 8825  9056  177 187 # 2eme tronçon, palier au milieu, marche 
+    7 8 9056  9091  280 126 # CF, H = 1, l = 0.6, dir shint RG
+    8 9 9091  9122  375 134 # h = 1.5 l = 0.8
+    9 10  9122  9151  286 146 # Sommet P16, h= 1.8, l = 1.5
+    10  11  9151  9319  175 195 # P16, PR 5 m bouché, palier
+    11  12  9319  9385  210 119 # 3 m
+    12  13  8385  9439  212 179 # R, l = 1 m, H = 5m marmite, boue
+    13  14  9439  9469  211 100 # lG = 1, Shunt bouché
+    14  15  9469  9493  240 125 # h = 2.5 l = 0.4
+    15  16  9493  9533  142 130 # l = h = 2 m, marmitte, boue
+    16  17  9533  9568  259 127 # MC, l = 0.4, h = 1
+    17  18  9568  9737  0 200 # P17, +1 m, gour, l = 3 m, LD = 5 m
+    
+  endcenterline
+
+endsurvey

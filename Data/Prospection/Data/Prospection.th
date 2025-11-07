@@ -44,6 +44,7 @@ survey Prospection -title "Prospection Moucherotte"
 	data normal	from to 	length	compass	clino
 	A5	A5-1	46	0	-90
 	#Scialet Martine = Sc. A5 	858,85	3320.31	1640	-46
+	# Scialet N°18 : "le culot de glace a été contourné sur toute la longueur de la rimaye, sans résultat"
 
 	fix	A1	858860	3320280	1670
 	station	A1	"Scialet Jean-Pierre - A1" entrance

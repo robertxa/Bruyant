@@ -68,7 +68,7 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Vallier-coupe.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  24 MAY 2024 16:08
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  4 JUL 2024 16:09
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -85,7 +85,7 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] )
  
 Here is how much of MetaPost's memory you used:
- 145103 strings using 4785370 characters
+ 145103 strings using 4785369 characters
  6406080 bytes of node memory
  1746 symbolic tokens
  9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
@@ -96,7 +96,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  24 MAY 2024 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  4 JUL 2024 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -111,7 +111,7 @@ tex.map})
 Here is how much of TeX's memory you used:
  304 strings out of 494671
  4139 string characters out of 6148971
- 1422003 words of memory out of 5000000
+ 1422002 words of memory out of 5000000
  1933 multiletter control sequences out of 15000+600000
  21194 words of font info for 66 fonts, out of 8000000 for 9000
  1420 hyphenation exceptions out of 8191
@@ -139,7 +139,7 @@ S     -.-- @ ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Vallier-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  24 MAY 2024 16:08
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  4 JUL 2024 16:09
 **data.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
@@ -156,7 +156,7 @@ Preloading the plain mem file, version 1.005) ) (./data.mp
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] )
  
 Here is how much of MetaPost's memory you used:
- 138386 strings using 4392348 characters
+ 138386 strings using 4392347 characters
  6352728 bytes of node memory
  1746 symbolic tokens
  9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
@@ -167,7 +167,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  24 MAY 2024 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  4 JUL 2024 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -182,7 +182,7 @@ tex.map})
 Here is how much of TeX's memory you used:
  304 strings out of 494671
  4139 string characters out of 6148971
- 1360882 words of memory out of 5000000
+ 1360881 words of memory out of 5000000
  1933 multiletter control sequences out of 15000+600000
  21194 words of font info for 66 fonts, out of 8000000 for 9000
  1420 hyphenation exceptions out of 8191
@@ -203,6 +203,7 @@ PDF statistics:
 done
 writing Outputs/Vallier.lox ... done
 writing Outputs/Vallier-filaire.kml ... done
+writing Outputs/database.sql ... done
 compilation time: 7 sec
 
 
