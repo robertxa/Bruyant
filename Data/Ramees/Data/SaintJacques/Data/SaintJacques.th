@@ -1,0 +1,47 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey SaintJacques -title "Puits Saint Jacques (K1)" -entrance SaintJacques
+
+  centerline
+	  date 1987.07.18 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  cs EPSG:27573	# Lambert III
+    fix SaintJacques 858570 3318180 1635
+    station SaintJacques "Puits Saint Jacques (K1)" entrance
+    
+    fix K14 858580 3318100 1666
+    station K14 "Puits Saint Jacques (K14)" entrance
+    
+    units length meters
+    units compass clino grads
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data topofil from to fromcount tocount compass clino
+    data normal from to length backcompass clino
+    SaintJacques  1 2.7 205 172 # Entrée, bloc sol, etr 0.5 m
+    1 2 3 193 143 # MC, H = l = 1 m; Depart à gauche, L = 10 m, h = 2
+    2 3 7.3 0 200 # Puits, palier LG = 6 m, Trémie, LD = 10 m
+    3 4 17.8  0 200 # Puits, L = 15 m: l = 2 m, CF
+    4 5 5.7 8 135 # Pente caillouteuse, l = 1, courant d'air aspirant
+    5 6 6.9 385 139 # l = 3 m; h= 4 m
+    6 7 7.2 393 127 # MC Puits
+    7 8 30.5  0 200 # bzse Puits, fond à -1 m
+    flags approx
+    8 9 2 390 150
+    flags not approx
+    
+    
+  endcenterline
+
+endsurvey

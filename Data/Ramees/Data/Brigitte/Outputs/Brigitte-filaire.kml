@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Folder>
+<Style id="ThSurveyLine"> <LineStyle> <color>ffffff00</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>https://therion.speleo.sk/downloads/KmlIconModel.png</href> </Icon>
+<name><![CDATA[Scialet Brigitte (C1)]]></name>
+<description><![CDATA[Length 66 m<br>Depth 48 m]]></description>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Scialet Brigitte]]></name>
+<Point> <coordinates>5.62289153493630,45.13541173170692,1625.00000000000000</coordinates> </Point>
+</Placemark>
+<Folder>
+<name><![CDATA[Scialet Brigitte (C1)]]></name>
+<Placemark>
+<name>Brigitte</name>
+<styleUrl>#ThSurveyLine</styleUrl>
+<MultiGeometry>
+<LineString><coordinates>
+	5.62289153493630,45.13541173170692,1625.00000000000000 	5.62289153478147,45.13541173170410,1623.20000000000005 	5.62287150192364,45.13540392334772,1623.20000000000005 	5.62287150188924,45.13540392334711,1622.79999999999995 	5.62289311001392,45.13540808523611,1621.02999999999997 	5.62291609845059,45.13542544522797,1615.20000000000005 	5.62288549924649,45.13544909227719,1613.38000000000011 	5.62287015673907,45.13547933191511,1607.95000000000005 	5.62286761972280,45.13549525214994,1607.03999999999996 	5.62285603852377,45.13551322894875,1604.84999999999991 	5.62278471549523,45.13553217364151,1586.40000000000009 	5.62276822581407,45.13555335079367,1583.71000000000004 	5.62275256417693,45.13557792639634,1583.71000000000004 	5.62275651524491,45.13559159214126,1578.96000000000004 	5.62274774555669,45.13554213318772,1576.66000000000008 
+</coordinates></LineString>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Folder>
+</kml>

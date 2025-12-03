@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey CombeOursiere -title "Scialet de la Combe Oursiere (V2)"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/CombeOursiere.th
+
+## Pour le plan
+#input Data/CombeOursiere.th2
+
+## Pour la coupe développée
+#input Data/CombeOursiere-coupe.th2
+
+## Appel des maps
+#input CombeOursiere-maps.th
+
+endsurvey

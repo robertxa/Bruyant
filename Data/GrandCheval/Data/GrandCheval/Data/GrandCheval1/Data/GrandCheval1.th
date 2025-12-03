@@ -1,0 +1,149 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey GrandCheval1 -title "Scialet du Grand Cheval"
+
+  centerline
+	  date 1971
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  #cs lat-long
+    cs EPSG:27573	# Lambert III
+	  fix GrandCheval	858880 3317371 1440
+    station GrandCheval "Scialet GrandCheval" entrance
+
+    
+    units length meters
+    units compass clino degrees
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.0965  # -3.5 %
+    #calibrate clino 100 -1
+
+    #data topofil from to fromcount tocount compass clino
+    
+    #flags surface
+    #  GrandCheval1 1 7039 7068  363 100
+    #  1 2 7068  7200  250 113 
+    #  2 Chique 7593  8018  380 108
+    #  #2  Trompeur 8018  8209  166 100 
+    #flags not surface
+
+    data normal from to length compass clino  left right up down
+
+    flags approx
+    0  1 10 0 90 1  1 1 1
+    flags not approx
+
+    1 2  2.8  73  32  1 1 1 1  # Petite salle à droite, vers la salle du 8 m de diam, Prof : 12 m
+    2 3 3.6 9 11  1 1 1 1
+    3 4 5 92  36 1.5 1.5 1.5 7.5
+    4 5 10  146 52  1.5 1.5 1.5 6.5
+    5 6 7.4 134 18  1 1 1 1
+    6 7 5.8 164 14  2.5 2.5 1.5 6.5 # Salle 5 m de diamètre, 8 m de haut, le point visée est à 5 m au dessus du fond
+
+    flags approx
+    7  8 5 0 90 2.5 2.5 1.5 6.5 # Salle 5 m de diamètre, 8 m de haut, le point visée est à 5 m au dessus du fond
+    flags not approx
+
+    8 9  5.3  158 30  2 2 1.5 2.5 # Salle 4 m de diamètre, hauteur de 4 m, plan d'eau
+    
+    
+    9 10 4.5 245 30  0.75  0.75  1.5 1 # Au coude, départ vers les puitds
+    
+    10 11 10  145 11  1 1   1 2.5
+    11 12  7.8 147 20  0.75  0.75  1 1
+    12  13  7.1 156 6 1 1 1.5 8.5 # Gours, bas de puits, Salle 
+    13  F  3 265 0  . . . .
+
+    flags approx
+    #C  14  # Puits de 20 m, 20 m, méandre de 6 m, départ de méandre, 10 m
+    F  14  20  0 90  . . . .
+    14  15 3 340  0 0.5 0.5 0.5 0.5
+    15  15b 20  0 90  . . . .
+    15b 15c 6  340 0 0.5 0.5 0.5 0.5
+    15c C 10  0 90  . . . .
+    flags not approx
+
+
+    C  16  1.4 218 45.6 0.5 0.5 1 1
+    #16  17  1.4 105 0 0.5 0.5 1 1
+    16  17  1.3 105 0 0.5 0.5 1 1
+    17  18  3.9 213 14.6 0.5 0.5 1 1
+    18  19  1 128 0 0.5 0.5 1 0.5
+    19  20  2.5 70  23.5 0.5 0.5 1 0.5
+
+    20  21  1.4 163 0  0.5 0.5 1 0.5  # méandre
+    21  22  3.1 195 0 0.5 0.5 1 0.5
+    22  23  1 166 0 0.5 0.5 1 0.5
+    23  24  1 220 45 0.5 0.5 1 0.5
+    24  25  2.1 140 28.4 0.5 0.5 1 0.5
+    25  26  2.1 190 28.4  0.5 0.5 1 0.5
+    26  27  5.1 130 23.1 0.5 0.5 1 0.5
+    27  28  4.2 137 13.8 0.5 0.5 1 0.5
+    28  29  4.1 214 1 0.5 0.5 1 0.5 # Perte (puits absorbant)
+    29  30  1 175 14.1 0.5 0.5 1 0.5
+    30  31  2 95  30 0.5 0.5 1 0.5
+    31  32  1 235 45 0.5 0.5 1 0.5
+    32  33  3.4 144 17 0.5 0.5 1 0.5
+    
+    33  34  2.2 175 27 0.5 0.5 1 0.5
+   
+
+    34  35  5.4 200 10 0.5 0.5 1 0.5 # Pied de l'echelle de 5 m vers réseau remontant, az 95,
+
+    flags approx
+    35  35b 8 95 0 0.5 0.5 0.5 0.5 # Pied de l'echelle de 5 m vers réseau remontant, az 95,
+    flags not approx
+
+    flags approx
+    35  36 5 0 90 0.5 0.5 0.5 0.5 # P5
+    flags not approx
+
+    36  B  5 0 5 2.5 2.5 1 7 # Salle de 5 m de diamètre, 8 m de haut
+    
+    B  37  3.5 28  -16.6  0.5 0.5 1 1
+    37  37b  3.5 20  16.6 . . . . # A gauche, méandre, P10, Az 340 : L = 5 m
+
+    flags approx
+    37b  38 5 340 0 0.5 0.5 0.5 0.5 #méandre, P10, Az 340 : L = 5 m
+    flags not approx
+    
+    flags approx
+    37b  37c 10 0 90 0.5 0.5 0.5 0.5 #méandre, P10, Az 340 : L = 5 m
+    flags not approx
+
+    37c  A  5.1 22  11.3 0.5 0.5 0.5 0.5
+
+    flags approx
+      A  A1 2 355  0 0.5 0.5 12 2
+      A1 A2 12  0 -90  . . . .
+    flags not approx
+
+    A  40  5.5 97  0 1 1 1 1 # Salle Puits Chatière
+    40  41  6.4 174 23 0.75  0.75  1 0.5
+    41  42  2.1 95  13.8  1 1 1 1 # Puits remontant à gauche
+    
+    flags approx
+      42  42b 2 35  0 0.5 0.5 1 10
+      42b 42c 10  0 90  . . . .
+    flags not approx
+
+    42  43  3.8 175 15.3 0.5 0.5 0.5 0.5
+    43  44  4.1 152 21.5  0.5 0.5 0.5 0.5
+    44  45  3.1 175 18.8 0.5 0.5 0.5 0.5
+    45  46  3.6 106 16.1 0.5 0.5 0.5 0.5
+    46  47  4 62  14.5 0.5 0.5 0.5 0.5
+    47  48  3.3 160 17.6  0.5 0.5 0.5 0.5
+    48  49  3 84  30 0.5 0.5 1 0.5
+    49  GrandCheval 3 170 0 0.5 0.5 0.5 0.5 # Entrée
+
+  endcenterline
+
+endsurvey

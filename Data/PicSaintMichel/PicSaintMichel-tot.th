@@ -7,10 +7,12 @@ encoding  utf-8
 survey PicSaintMichel -title "Pic Saint Michel"
 
 # Pour importer les différentes données de différents fichiers topos : 
-   input Data/Boursin/Boursin-tot.th
-   input Data/Chique/Chique-tot.th
-   input Data/Gaston/Gaston-tot.th
-   input Data/Trompeur/Trompeur-tot.th
+   input Data/Choucas/Choucas-tot.th
+   input Data/CombeOursiere/CombeOursiere-tot.th
+   input Data/Meduse/Meduse-tot.th
+   input Data/Tonnerre/Tonnerre-tot.th
+   input Data/TonnerreDeBrest/TonnerreDeBrest-tot.th
+
 
 ## Appel des maps
 #input PicSaintMichel-maps.th

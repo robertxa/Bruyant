@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Foulard -title "Grotte du Foulard (L1)"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/Foulard.th
+
+## Pour le plan
+#input Data/Foulard.th2
+
+## Pour la coupe développée
+#input Data/Foulard-coupe.th2
+
+## Appel des maps
+#input Foulard-maps.th
+
+endsurvey

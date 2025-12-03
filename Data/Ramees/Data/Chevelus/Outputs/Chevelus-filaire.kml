@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Folder>
+<Style id="ThSurveyLine"> <LineStyle> <color>ffffff00</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>https://therion.speleo.sk/downloads/KmlIconModel.png</href> </Icon>
+<name><![CDATA[Grotte des Chevelus]]></name>
+<description><![CDATA[Length 80 m<br>Depth 56 m]]></description>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Grotte des Chevelus (R1)]]></name>
+<Point> <coordinates>5.62641310839379,45.12117446120826,1590.00000000000000</coordinates> </Point>
+</Placemark>
+<Folder>
+<name><![CDATA[Grotte des Chevelus (R1)]]></name>
+<Placemark>
+<name>Chevelus</name>
+<styleUrl>#ThSurveyLine</styleUrl>
+<MultiGeometry>
+<LineString><coordinates>
+	5.62641310839379,45.12117446120826,1590.00000000000000 	5.62632241310316,45.12115406516014,1585.56999999999994 	5.62631469758131,45.12114581886028,1585.56999999999994 	5.62629397276773,45.12114595507656,1583.67000000000007 	5.62629748767454,45.12114963768277,1583.67000000000007 	5.62628424422187,45.12115838699957,1576.20000000000005 	5.62628424680104,45.12115838704532,1606.20000000000005 
+</coordinates></LineString>
+<LineString><coordinates>
+	5.62628424422187,45.12115838699957,1576.20000000000005 	5.62620263891689,45.12117960652444,1563.75999999999999 	5.62620017502203,45.12118327821081,1562.11999999999989 	5.62618533764234,45.12117730455443,1559.67000000000007 	5.62618073513442,45.12118589942337,1559.25999999999999 	5.62617432404686,45.12119175392390,1554.52999999999997 	5.62617445083680,45.12119625280086,1554.52999999999997 	5.62621026661039,45.12119532935579,1550.52999999999997 
+</coordinates></LineString>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Folder>
+</kml>

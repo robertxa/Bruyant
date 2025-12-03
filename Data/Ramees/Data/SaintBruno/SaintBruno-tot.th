@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey SaintBruno -title "Scialet Saint Bruno"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/SaintBruno.th
+
+## Pour le plan
+#input Data/SaintBruno.th2
+
+## Pour la coupe développée
+#input Data/SaintBruno-coupe.th2
+
+## Appel des maps
+#input SaintBruno-maps.th
+
+endsurvey

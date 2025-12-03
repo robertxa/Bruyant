@@ -1,0 +1,14 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-CombeOursiere -title "Scialet de la Combe Oursiere (V2)"
+	SP-CombeOursiere-1
+endmap
+
+#map MC-CombeOursiere -title "Scialet de la Combe Oursiere (V2)"
+#	SC-CombeOursiere-1
+#endmap
+   

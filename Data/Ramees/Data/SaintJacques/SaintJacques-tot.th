@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey SaintJacques -title "Puits Saint Jacques"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/SaintJacques.th
+
+## Pour le plan
+#input Data/SaintJacques.th2
+
+## Pour la coupe développée
+#input Data/SaintJacques-coupe.th2
+
+## Appel des maps
+#input SaintJacques-maps.th
+
+endsurvey

@@ -1,0 +1,63 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey SaintBruno -title "Scialet Saint Bruno" -entrance SaintBruno
+
+  centerline
+	  date 1983
+    	team "Philippe Audra"
+		  team "Christophe Gauchon"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  cs EPSG:27573	# Lambert III
+    fix SaintBruno 858540 3318660 1610
+    station SaintBruno "Scialet Saint Bruno" entrance
+    
+    units length meters
+    units compass clino grads
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.1
+    #calibrate clino 100 -1
+
+    #data topofil from to fromcount tocount compass clino
+    data topofil from to length compass clino
+      SaintBruno  2 41.7  0 -100  # Entrée
+      # Pour toute cette série, l'Az est estimé à partir du plan qui est très succinct.
+      2 3 6.5 375 31
+      3 4 3.2 375 -59 # Haut Puits
+
+      4 5 4.4 375 0 # Faille
+      5 6 4.1 375   -4
+      6 7 5.1 375 -58 # Fond Faille
+      7 8 3.7 375  -58
+      8 9 3.1 375 -56 # Haut R9
+      9 10  2.7 375 -72 # R9
+      10  11  8.9 375 -90 # base R9
+      11  12  4.1 375 15  # galerie
+      12  13  9.8  375 0  # Galerie
+      13  14  7.2 375 -67 # D&épart P85
+      14  15  2.6 375 -55 # P85
+      15  16  5.8 375  -90
+      16  17  6 375 -90
+      17  18  2 375 0
+      18  19  10.3 375 -80
+      19  20  18  375  -80
+      20 21  3.3 0 -100
+      21  22  16.1  0 -100
+      22  23  26.5  0 -100  # base P85
+
+      23  24  4.3 375 17  # Spit R10
+      24  25  9.7 375 -66 # Depart P20
+
+      flags approx
+        25  26  20  0 -100
+      flags not approx
+    
+  endcenterline
+
+endsurvey

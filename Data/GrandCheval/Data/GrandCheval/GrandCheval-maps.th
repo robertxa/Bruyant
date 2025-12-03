@@ -1,0 +1,14 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-GrandCheval -title "Scialet du Grand Cheval"
+	SP-GrandCheval-1@GrandCheval1
+endmap
+
+#map MC-GrandCheval-coupe-tot -title "Scialet du Grand Cheval"
+#	SC-GrandCheval-1
+#endmap
+   

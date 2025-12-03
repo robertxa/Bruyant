@@ -1,0 +1,14 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Choucas -title "Scialet des Choucas"
+	SP-Choucas-1
+endmap
+
+#map MC-Choucas -title "Scialet des Choucas"
+#	SC-Choucas-1
+#endmap
+   

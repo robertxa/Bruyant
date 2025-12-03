@@ -1,0 +1,40 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey K3 -title "Scialet (K3)" -entrance K3
+
+  centerline
+	  date 1987.07.18 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  cs EPSG:27573	# Lambert III
+    fix K3 858550 3318230 1640
+    station K3 "Scialet (K3)" entrance
+
+    fix K2 858530 3318200 1640
+    station K2 "Scialet (K2)" entrance
+    
+    units length meters
+    units compass clino grads
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data topofil from to fromcount tocount compass clino
+    data normal from to length backcompass clino
+    K3  1 4.2 398 163 # h = 1, l = 0.8   Depart G de l'entrée, courant d'air soufflant
+    1 2 2.2 352 113 # Arrivée G (méandre), h = 2, l = 1
+    2 3 4.8 41  130 # MC l = 1.5, h = 5 m (blocs)
+    3 4 1.6 248 141 #
+    4 5 5.3 0 200 # L = 5
+    
+  endcenterline
+
+endsurvey

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Folder>
+<Style id="ThSurveyLine"> <LineStyle> <color>ffffff00</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>https://therion.speleo.sk/downloads/KmlIconModel.png</href> </Icon>
+<name><![CDATA[Grotte de la Méduse]]></name>
+<description><![CDATA[Length 72 m<br>Depth 9 m]]></description>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Grotte de la  Meduse]]></name>
+<Point> <coordinates>5.60706758868272,45.08696131345665,1580.00000000000000</coordinates> </Point>
+</Placemark>
+<Folder>
+<name><![CDATA[Grotte de la Meduse]]></name>
+<Placemark>
+<name>Meduse</name>
+<styleUrl>#ThSurveyLine</styleUrl>
+<MultiGeometry>
+<LineString><coordinates>
+	5.60706758868272,45.08696131345665,1580.00000000000000 	5.60715225068424,45.08685258125271,1580.00000000000000 
+</coordinates></LineString>
+<LineString><coordinates>
+	5.60715458610098,45.08694859882552,1582.51999999999998 	5.60706758868272,45.08696131345665,1580.00000000000000 	5.60707168532230,45.08697542603153,1580.00000000000000 	5.60700567441748,45.08700195784899,1577.52999999999997 	5.60700391843380,45.08704090884620,1575.40000000000009 	5.60708448664478,45.08704728571893,1573.86999999999989 	5.60718405876299,45.08700720210708,1574.86999999999989 	5.60721823538016,45.08701821666424,1574.40000000000009 	5.60726423609476,45.08695901959377,1576.20000000000005 	5.60729742656431,45.08694565834478,1574.67000000000007 	5.60738877584005,45.08691535132887,1576.30999999999995 
+</coordinates></LineString>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Folder>
+</kml>

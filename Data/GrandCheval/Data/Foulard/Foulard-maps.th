@@ -1,0 +1,14 @@
+encoding  utf-8
+
+# Copyright (C) 2022 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+map MP-Foulard -title "Grotte du Foulard (L1)"
+	SP-Foulard-1
+endmap
+
+#map MC-Foulard -title "Grotte du Foulard (L1)"
+#	SC-Foulard-1
+#endmap
+   

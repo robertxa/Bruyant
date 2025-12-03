@@ -1,0 +1,45 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Meduse -title "Grotte de la Meduse"
+
+  centerline
+	  date 1987.07.18 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  cs EPSG:27573	# Lambert III
+    fix Meduse 857420 3314780 1580
+    station Meduse "Grotte de la  Meduse" entrance
+    
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino  left  right up  down
+    Meduse  2 1492  1635  170 100 0.75  0.74  3 1 # Porcghe, bout du porche = 350 gr, 380 gr
+    0 Meduse  1492  1569  315 122 0.75  0.74  3 1 # H = 4, l = 1.5, départ Méduse
+    data normal from to length compass clino
+    Meduse  3 1.6 15 100  # Bloc, etr.
+    data topofil from to fromcount tocount compass clino  left  right up  down
+    3 4 1425  1492  335 125 1 2 0.2 1  # Galerie de sorit, h = 1.2 m, lg = 1 m, lD = 1 m; eboulis
+    4 5 1375  1425  0 129 2.5 1 0.5 1 #R2, H = 1.5  lG = 2.5  ld = 1, cupules, CA vers fond
+    5 6 1307  1375  95  115 0.5 0.5 3 1 # Paroi G, marmiet 2 m de diam  
+    6 7 1213  1307  135 93  2 2 0.5 1
+    7 8 1182  1213  75  110 1.5 5 0.5 1 # Ressaut remontant de 7 m
+    8 9 998  1078  170 85  3 4 0.5 0.5 # entrée etr.
+    9 10  963 998 135 130 1 5 0.5 0.5
+    10  11  879  963  130 87  0.5 0.5 4 1 # Coulée de mondmilch, stalgtite en boue
+    
+  endcenterline
+
+endsurvey

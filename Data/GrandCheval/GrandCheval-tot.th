@@ -1,0 +1,19 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey GrandCheval -title "Le Grand Cheval"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   
+   #input Data/Foulard/Foulard-tot.th   # Manque toute la partie d'entrée, nous n'avons que les escalades
+   input Data/GrandCheval/GrandCheval-tot.th
+   input Data/Ira/Ira-tot.th
+   input Data/Sierre/Sierre-tot.th
+   
+## Appel des maps
+#input GrandCheval-maps.th
+
+endsurvey

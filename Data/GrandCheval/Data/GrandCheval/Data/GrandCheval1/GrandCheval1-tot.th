@@ -1,0 +1,21 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey GrandCheval1 -title "Scialet du Grand Cheval"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/GrandCheval1.th
+
+## Pour le plan
+#input Data/GrandCheval1.th2
+
+## Pour la coupe développée
+#input Data/GrandCheval1-coupe.th2
+
+## Appel des maps
+#input GrandCheval1-maps.th
+
+endsurvey

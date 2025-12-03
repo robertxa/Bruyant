@@ -1,0 +1,48 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Brigitte -title "Scialet Brigitte (C1)" -entrance Brigitte
+
+  centerline
+	  date 1987
+    	team "Philippe Audra"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  cs EPSG:27573	# Lambert III
+    fix Brigitte 858450 3320210 1625
+    station Brigitte "Scialet Brigitte" entrance
+    
+    units length meters
+    units compass clino grads
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data topofil from to fromcount tocount compass clino
+    data normal from to length compass clino
+      Brigitte 1 1.8 0 200 # Sous lapiaz
+      1 2 1.8 270 100
+      2 3 0.4 0 200
+      3 4 2.5 85  150 # Sommet R + fenêtre
+
+      4 5 6.4 50  173 # R + salle croquis
+      5 6 4 355 130 # Traversée salle ; 6 = bout paroi blocs
+      6 7 6.5 380 163 # Descente, blocs
+      7 8 2 395 130 # Ouvert le 19/01/91 PSM
+      8 9 3.1 375 150 # R en descention, puits Puits
+      9 10  19.4  325 180 # P18, Croquis
+      10  11  3.8 370 150 # R
+      11  12  3 375 100 # Boyau
+      12  13  5 15  180 # Paroi Am
+      13  14  6 210 125 #R1.6 + R1.8 + R1; C.A. léger
+
+    
+  endcenterline
+
+endsurvey

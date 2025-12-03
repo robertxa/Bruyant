@@ -1,0 +1,409 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Sierre -title "Scialet de la Sierre"
+
+  centerline
+	  date 1987.07.18 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  cs EPSG:27573	# Lambert III
+    fix Sierre 858120 3317460 1600
+    station Sierre "Scialet de la Sierre" entrance
+    
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data topofil from to fromcount tocount compass clino
+    data normal from to length compass clino
+    flags surface
+      B A 12.1  122 75  # 1 m au dessus de l'entrée
+      A Sierre  8.5 89  8.4 # Arrivée trou au-dessus
+      Sierre  C 14.6  286 116 # Trou à 1 m à gauche, l = 7 m (Grosse doline)
+      C D 19.4  280 117 # Aval trou
+      D E 10.3  0 200 # Puits
+      D F 13.2  255 110 # Virage 2d trou
+      F G 7.4 356 130 # Sommet fissure, aplomb puits
+    flags not surface
+
+    Sierre  1 7 66  174 # Départ 1 m au dessus, salle de 4 m de diam
+    1 2 4.1 385  115  # Départ CF diam 0.8 cm
+    2 3 3.7 321 128 # CF
+    3 4 2.2 75  160 # Terrasse
+    4 5 1.9 348 142 # Descente
+    5 6 7.1 372 150
+    6 7 1.5 306 90
+    7 8 4.6 336 133
+    8 9 1.7 383 146 # MC Puits
+    9 10  19.1  0 200 # P19
+    10  11  2.3 42  60  # Départ, Point spit
+    
+    11  12  5.3 165 68  # M"andre actif
+    12  13  1.7 120 45  # Actif, méandre imp. rive gauche à 1. 5 m de haut ; salle diam 2 m
+    13  14  7.8 165  29  # Escalade Imp.
+
+    11  15  6.3 335 146 # Méandre aval
+    15  16  2.3 288 102 # etr.
+    16  17  2.7 320 142
+    17  18  3.6 380 136 # Sommet Puits
+    18  19  6.2 360 150 # Fond à -2 m, H : 2.5 m, traversée, amont actif en RD, l= 1
+    19  19b 2 0 200
+    19  20  2.5 333 61  # MC, Etr.
+    20  21  2.9 375 150 # MC
+    21  22  9.3 340 186 # P10, arrêt topo margelle, fond à -2 m, méandre
+    22  22b 1 0 200 
+    22  23  8.5 318 123 # Boyau, désob
+    23  24  2.2 350 130 # méandre imp. en face
+    24  25  1.8 0 200 # R2
+
+    data topofil from to fromcount tocount compass clino
+    25  26  7929  7950  156 115
+    26  27  7950  7989  257 96  # Boyau
+    27  28  7989  8033 235 100 # Boyau
+    28  29  8033  8085  243 105 # Boyau
+    29  30  8033  8117  136 161 # Ressaut
+    30  31  8117  8140  325 170 # Salle en cloche
+    31  32  8140  8185  159 146
+    32  33  8185  8204  42  151 # Marmite en plafond
+    33  34  8204  8230  372 125 # Boyau
+    34  35  8230  8287  296 118
+    35  36  8287  8332  233 127
+    36  37  8332  8374  304 134 # l = 1, h = 2.5
+    37  38  8374  8422  275 116 # Boyau, l = 1.5 m,; h = 0.8
+    38  39  8422  8442  263 100 # Départ
+
+    39  40  8442  8594  355 177 # P14
+    40  41  9583  9664  298 50  # Remontée CF
+    41  42  9556  9583  22  106 # diam 1 m, au sol
+    42  43  9513  9556  329 124
+    43  44  9483  9513  294 115
+    44  45  9447  9483  253 96  # l = 0.6, h = 0.3
+    45  46  9423  9447  236 94  # diam 1 m
+    46  47  9376  9423  352 121 # Sgunt foissile h 1 et l2.5
+    47  48  9274  9376  297 100 # l = 3, h = +5/-5, treaversée
+    48  49  9240  9274  254 116 # h = 7 m, affluent en RG
+
+    49  50  9188  9240  370 115 # Axe faille
+    50  51  9121  9188  282 105 # h = 2.5 l = 1.5 h-5 (surcreusement) ; Départ
+
+    51  52  9004  9011  274 100 # CF fossile
+    52  53  9011  9045  198 90  # diam 1.5 m
+    53  54  9045  9121  255 96  # Colmatage, l + 2m
+
+    51  55  8866  9004  366 143 # Dezscente dans le surcreusement
+    55  56  8944  8966  318 127 # Fond bloc, afflant en fin de visée (glaise)
+    56  57  8893  8944  0 109
+    57  58  8877  8893  333 126
+    58  59  8842  8877  386 110 # H+3 m,-? m, l= 0.5, arrivée salle boucle h-5+2, diam 2.5 imp
+
+    59  60  8812  8842  252 105 
+    60  61  8801  8812 288 100 # h = 5
+    61  62  8769  8801  276 100 # méandre au plafon perpendiculaire, L = 5 m
+    62  63  8732  8769  305 111 # h 4 m, L 1.2 m
+    63  64  8712  8732  364 40
+    64  65  8687  8712  3 102
+    65  66  8667  8687  289 117 # h1.5
+    66  67  8633  8667  236 95  # m inf, l = 5 m
+    67  68  8609  8633  277 113
+    68  69  8595  8609  315 122 # H é m, L à.4 m, arrêt etr + 30 m
+    
+    #data normal from to length compass clino
+    #  flags approx
+    #    69  69b 30  315 110
+    #  flags not approx
+
+    data normal from to length compass clino
+    39  70  1 0 200
+    data topofil from to fromcount tocount compass clino
+    70  71  662  703  156 136 # Départ P45
+    71  72  2059  2114  205 172 # Spit plein pot
+    72  73  2462  2848  0 200 # P45
+    73  74  9708  9739  395 116 # Depart méandre
+    74  75  9739  9755  54  122
+    75  76  9755  9787  74  165 # R
+    76  77  9787  9829  174 112 # l0.6, h5
+    77  78  9829  9846  117 116 # l0.6, départ MC
+    78  79  9846  9864  40  56  # MC
+
+    # puits des phoques au méandre des canards
+    79  80  40  169 0 200 # Puits des Phoques, diam 4 m
+    80  81  3880  3926  320 79  # Départ Méandre
+    81  82  3845  3880  376 90  
+    82  83  3813  3845  365 133
+    83  84  3765  3815  234 105
+    84  85  3741  3765  249 112
+    85  86  3705  3741  196 148 # R3
+    86  87  3637  3705  270 107 # Affluent rRG milieu visée
+    87  88  3607  3637  300 102
+    88  89  3389  3607  367 116
+    89  90  3556  3589  258 104
+    90  91  3540  3556  333 131 
+    91  92  3521  3540  0 100
+    92  93  3506  3521  294 117
+    93  94  3475  3506  383 114
+    94  95  3461  3475  67  120
+    95  96  3415  3461  307 195
+    96  97  3400  3417  225 119
+    97  98  3376  3400  258 113
+    98  99  3360  3376  238 106
+    99  100 3343  3360  273 105
+    100 101 3297  3343  261 106
+    101 102 3271  3297  308 107
+    102 103 3245  3271  237 105
+    103 104 3223  3245  294 111
+    104 105 3209  3223  193 113
+    105 106 3201  3209  224 100
+    106 107 3174  3201  197 112
+    107 108 2123  2148  192 125
+
+    # méandre des canards à la Canne blanche
+    108 109 3099  3123  279 109
+    109 110 3095  3099  174 100
+    110 111 3062  3095  236 116
+    111 112 3031  3062  294 131 # Zone mondmilch
+    112 113 3003  3031  349 118
+    113 114 2992  3003  306 115
+    114 115 2962  2992  288 126
+    115 116 2926  2962  292 124
+    116 117 2913  2926  358 118
+    117 118 2900  2913  304 110
+    118 119 2883  2900  249 115
+    119 120 2848  2883  280 117 # Arrêt 15 cm sous spit RG
+    
+    data normal from to length compass clino
+    120 121 15.4  0 200  # P15
+
+    data topofil from to fromcount tocount compass clino
+    121 122 9507  9550  75  100 # l3.5, H15, base P15, départ méandre
+    122 123 9550  9565  344 100 #l0.6, h3
+    123 124 9565  9595  75  100 #l1, h3
+    124 125 9595  9619  58  100
+    125 126 9619  9658  158 100 #l1, h5
+    
+    data normal from to length compass clino
+    126 127 1 0 0 # Sommet méandre
+
+    data topofil from to fromcount tocount compass clino
+    127 128 9658  9718  145 90  #l1, h-10
+    128 129 9718  9735  210 85
+    129 130 9735  9771  150 125 # l1, H3, MC
+    130 131 9771  9815  130 112 # idem
+    131 132 9815  9837  103 80  # Sommet P, l1, h3
+    
+    data normal from to length compass clino
+    132 133 5.5 0 200 # P6
+    133 134 3.5 70  100 #l2, h7
+    134 135 3 215 100 #l0.5, h1, méandre de la Canne Blanche
+    135 136 0.5 0 200
+    136 137 2 175 100
+    137 138 0.5 0 200
+    138 139 5 170 100 #h1, l1
+    139 140 1 0 200
+    140 141 2.5 230 100
+    141 142 0.5 0 200 #h1; l0.5
+    142 143 2 295 100 # l1, h1
+    143 144 1 215 100 # marmites
+    144 145 4 255 100
+    145 146 1 0 200 # R2.2, diam 2, salle
+    146 147 2.5 275 100 #l1 h1
+    147 148 4 207 100 
+    148 149 3 190 100 # l1, h1.8
+    149 150 1.5 245 100 # idem
+    150 151 2.5 180 100 # idem
+    151 152 2.5 220 100 # idem
+    152 153 1.5 123 100 #l0.5, sommet Puits, départ
+
+    153 154 5.5 0 200 # PAlier marmite, diam 3 m, puits
+    154 155 6 0 156 # fond Puits à 1.5 m, diam 1 m, l1, h0.6
+
+    flags approx
+      155 155b  1.5 0 200
+    flags not approx
+
+    155 156 5.3 5 170
+    156 157 1.5 38  100 # l0.5, h1.5
+    157 158 1 96  100 # idem
+    158 159 1.5 385 100 # idem
+    159 160 0.5 0 200 # idem
+    160 161 4 23  100 # idem
+    161 162 1 0 200 # Sommet P6, spit
+
+    162 162b  6 0 200  # très étroit
+
+    153 163 15.2  0 200 # Fond
+
+    data normal from to length compass clino
+    # Réseau du Fox-terrier
+    35  164 1.9 392 100 # CF, désob
+    164 165 3.1 373 100
+    165 166 4.7 12  100 # Sommet Puits
+    166 167 5.8 367 173 # P7
+    167 168 3.3 281 78  # Sommet CF
+    168 169 8.8 286 119 # CF
+    169 170 3.3 161 153 # Diaclas, petite salle en prolongement (rejoins salle P15)
+    170 171 6.8 376 144 # base actif
+    171 172 2.6 323 132 # méandre
+    172 173 2 305 120
+    173 174 3.8 190 125 # plancher suspendu érodé
+    174  175 2  260 100
+    175 176 1.5 332 120
+    176 177 1 200 117
+    177 178 1.2 253 100
+    178 179 2.9 325 130
+    179 180 3.5 300 105 # etr. terminale
+
+    data normal from to length compass clino
+    # réseau des Taupes
+    59  181 2.754 160 23  # Dépar bloc marmite, R remontant
+    181 182 5.406 100 60  # méandre
+    182 183 2.55  27  100
+    183 184 3.672 115 137 # Départ P10
+    184 185 9.588 50  178 # L5 derrière, base P
+    185 186 14.69 15  175 # P13
+    186 187 4.386 375 0 # méandre
+    187 188 3.774 345 124
+    188 189 3.774 385 144 # R4 (MC)
+    189 190 1.428 15  100 # Début méandre très étroit
+    190 191 1.02  365 100
+    191 192 3.264 40  100
+    192 193 0.3 0 200
+    193 194 3 375 100
+    194 195 3 355 100
+    195 196 1 390 100
+    196 197 0.5 0 0
+    197 198 1 300 100
+    198 199 1 0 0 # CA remontant, PR sdalle TB, diam 1.5 m
+    199 200 6.63  370 125 
+    200 201 4.488 0 200 # R4
+    201 202 5.508 45  100 # R3 aveugle
+    202 203 3.366 55  100 
+    203 204 3.978 180 105 # faille
+    204 205 3.978 230 170 # P4
+    205 206 5.202 210 185 # P5, salle à Gauche
+    206 207 7.038 195 158 # P5, diam 2.5 m
+    207 208 8.364 300 171 # P8, L derrière = 6 m
+    208 209 8.058 45  100
+    209 210 1 370 100
+    210 211 1.5 40  100
+    211 212 1.5 355 100 # perte actif imp., méandre fossile au sommet  
+    212 213  2 40  100
+    213 214 3 385 100
+    214 215 2 290  100
+    215 216 0.8 0 200 
+    216 217 2 335 100
+    217 218 6 45  100 # Actif en RD
+    218 219 3.57  30  100
+    219 220 2.754 350 118
+    220 221 1.5 290 100 #h+1 -2m 
+    221 222 5.61  300 110
+    222 223 3.06  305 130
+    223 224 1 275 100
+    224 225 4.896 220 100
+    225 226 1 325 100
+    226 227 1.5 375 100
+    227 228 1.5 350 100
+    228 229 10  0 100 # Siphgon impénétrable, -163 m
+
+    data normal from to length compass clino
+    # Méandre de -120 m (etr. élargie)
+    69  230 4.08  300 115 # etr. désobstruée
+    230 231 8.16  270 115
+    231 232 2.754 225 100 # Actif RG, élargissement
+    232 233 2.2 185 100
+    233 234 2.958 245 123
+    234 235 3.672 235 100
+    235 236 3.264 235 120
+    236 237 1.2 265 100
+    237 238 0.6 0 200
+    238 239 4.08  240 118 # d&sob.
+    239 240 2.04  320 108 # etr.
+    240 241 1.836 280 100 # désob
+    241 242 1.632 280 100 # etr.
+    242 243 1 315 100
+    243 244 1.734 10  100
+    244 245 1.8 0 200 # niveau bassin
+    245 246 3.264 290 100
+    246 247  5 245 100
+    247 248 2.5 280 100
+    248 249 7 255 100
+    249 250 2 230 100
+    250 251 1 160 100 # etr.
+    251 252 15  260 100 # Etr. siphonnante (?), -118 m
+  
+  endcenterline
+
+
+  centerline
+	  date 1987.04.22 
+    	team "Pierre Garcin"
+		  team "? Monin"
+	  #explo-date 1987.04.22 
+    #	explo-team "Pierre Garcin"
+		#  explo-team "? Monin"
+    
+    units length meters
+    units compass clino grads
+    
+    data normal from to length compass clino left right up down
+    # Fond de la Canne Blanche
+    162b  V1  4.3 75  0 1.75  1.75  14  1
+    V1  V2  1.5 344 0 0.3 0.3 2 1
+    V2  V3  3 75  0 0.5 0.5 2 1
+    V3  V4  2.4 58  0 0.5 0.5 2 1
+    V4  V5  3.90  155 0  0.5 0.5 0 3  # fin de visée au sommet du méandre
+    V5  V5b 1 0 90 0.5 0.5 2 1
+    V5b  V6  6 145 90 0.5  0.5 1 8
+    V6  V7  1.7 210 85  0.5 0.5 1 8
+    V7  V8  3.6 150 -25  0.5 0.5 2 1 # MC à gauche
+    V8  V9  4.4 130 -12  0.5 0.5 2 1 # MC à gauche, 2S
+    V9  V10 2.2 103 80  0.5 0.5 2 13 #Sommet Ressaut, spit
+    V10 V10b  12.7  0 -100  0.5 0.5 13  1
+
+    V10b  V11 3.5 70  0 1 1 6 1 # Cul de sac
+
+    units depth meters
+    data diving from to length compass depthchange  left right up down
+    V10 V12  3   215  -0.5  0.25  0.25 0.5  0.5 # boue liquide 
+    V12 V13  2  175 -0.5 0.35  0.35  0.5 0.5 # boue liquide
+    V13 V14  5  270 -1  0.5 0.5 0.5 0.5 # boue liquide
+    V14 V15 2.5 230 -0.5    0.5 0.5 0.5 0.5 # boue liquide
+    V15 V16   2 295 0   0.5 0.5 0.5 0.5 # boue liquide
+    V16 V17 1 215 0   0.5 0.5 0.5 0.5 # boue liquide, marmites visqueuses
+    V17 V18 4 255 -1  0.5 0.5 0.5 0.5 # On arrive au ssommet d'une salle sympa, diametre 2 m
+    V18 V18b  2.20  0 -2.2  1 1 0 4
+
+    V18 V19 2.5 275 0   0.5 0.5 0.5 0.5 # méandre sympa
+    V19 V20  4  207 0  0.5 0.5 0.5 0.5 # méandre sympa
+    V20 V21 3 190 0  0.5 0.5 1 0.8 # méandre sympa
+    V21 V22 2.5 245 0  0.5 0.5 1 1 # méandre sympa
+    V22 V23 2.5 180 0  0.5 0.5 1 1 # méandre sympa (sec)
+    V23 V24 1.5 123 -0.5   0.5 0.5 1 0.5 # sommet de Puits
+
+    V24 V24b  5.5 0 -5.5  0.5 0.5 0.5 6
+
+    calibrate clino 100 -1
+    data normal from to length compass clino left right up down
+    V24 V24c  5.3 5 170 0.5 0.5 0.3 0.3 # lucarne
+
+    units depth meters
+    data diving from to length compass depthchange  left right up down
+    V24c  V25   1.5 38 0 0.25  0.25  1 0.5
+    V25 V26 1 96  0 0.25  0.25  1 0.5
+    V26 V27 1.5 385 -0.50 0.25  0.25  1 0.5
+    V27 V28 4 23  -1  0.25  0.25  1 0.5 # Sommet P6 (spit)
+    V28 V29 6 0 -6  0.25  0.25  1 0.5
+
+    
+  endcenterline
+
+endsurvey

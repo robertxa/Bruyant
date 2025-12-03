@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Folder>
+<Style id="ThSurveyLine"> <LineStyle> <color>ffffff00</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>https://therion.speleo.sk/downloads/KmlIconModel.png</href> </Icon>
+<name><![CDATA[Puits Saint Jacques]]></name>
+<description><![CDATA[Length 83 m<br>Depth 71 m]]></description>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Puits Saint Jacques (K1)]]></name>
+<Point> <coordinates>5.62338606107557,45.11711781797172,1635.00000000000000</coordinates> </Point>
+</Placemark>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Puits Saint Jacques (K14)]]></name>
+<Point> <coordinates>5.62347247599928,45.11639497972007,1666.00000000000000</coordinates> </Point>
+</Placemark>
+<Folder>
+<name><![CDATA[Puits Saint Jacques (K1)]]></name>
+<Placemark>
+<name>SaintJacques</name>
+<styleUrl>#ThSurveyLine</styleUrl>
+<MultiGeometry>
+<LineString><coordinates>
+	5.62338606107557,45.11711781797172,1635.00000000000000 	5.62338677100407,45.11712815356439,1632.55999999999995 	5.62338247698075,45.11714898632050,1630.68000000000006 	5.62338247635308,45.11714898630941,1623.38000000000011 	5.62338247482258,45.11714898628239,1605.57999999999993 	5.62337671366663,45.11710547523078,1602.59999999999991 	5.62339582584905,45.11705648826844,1598.64000000000010 	5.62340766552247,45.11699807165459,1595.67000000000007 	5.62340766289997,45.11699807160832,1565.17000000000007 	5.62341102636319,45.11698554968897,1563.75999999999999 
+</coordinates></LineString>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Folder>
+</kml>

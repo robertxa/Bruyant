@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Folder>
+<Style id="ThSurveyLine"> <LineStyle> <color>ffffff00</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThSurveyLineSurf"> <LineStyle> <color>ffcccccc</color> <width>1</width> </LineStyle> </Style>
+<Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
+<Icon> <href>https://therion.speleo.sk/downloads/KmlIconModel.png</href> </Icon>
+<name><![CDATA[Scialet K3]]></name>
+<description><![CDATA[Length 18 m<br>Depth 12 m]]></description>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Scialet (K3)]]></name>
+<Point> <coordinates>5.62315745278418,45.11757452829051,1640.00000000000000</coordinates> </Point>
+</Placemark>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Scialet (K2)]]></name>
+<Point> <coordinates>5.62288827851758,45.11731199030241,1640.00000000000000</coordinates> </Point>
+</Placemark>
+<Folder>
+<name><![CDATA[Scialet (K3)]]></name>
+<Placemark>
+<name>K3</name>
+<styleUrl>#ThSurveyLine</styleUrl>
+<MultiGeometry>
+<LineString><coordinates>
+	5.62315745278418,45.11757452829051,1640.00000000000000 	5.62315933887294,45.11755385365706,1636.49000000000001 	5.62317866163748,45.11754016014598,1636.03999999999996 	5.62314750325259,45.11750862331323,1633.85999999999990 	5.62315829067590,45.11751723320351,1632.90000000000009 	5.62315829022018,45.11751723319548,1627.59999999999991 
+</coordinates></LineString>
+</MultiGeometry>
+</Placemark>
+</Folder>
+</Folder>
+</kml>

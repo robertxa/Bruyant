@@ -1,0 +1,155 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Foulard -title "Grotte du Foulard (L1)"
+
+  # centerline
+	#   date 1987.07.18 
+  #   	#team "Xavier Robert"
+	# 	  #team "Stéphane Lips"
+	#   #explo-date 1900.07.01
+	#   #	explo-team "Inconnus"
+	
+	#   cs EPSG:27573	# Lambert III
+  #   fix Foulard 857470 3315040 1810
+  #   station Foulard "Grotte du Foulard (L1)" entrance
+    
+  #   units length meters
+  #   units compass clino grads
+  #   units counter meters
+  #   #calibrate counter 0 0.0975  # -2.5 %
+  #   calibrate counter 0 0.1
+  #   calibrate clino 100 -1
+
+  #   data topofil from to fromcount tocount compass clino
+  #   # MANQUE LES DONNEES DE LA ZONE D'ENTREE
+
+  # endcenterline    
+
+  centerline
+	  date 1986
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+    
+    units length meters
+    units compass clino grads
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.1
+    #calibrate clino 100 -1
+
+    data normal from to length backcompass clino  left right up down
+    #Foulard	Escalade des Bacheliers à partir Bloc -15 m vers 2de cheminée								
+									
+    #D	A	L	Az	P	G	D	H	B	R
+		#	INV	INV					
+		#	Grad	Grad
+    extend right					
+1	2	8	335	60	.	.	.	.	# E9
+2	3	9.3	160	45	0.75	0.75	0.75	0.75	# Galerie Sup; diam 1.5 m
+3	4	8.4	175	-12	0.5	0.5	0.5	0.5	## Diam 1 m
+4	5	3.8	210	-12	0.5	0.5	1	1	
+5	6	3.3	160	-35	0.5	0.5	1	1	
+6	7	2.6	250	7	0.5	0.5	0.5	0.5	
+7	8	2.5	155	-4	0.5	0.5	0.5	0.5	
+8	9	3	0	100	0.5	0.5	0.5	0.5	# Croquis, remontant, approx
+									
+3	11	4.9	245	-63	0.75	0.75	3	1	
+11	12	3.5	375	62	0.75	0.75	0	1.5	# Plafond
+12	13	6.3	295	15	0.5	0.5	4	1	
+									
+1	2b	21.9	0	100	.	.	.	.	# E22, Trémie, CA soufflant
+
+  endcenterline    
+
+  centerline
+	  date 1986
+    	team "Philippe Audra"
+		  team "Laurent ?"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+    
+    units length meters
+    units compass clino grads
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.1
+    #calibrate clino 100 -1
+
+    data normal from to length compass clino  left right up down
+    #Foulard	?		Philippe et Laurent		21/08/1986				
+									
+#D	A	L	Az	P	G	D	H	B	R
+#			Dir ?	Dir ?					
+#			Grad	Grad					
+extend right
+1	22	5.1	135	-12	.	.	.	.	# Depart blocs -15 m, base puits
+22	23	14.6	0	100	.	.	.	.	
+23	24	5.7	146	28	0.5	0.5	1	3	
+24	25	2.7	80	-40	0.5	0.5	1	3	# Départ méandre
+25	26	1.3	190	0	0.5	0.5	0.5	0.5	# Boyau
+26	27	3.1	213	0	0.2	0.2	0.5	0.5	
+27	28	3.5	255	-62	0.75	0.75	2	1	
+28	29	5.5	29	-62	0.4	1	0.2	1	
+29	30	2.6	63	0	.	.	.	.	# Imp. En face
+30	31	1.2	340	0	.	.	.	.	# CA aspirant fort, croquis
+									
+25	32	4.1	395	28	0.5	0.5	0.5	1	# Boucle fossile
+32	33	3.4	100	46	0.3	0.3	0.7	1	# CA soufflant fort
+33	34	3.9	84	29	0.6	0.6	1.5	1	
+34	35	2.9	9	0	.	.	.	.	# Sol Salle
+35	36	7	95	0	1.50	1.50	.	.	
+flags approx
+  36	36b	5	170	0	.	.	.	.	# Visée approx ?
+flags not approx
+36	37	12.4	0	100	.	.	.	.	# E13, +3 m --> Côte +20 m par rapport à l'entrée
+									
+36	38	3.5	328	-10	0.2	0.2	0.2	0.2	# boyau
+38	39	3.3	338	-28	0.1	0.1	0.1	0.1	# Boyau, diam = 0.3 m
+39	40	2.8	334	-89	0.75	0.75	1	1	
+40	41	8.9	0	-100	1.5	1.5	1	1	# P7-9
+41	42	3.1	270	0	.	.	.	.	
+42	43	3.2	260	0	.	.	.	.	# Jonction salle à 15 de hauteur
+43	43b	15	0	-100	.	.	.	.	# APPROX
+
+  endcenterline    
+
+  centerline
+	  date 1986
+    	team "Philippe Audra"
+		  team "Laurent ?"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+    
+    units length meters
+    units compass clino grads
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.1
+    #calibrate clino 100 -1
+
+    data normal from to length compass clino  left right up down									
+    #Foulard	Réseau des Accus		Philippe et Laurent ?		21/08/1986 ?				
+									
+#D	A	L	Az	P	G	D	H	B	R
+#			Dir ?	Dir ?					
+#			Grad	Grad					
+40	52	1.6	60	-70	.	.	.	.	# Raccord ????
+52	53	1.1	44	0	0.3	0.3	1.5	1	
+53	54	2.2	69	31	0.75	0.75	2	1	# Salle
+54	55	2.7	21	0	.	.	.	.	# etr.
+55	56	1.9	80	0	3	5	.	.	# Salle, pente = -2 m
+56	57	8	0	10	.	.	.	.	# E9
+57	58	5.5	60	75	.	.	.	.	# Voir Croquis
+58	59	8	0	100	.	.	.	.	# E9
+59	60	7	60	80	.	.	.	.	# E6
+60	61	9.4	90	65	2	2	1	1	# E9 : Trémie ; +32 m
+    
+  endcenterline
+
+endsurvey

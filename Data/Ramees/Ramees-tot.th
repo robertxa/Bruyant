@@ -1,0 +1,23 @@
+encoding  utf-8
+
+# Copyright (C) 2020 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+ 
+survey Ramees -title "Plateau des Ramées"
+
+# Pour importer les différentes données de différents fichiers topos : 
+   input Data/Boursin/Boursin-tot.th
+   input Data/Brigitte/Brigitte-tot.th
+   input Data/Chevelus/Chevelus-tot.th
+   input Data/Chique/Chique-tot.th
+   input Data/Gaston/Gaston-tot.th
+   input Data/K3/K3-tot.th
+   input Data/SaintBruno/SaintBruno-tot.th
+   input Data/SaintJacques/SaintJacques-tot.th
+   input Data/Trompeur/Trompeur-tot.th
+
+## Appel des maps
+#input Ramees-maps.th
+
+endsurvey
