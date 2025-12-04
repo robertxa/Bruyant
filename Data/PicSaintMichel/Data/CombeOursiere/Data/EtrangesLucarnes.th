@@ -1,0 +1,309 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey EtrangesLucarnes -title "Scialet de la Combe Oursiere (V2)"
+
+  centerline
+	  date 1988.10.16 
+    	team "Philippe Audra"
+		  #team "Pierre R."
+      #team "Christophe Gauchon"
+      #team "Patrice ?"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+    # Sommet P13 vers tripple bifurcation
+    41  63  1220  1282  278 135 # Raccord base P13
+    63  64  9439  9483  280 118 # h =. 2, l = 1
+    64  65  9483  9541  310 128
+    65  66  9541  9598  305 96  # Plafond galerie, l = 2
+    66  67  9598  9695  310 170 # P, h = 2, l = 2.5  arrivée ménadre P13 en 67
+
+    67  68  9757  9880  0 200 # P
+    
+    67  69  1111  1157  242 113 # galerie, h = 1.5, l = 3
+    69  70  1157  1220  211 114 # H = 2, l = 1.5, départ puits
+    70  71  8937  9124  0 200 # P
+    
+    70  72  124 223 230 154 # lucarne
+    
+    data normal from to length compass clino
+    72  73  1 175 100
+    data topofil from to fromcount tocount compass clino
+    73  74  223 274 0 200 # P, 4*2
+    74  75  276 317 195 126 # Boyau
+    75  76  317 392 320 178 # 2*4, base P
+    76  77  392 453 190 174 # 2R, sommet P, diam 2.5 Départ
+    77  78  457 629 0 200 #P
+
+    77  79  1184  1382  0 200 
+    79  80  1382  1407  225 100 # MC, h2.5, PR
+    data normal from to length compass clino
+    flags approx
+      80  80b 10  0 0 
+    flags not approx
+    data topofil from to fromcount tocount compass clino
+    80  81  1407  1445  240 175 # Tobbogan
+    81  82  1445  1479  230 149 # RD, galerie 5 m, RG marmitte, PR
+    data normal from to length compass clino
+    flags approx
+      82  82b 10  0 0 
+    flags not approx
+    data topofil from to fromcount tocount compass clino
+    82  83  1479  1564  225 190 # P continue en faille imp. sur 5 m, l=2
+    83  84  1564  1590  345 109 # Aplonmb tr&mie
+    84  85  1590  1615  0 100 # Sommet Trémie
+    85  86  1615  1641  205 180 # Trémie, départ P
+    86  87  1641  1730  225 192 # P, lD = 2, diam 3
+    data normal from to length compass clino
+    87  88  1.5 285 100
+    data topofil from to fromcount tocount compass clino
+    88  89  1730  1757  250 175 # Petit R, Départ au sommet
+
+  endcenterline  
+
+
+  centerline
+	  date 1988.10.16 
+    	team "Philippe Audra"
+		  #team "Pierre R."
+      #team "Christophe Gauchon"
+      #team "Patrice ?"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+    # tripple bifurcation  --> méandre fossile dans hauterivien
+    89  90  1757  1773  370 148 # Jonction bifurcation
+    90  91  825 871 163 100 # Divertiule CF diam 0.5 m à mi distance
+    91  92  792 825 306 116 # Diverticule CF diam 1
+    92  93  634 792 40  194 # Diverticule P16, suite Az13
+    data normal from to length compass clino
+    flags approx
+      93  93b 16  13  195 
+      93b 93c 2 13  105
+    flags not approx
+
+    data topofil from to fromcount tocount compass clino
+    90  94  871 904 48  100 # Bifurcation --> fond CF, h = 0.4, l = 1
+    94  95  904 960 0 200 # Puits faille, 3*1.5
+    95  96  960 971 373 100 # Diverticule gauche
+    96  97  971 1017  81  157 # m&andre l = 0.5, h = 1.5
+    97  98  1017  1029  138 147 # Sommet R
+    98  99  1029  1066  0 200 # R, arrivée boucle RD
+    99  100 1066  1110  285 157 # diam 1.5, base R
+    100 101 1774  1797  270 150 # Etr. lame, R
+    101 102 1797  1814  340 121 # R lucarne
+    data normal from to length compass clino
+    102 103 1 5 100 # Lucarne  
+    data topofil from to fromcount tocount compass clino
+    103 104 1814  1856  310 157 # Tobbogan
+    104 105 1856  1917  375 142 # Double etr. h = 1.5, l = 0.4
+    105 106 1917  1957  15  139 # Sommet R, PR en RD (lucarne eu sommet), PR en face. -> Départ
+    106 107 1957  2022  25  176 # R, départ méandre de 150 m
+    107 108 2022  2060  325 89  # l = 1.5, h = 10, gros bloc suspendu
+    108 109 2060  2086  360 105
+    109 110 2086  2129  0 100 # Traversée P au début visée
+    data normal from to length compass clino
+    flags approx
+      109  109b 8  0 200 
+    flags not approx
+    data topofil from to fromcount tocount compass clino
+    110 111 2129  2158  100  140 # Etr. h+1.5-2
+    111 112 2158  2179  345 121
+    112 113 2179  2190  385 100  # Bifurcation
+    data normal from to length compass clino
+    113 114 0.5 0 200
+    data topofil from to fromcount tocount compass clino
+    114 115 2190  2230  255 166 # R, diam 1.5, CA soufflant
+    115 116 2230  2250  200 170 # Bifurcaion --> fossile à base PR
+    116 117 2250  2265  315 105
+    117 118 2265  2295 200 100
+
+  endcenterline  
+
+
+  centerline
+	  date 1988.10.16 
+    	team "Philippe Audra"
+		  #team "Pierre R."
+      #team "Christophe Gauchon"
+      #team "Patrice ?"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+    118 119 2295  2340  215 162
+    119 120 2930  2951  370 115
+    data normal from to length compass clino
+    120 121 1.7 90  100 # h = 1
+    data topofil from to fromcount tocount compass clino
+    121 122 2904  2930  55  103 # Elargissement, arrivée en RD
+    data normal from to length compass clino
+    122 123 0.8 20  100
+    data topofil from to fromcount tocount compass clino
+    123 124 2887  2904  110 120
+    124  125  2833  2887  0 110 # Elargissement en fin de visée ; l =1.5, h = 2, affluent en RG
+    125 126 2815  2833  70  100
+    126 127 2788  2815  390 110
+    127 128 2768  2788  365 122 # h = 2.5
+    128 129 2750  2768  35  145
+    129 130 2720  2750  370 100
+    130 131 2692  2720  285 105 # Dédoublement méandre
+    131 132 2667  2692  360 100 # Amont RG l = 1.5, PR imp., 2 arrivées
+    132 133 2641  2667  395 102
+    133 134 2568  2586  365 100
+    134 135 2522  2568  55  195 # h = 1.7
+    135 136 2477  2522  115 105
+    136 137 2449  2477  15  100
+    data normal from to length compass clino
+    137 138 2 120 122 # Arrivé&e sur P8
+    138 139 8 0 200 # P8, salle de la Kanaky
+
+    # Fin de ce réseau non toppographié !
+
+  endcenterline  
+
+
+  centerline
+	  date 1988.10.16 
+    	team "Philippe Audra"
+		  #team "Pierre R."
+      #team "Christophe Gauchon"
+      #team "Patrice ?"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+    # Méandre du fond
+    113 140 2952  2968  75  97  # Petit amont imp après 3 m
+    140 141 2968  2983  370 106 # H = 2
+    141 142 2983  3008  32  107 # Surcreusemzent, donne sur réseau Inf.
+    142 143 3008  3023  333 127 # h = 1
+    143 144 3023  3066  27  112 # h = 2, CA aspirant
+    144 145 3066  3089  358 107
+    145 146 3089  3130  45  110 # h2, l1, élargiseement, il y a un amont
+
+    146 147 5359  5457  120 47  # Affluent pentu, h1, L2/5, dédoublé
+    147 148 5457  5513  112 33  # CA Aspirant léger, actif, +7 m etr.
+    data normal from to length compass clino
+    flags approx
+      148  148b 7  115 140 
+    flags not approx
+
+    data topofil from to fromcount tocount compass clino
+    146 149 3130  3178  11  128 # Elargissement, h = 2.5 m
+    149 150 3178  3224  284 114 # h1
+    150 151 3224  3241  40  103
+    151 152 3241  3311  17  106
+    152 153 3311  3331  376 128 
+    153 154 3331  3374  3 102 # Début etr., h = 3
+    154 155 3374 3389  392 103 
+    155 156 3389  3436  11  118
+    156 157 3436  3444  46  100 # fin etr.
+    157 158 3444  3502  23  129 # Carrefour
+
+    158 159 3502  3528  154 55  # Méandre remotnant, tout le courant d'air aspirant remonte, lD = 1, h = 3, lucarne avec arrivée de CA
+    159 160 3528  3583  193 82  
+    160 162 3583  3630  97  70  # R, piedt esc --> P8 + 20 m de méandre étroit sur faille
+    data normal from to length compass clino
+    flags approx
+      162  162b 8  0 200 
+      162b  162c  20  100 105
+    flags not approx
+
+    data topofil from to fromcount tocount compass clino
+    161 162 3630  3680  176 100 #E10, lucarne PR ?
+    data normal from to length compass clino
+    flags approx
+      163  163b 10  0 0 
+      163b  163c  1  100 100
+      163c  163d  10  0 0 # PR ?
+    flags not approx
+
+    data topofil from to fromcount tocount compass clino
+    158 163 3680  3745  374 116 # h+2-2.5, l0.8
+    163 164 3745  3775  348 126 # leger CA aspirant
+    164 165 3775  3792  24  117 # Affluent en RD
+    165 166 3792  3816  316 192 #h2
+    166 167 3816  3852  381 104
+
+    # Direction siphon terminal
+    data topofil from to fromcount tocount compass clino
+    167 168 3852  3902  354 100
+    168 169 3902  3929  397 106
+    169 170 3929  4002  126 102 # Baionette, l0.4, h5
+    170 171 4030  4046  42  149 #l1.2
+    171 172 4046  4081  348 126 # h5, l0.4
+    172 173 4081  4106  5 105 #h-3+4, l1
+    173 174 4106  4158  44  109 
+    174 175 4158  4223  360 118 #n bloc instable, h2.5, l0.4
+    175 176 4223  4252  20  104 #h=2, l=1
+    176 177 4252  4298  37  110
+    177 178 4298  4332  399 106 
+    178 179 4332  4363  357 127 # CA dezcendant
+    179 180 4363  4436  2 105 # h+3-2
+    180 181 4436  4487  344 109
+    181 182 4487  4510  350 97  # Départ etr.
+    182 183 4510  4556  367 95
+    183 184 4556  4632  386 110
+    184 185 4632  4687  341 88
+    185 186 4687  4719  341 122
+    186 187 4719  4743  266 116
+    187 188 4747  4793  188 108
+    188 189 4793  4815  303 88  # Spit P, h+1.5
+    189 190 4815  4944  0 200 #P diam 2.5
+    190 191 4944  5012  185 102 # lD1, PR, actif en RG
+    data normal from to length compass clino
+    flags approx
+      191  191b 10  0 0 
+    flags not approx
+
+    data topofil from to fromcount tocount compass clino
+    191 192 5012  5078  283 112 #h0.8, départ v. boue, l0.5
+    192 193 5078  5155  231 196 # galirie basse, h0.25,l1, diam 1
+    193 194 5155  5222  216 96  # l1, h3 (milieu)
+    194 195 5222  5264  263 129 
+    195 196 5264  5302  205 100
+    196 197 5302  5331  246 107
+    197 198 5331  5358  294 129 # siphon terminal, léger ca aspirant, h1.5, l1
+
+  endcenterline
+
+endsurvey

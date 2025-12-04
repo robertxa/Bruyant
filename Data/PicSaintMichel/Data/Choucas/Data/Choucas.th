@@ -7,7 +7,7 @@ encoding utf-8
 survey Choucas -title "Scialet des Choucas"
 
   centerline
-	  date 1987.07.18 
+	  date 1989
     	#team "Xavier Robert"
 		  #team "Stéphane Lips"
 	  #explo-date 1900.07.01
@@ -19,14 +19,266 @@ survey Choucas -title "Scialet des Choucas"
     
     units length meters
     units compass clino grads
-    units counter meters
+    #units counter meters
     #calibrate counter 0 0.0975  # -2.5 %
-    calibrate counter 0 0.1
+    #calibrate counter 0 0.1
     calibrate clino 100 -1
 
     #data topofil from to fromcount tocount compass clino
+    # Entrée à réseau de la Frénésie
+    data normal from to length compass clino left right up down
+      Choucas 1 4.8 185 140 5 5 5 40  # P45, Frac, LE = 5, LN = 3, Ls = 5
+      1 2 24.5  0 200 3.5 0 30  25
+      2 3 12.8  295 145 4 12  15  1 # Fond P45
+      3 4 7.1 0 200 4 2 22  23  # P30, englacé
+      4 5 11.1  255 165 1.5 1.5 2 13 # Sortie goulotte, Puits remontant
+      5 6 9.7 310 175 2.5 0 10  6 # fond =. glace
+      6 6b  6 0 200 0.3 0.3 30  0 # fond du culot de glace
+      6 7 9.1 330 136 1 1 4 1.5 # méandre
+      7 8 6.9 365 130 0.2 0.2 1 1 
+      8 9 7.9 300 130 0.2 0.2 1 1 # CA aspirant fort
+      9 10  1.5 0 200 0.2 0.2 1 1 
+      10  11  2.1 374 96  0.2 0.2 1 1 
+      11  12  3.8 339 127 0.2 0.2 1 1 # Sommet R1
+      12  13  2.2 0 200 0.2 0.2 1 1 # R1
+      13  14  1.1 6 100 0.2 0.2 0.2 0.2 # Arrivée du puits, etr.
+      14  15  8.9 315 178 3.5 2.5 9 1 # base P9 = puits du Punch, voir croquis
+      15  16  2.5 249 71  0.2 0.2 1 1 # méandre
+      16  17  2.3 168 28  0.2 0.2 1 1 # Remontée
+      17  18  3.5 222 102 1 1 1 1 # Petite salle
+      18  19  3.6 274 100 0.2 0.2 1 1
+      19  20  3.7 233 146 0.2 0.2 1 1 # Croquis
+      20  21  3.3 216 176 0.2 0.2 1 1 # Départ de puits en cloche
+      21  22  4.8 181 179 2 2 5 5 # Points bas 5 m sous station``
+      22  23  5.9 152 65  2 2 1 1 # Salle sous strate, Départ
+
+      23  24  8.2 97  180 0.2 0.2 1 1 # méandre, boucle nt, croquis
+      24  25  5.9 297 133 0.2 0.2 1 1 # méandre
+      25  26  6.3 382 159 0.2 0.2 1 1
+      26  27  5.2 327 118 0.5 0.5 1 7 # Arrivée MC, croquis
+      27  28  5.2 297 100 0.5 0.5 1 7
+      28  29  4.2 295 169 0.5 0.5 3 12  # Arrêt sous margelle
     
-    
+    # Réseau de la Frénésie
+    data normal from to length compass clino left right up down
+      29  30  7.4 285 154 0.5 0.5 3 12  # MC
+      30  31  13.3  320 167 1 1 15  1 # Pan incliné, P12
+      31  32  2.7 256 84  1 1 15  1 # base Puits
+      32  33  1.9 306 89  1 1 15  1 # base puits
+      33  34  2.8 234 77  1 1 10  1 # méandre
+      34  35  5.1 166 74  1 1 10  1 
+      35  36  6.3 187 196 0.2 0.2 7 1 # P7, etr. verticale
+      36  37  2.2 184 102 0.5 0.5 7 1 # Y
+      37  38  7.2 294 183 1 1 8 1 # P7
+      38  39  4.1 244 121 1 1 8 3 # MC
+      39  40  3.4 278 98  1 1 8 6 # MC sur R6, arrivée R incliné
+      40  41  7.1 244 166 1 1 8 1 # Lucarne, Ressaut
+      41  42  2.5 171 109 0.5 0.5 0.5 0.5 # Lucarne vers Papa Vigne
+
+      42  43  9.5 308 178 1.75  1.75  10  1 # P9, Arrivée d'eau
+      43  44  3.6 233 148 1 2 7 1 # Reszaut
+      44  45  1.3 178 100 1 1 5 1 # Arrivée P4
+      45  46  6.7 266 180 1 1.3 7 1 # P4
+      46  47  2.7 318  121 8 10  20  75  # Sommet Puits de la Fréniése, R1.4
+      47  48  74.6 258  198 8 19  95  1 # Base puits sur un gros bloc, P75
+      
+      # Salle base du putis de la frénésie
+      data normal from to length compass clino #left right up down
+      48  49  9.3 74  96  
+      48  50  6.9 290 135 # Poitns bas
+      48  51  12.4  168 74
+      48  52  13.9  218 55  # Sommet bloc, paroi à 1.5 m
+  
+  endcenterline
+
+  centerline
+	  date 1989
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+    units length meters
+    units compass clino grads
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data topofil from to fromcount tocount compass clino
+    # Réseau Libertad
+    data normal from to length compass clino #left right up down  
+    23  53  9.7 95  135 # Bout méandre
+    53  54  3.1 362 43
+    54  55  4.1 17  100 # Boyau imp.
+    55  56  4.2 227 27
+    56  57  4.7 89  77  # méandre étroit
+    57  58  4.2 8 82
+    58  59  5 118 72  # fin méandre, courant d'air
+    59  60  5.4 82  141 # Petite Salle
+    60  61  4.9 366 138 # Sommet méandre
+    61  62  4.2 309 136 # méandre affluant fossile en RG
+    62  63  6.9 206 164 # fond méandre
+    63  64  1.8 333 145 # méandre
+    64  65  1.5 141 100 
+    65  66  4 392 125
+    66  67  1.8 18  83
+    67  68  3.8 397 76   # CA soufflant
+    68  69  2.9 367 69  # Méandre affluant en RD
+    69  70  6.7 294 161 # MC, Pont Rocheux
+    70  71  2 37  62  # Y, Arrivée méandre sup.
+    71  72  17.5  0 200 # Puits du Ticket, P65
+    72  73  6.9 13  131 #MC, diam 5 m
+    73  74  40  0 200 # Putis du Ticket
+    74  75  7.7 316 96  # Traversdée base P50, P5 bouché
+    75  75b 5 0 200 # Bouché
+    75  76  5.4 300 139 # CA soufflant, méandre déchiqueté
+    76  77  4.1 312 139
+    77  78  4.4 184 84  # MC blocs
+    data normal from to length compass clino left right up down  
+    78  79  5.3 122 87  5 3 2 28  # MC, LD = 3, LG = 5
+    data normal from to length compass clino #left right up down  
+    79  80  28.4  0 200 # L = 12 m devant , P28, puits des 2 dindons
+    80  81  5 223 96
+    81  82  2.4 201 181 # Petit ressaut
+
+    82  83  2.8 193 162 # Faille, Puits devant, shunt par Ressauts
+    83  84  12.8  137 172 # Diam 5 m, R3, puits, 2.5 puis imp.
+    84  85  5.5 264 134 # D&part P35 de l'Epiphanie, Y, CA soufflant
+    85  86  37.4  0 200 # Puits de l'Epiphanie, P38, Lucarne à 8 m (palier), P6, méandre de 10 m, R2, puits
+
+    flags approx
+      85  86b 8 0 200
+      86b 86c  1  200 100
+      86c 86d  6 0 200
+      86d 86e 10  200 110  
+      86e 86f 3 210 170
+      86f 86g 10  0 200
+    flags not approx
+
+    86  87  4.4 358 122
+    87  88  6.9 81  80  # léandre, CA soufflant
+    88  89  6.5 2 123 # Arrivée du R5
+    89  90  3.6 367 110 # R5, traversée horizontale pour depart
+
+    90  91  2.3 398 122 # méandre
+    91  92  10.6  334 175 # Hauterivient, diam 6 m, méandr étroit péteux, P10
+    92  93  3.3 328 121 # Trémie, CA soufflant
+    93  94  2.2 253 120
+    94  95  5 308 120
+    95  96  5.4 5 80  # RD
+    96  97  4.5 306 107
+    97  98  15.2  24  109 # RG
+    data normal from to length compass clino left right up down  
+    98  99  6 43  138 2.5 3 25  1 # Point bas, 
+
+    data normal from to length compass clino #left right up down  
+    flags approx
+      99  99b 12 0 0 
+      99b 99c 8 0 0
+    flags not approx
+
+    90  100 1.5 365 115 # Visée de rattrapage, banquette gauche, spit plein pot
+    100 101 3.2 0 200
+    101 102 4.6 27  73
+    102 103 3.3 297 95  # Base ressaut arrosée
+    103 104 6.1 0 0 # Puits arrosé
+    104 105 5 362 47  # R3 remontant
+    105 106 5.1 87  149 # Interstrate incliné, vers ressaut
+    106 107 5.6 387 145 # Salle
+    107 108 6.1 141 87  # Départ boyau
+    108 109 3.5 160 113 # Boyau, sommet etr. verticale
+    109 110 3.5 0 200 # Etr verticale + ressaut étroit
+    110 111 4.3 182 114 # Arrivée dans méandre large
+    111  112  3.8 126 118 # base PR
+
+    flags approx
+      112 112b  10  0 0 # PR
+    flags not approx
+
+    112 113 3.1 398 95  #Virage vers drtoite
+    113 114 4.6 105 91  # passe par surcreusement imp.
+    114 115 3 113 100
+    115 116 21.5  0 200 # Base puits = cairn
+    116 117 13.1 308 138 # Etr. 1
+    117 118 2 0 200 # Etr. 2
+    118 119 5.5 260 170 # Etr. 3
+    119 120 1 329 100 # Etr. 4
+    120 121 1 300 100 # Sommet P
+    121  122  7.2 0 200 #Puits
+    122 123 5.7 318 147 # Base puits
+    123 124 6.9 321 98
+    124 125 3.1 213 178 # Ressaut, base avec actif
+    125 126 1.5 185 77  # Seuil
+    126 127 7.1 108 72
+    127 128 1.5 0 200 # Etr.
+    128 129 4.4 194 166 # R4 etr.
+    129 130 3.7 228 84
+    130 131 4.7 394 137 # Sommet P
+    131 132 24.2  0 200 # Puits, départ
+
+    132 133 7.5 170 138 # Fond de la salle à -1 m, )2 m entre bloca, L = 3 m , entonnoir
+
+    132 134 10.4  181 86  # R4 remotnant
+
+  endcenterline
+
+
+  centerline
+	  date 1989
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+    units length meters
+    units compass clino grads
+    #units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data topofil from to fromcount tocount compass clino
+    # Réseau Papa Vigne
+    data normal from to length compass clino #left right up down  
+    42  135 3.8 150 0 # MC
+    135 136 6.1 144 60  # R1.5, R3; CA aspirant fort
+    136 137 3.6 120 83
+    137 138 6.1 220 100
+    138 139 5.6 155 70  # fin Méandre étroit
+    139 140 8.7 115 2 # E7, aval 4 m en face
+    140 141 3.3 143 68
+    141 142 11.6  0 0 # R3, E9
+    142 143 9.8 120 45  # Afflent en face
+    143 144 3.1 162 114 # Méandre
+    144 145 1.8 221 100
+    145 146 3.9 135 76
+    146 147 2.6 94  75
+    147 148 4.1 200 144 # Sol blocs, H = 10
+    148 149 3.2 175 62
+    149 150 3.1 210 75
+    150 151 1.6 155 60
+    151 152 3.7 138 116
+    152 153 2.3 0 0
+    153 154 5.3 118 54  # Salle ébouleuse
+    154 155 2.2 198 199
+    155 156 1.6 105  110
+    156 157 5.7 150 122 # base 1 ressaut, fond méandre, E4
+    157 158 6.8 120 55  # Blocs, R, PR +15 (blocs) E9
+
+    flags approx
+      158 158b  15  0 0
+    flags not approx
+
+    158 159 11.3  190 40  # E
+    159 160 2.7 250 100 # Seuil
+    160 161 3 150 45
+    161 162 3.5 204 72  # R2.5 remontant, Blocs
+    162 163 3.2 135 40  # 2 R remontant, blocs plafond
+    163 164 4.4 170 100
+    164 165 4.2 195 54  # Boyau
+    165 166  4 200 75 # Trémie
+
   endcenterline
 
 endsurvey

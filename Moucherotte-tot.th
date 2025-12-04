@@ -12,6 +12,7 @@ survey Moucherotte -title "Réseau Moucherotte - Grand Cheval - Pic Saint Michel
 
    input Data/Ramees/Ramees-tot.th
    input Data/GrandCheval/GrandCheval-tot.th
+   input Data/PicSaintMichel/PicSaintMichel-tot.th
 
    input Data/Prospection/Data/Prospection.th
 	

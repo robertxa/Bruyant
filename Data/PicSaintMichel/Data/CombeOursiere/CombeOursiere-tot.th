@@ -7,7 +7,13 @@ encoding  utf-8
 survey CombeOursiere -title "Scialet de la Combe Oursiere (V2)"
 
 # Pour importer les différentes données de différents fichiers topos : 
+   input Data/CombeOursiereSurface.th
    input Data/CombeOursiere.th
+      equate CombeOursiere@CombeOursiere CombeOursiere@CombeOursiereSurface
+   input Data/EtrangesLucarnes.th
+      equate 41@EtrangesLucarnes 41@CombeOursiere
+   input Data/Maquereaux.th
+      equate 28@Maquereaux 28@CombeOursiere
 
 ## Pour le plan
 #input Data/CombeOursiere.th2

@@ -1,0 +1,74 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Maquereaux -title "Scialet de la Combe Oursiere (V2)"
+
+  centerline
+	  date 1988.11.11 
+    	team "Bernard Faure"
+		  team "Benoît Pin"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data normal from to length compass clino
+    # Sommet P13 vers tripple bifurcation
+    28  229 25.3  0 200
+    229 199 4.7 300 100 # Lucarne h3, L2, P47
+    data topofil from to fromcount tocount compass clino
+    199 200 4574  4662  195 130
+    200 201 4662  4710  330 140 # MC, R4, L2, shunt P47 en RD
+
+    201 202 4710  4789  310 150
+    202 203 4789  4897  300 150 # R3, R2, h8, PR en RG à mi distance
+    203 204 4897  4917  335 145 # Spit MC Départ en face
+
+    204 205 4917  5205  270 195 # P53
+    205 206 5205 5315  0 200 # puits parallèle
+    206 207 5315  5448  0 200 # P53
+    data normal from to length compass clino
+    207 208 5 300 100
+    data topofil from to fromcount tocount compass clino
+    208 209 5448  5553  0 200 # P11
+    209 210 5553  5597  310 100 # salle boucle à droite, diam 3
+    210 211 5597  5650  240 135 # Méandre "etroit"
+    211 212 5650  5675  290 70
+    212 213 5675  5692  200 160
+    213 214 5692  5706  350 125
+    214 215 5706  5728  310 110 # Arrivée SPit MC
+    data normal from to length compass clino
+    215 216 1.5 285 100 # etr. MC
+    data topofil from to fromcount tocount compass clino
+    216 217 5728  5942  0 200 # P21
+    217 218 5942  6008  220 100 # L4
+    218 219 6008  6161  0 200 # P15, diam base 3 m
+    219 220 6161  6219  320 128 # départ maéandre étroit, bloc, MC
+    220 221 6219  6257  340 100 # spit, etr.
+    221 222 6257  6319  0 200 # P6, l2
+    222 223 6319  6379  310 75  # lé, départ MC
+    223 224 6379  6424  380 160 # Traversée oppo
+
+    224 225 6426  6654  0 200 # P27
+    225 226 6654  6733  315 115 #
+    data normal from to length compass clino
+    flags approx
+      226 226b  2 0 200
+    flags not approx
+
+    224 227 3 0 200
+    data topofil from to fromcount tocount compass clino
+    227 228 6733  6772  330 100 # l2, arrivée MC
+
+  endcenterline
+
+endsurvey

@@ -25,7 +25,186 @@ survey TonnerreDeBrest -title "Scialet du Tonnerre De Brest"
     calibrate clino 100 -1
 
     #data topofil from to fromcount tocount compass clino
+    data normal from to length compass clino
+    TonnerreDeBrest 1 2  325  100 # Entrée
+    1 2 4.3 190 150 # Etr. interstrate désobstrué, petit puits élargi
+    data normal from to length compass clino  left  right
+    2 3 2.8 334 151 4 2.5 # Gros bloc à 1 m visée + PR
     
+    data normal from to length compass clino
+    flags approx
+      3 3b  8 0 0 # PR
+    flags not approx
+
+    3 4 8.8 191 156 # Plafond descendtant, galerie en poursuite 4 m, blodc, P9
+    4 5 8.5 343 188 # méandre etroit
+    5 6 4.9 243 114 # Sommet R3
+    6 7 6.6 314 149 # DIma 1 m en milieu visée, PR + 20 en début visée
+
+    flags approx
+      6 6b  20 0 0 # PR
+    flags not approx
+
+    7 8 5.4 139 144 # Lucarne sur méandre étroit
+    8 9 5.5 315 154 # Méandre
+    9 10  3 394 149
+    10  11  2.6 326 124 # Début surcreusement, bloc
+    11  12  8 327 165 # Puits P8, en bias en bas, cloche
+    12  13   7.6  368 162 # Puits de la MC à bas dezscentene 1. m de long P9
+    13  14  6.6 372 88  # Etr. repère 1.5 m au dessus colonoe. Base E diamn 4m
+    14  15  7.7 1 157 # Puits PAroi D, Affluent L =. 6 m, Az 36
+
+    flags approx
+      15  15b 6 36  80
+    flags not approx
+
+    15  16  2.8 323 109 # Plafond descendant, arrivée sur Puits
+    16  17  7.7 0 200 # Puits, Allfulent en RG
+
+    flags approx
+      17  17b 3 210  80
+    flags not approx
+
+    17  18  5.6 330 124 # O.à D, Elargissem'ent 2.5 m, blocs au sol
+    18  19  4.4 292 58  # Méandre étroit
+    19  20  0.6 370 100 # Méandre étroit, plafond, surcreusement
+    20  21  3.9 334 170 # R4 du Spit
+    21  22  5.5 360 133
+    22  23  4.8 373 176 # Puits etr.
+    23  24  4.7 371 115 # D&épart fissure plafond
+    24  25  1.2 15  114 # Sommet R3 (bloc méandre), fissure plafond
+    25  26  3.8 346 142 # Palier, faille au plafond
+    26  27  9.8 360 184
+    27  28  3.1 331 100 # donne sur R
+    28  29  7.2 318 167 # R4, R2, Puits, seuil, Puits
+    29  30  4.2 282 71  # Vire, méandre bute sur faille
+
+    30  31  6.8 191 183 # Puits, fond à -4 m
+
+    flags approx
+      31  31b 4 0 200
+    flags not approx
+
+    31  32  2.6 312 141 # Départ méandre
+    32  33  2.1 353 137 # Méandre
+    33  34  3.8 323 132
+    34  35  4.1 266 125 # Lucarne
+    35  36  2.6 367 128
+    36  37  4.4 20  116
+    37  38  5 52  175 # 2R
+    38  39  16.9  34  184 # P, diam 3 m, faille, arrêt à 1.5 m du sol (P18)
+    39  40  5.1 327 126 # Méandre étroit de 26 m
+    40  41  1.7 0 200
+    41  42  0.9 307 100
+    42  43  1.3 395 139
+    43  44  6.2 330 125
+    44  45  1 270 100
+    45  46  0.3 0 200
+    46  47  2.2 265 122 
+    47  48  0.3 0 200
+    48  49  0.9 278 100
+    49  50  1.4 386 66
+    50  51  2 252 144 # Ressaut continue au delà
+
+    51  52  1.6 0 200 # Perte
+    52  53  1 370 100 # Etr. désobstruée, suit 1.5 m de méandre, P6, 5 m de méandre
+
+    flags approx
+      53  53b 1.5 300 110
+      53b 53c 6 0 200 
+      53c 53b 5 300 110
+    flags not approx
+
+    51  54  1.4 274 100 # FOnd à -143 m
+    54  55  1.6 313 125
+    55  56  2.2 328 130
+    56  57  1.7 340 100
+    57  58  5.4 5 120
+    58  59  3.6 373 115
+    59  60  3.1 297 130 # R, spit unique
+    60  61  5.9 276 161 # R, Affluent RD (+3)
+    61  62  8.4 165 147 # Puits, Etr départ, base méandre surcreusé
+    62  63  2.8 240 120 # Méandre, R3 en dessous
+    63  64  3.5 340 150 # Boyau
+    64  65  3.2 280 140 # Boyau, R1.5, RG : affluent du R3 précédent
+    65  66  5.5 305 152 # 15 m, départ méandre affluent en RG, Boyau, R3 de diam 1.2 m
+    66  67  2.7 390 138 # Méandre, arrivée Puits
+    67  68  6.3 256 163 # Puits (2R), affluent R6 vient diffluence précédente
+    68  69  5 315 159 # Diam 1.5 m, P
+    69  70  4.7 215 126 # Boyau, arrivée Puits
+    70  71  10.5  0 200 #P Puits, relais à -4 m
+    71  72  2 200 100 # Arrivée raccord topo
+
+    # Stand de Tir
+    72  73  4 193 127 # Méandre dynamité
+    73  74  5.5 272 129 # Affluent RG
+    74  75  10.1  288 106
+    75  76  3.1 178 90
+    76  77  4 315 125
+    77  78  2.8 270 129
+    78  79  2.1 340 147
+    79  80  4.1 300 167 # P
+    80  81  3.9 228 81  # MC , départ
+
+    81  82  5.9 205 59  # Galerie fossile principale  # Départ
+
+    82  83  5.3  182 95 # Départ
+
+    83  84  11.3  257 119  # Traversée P15  
+    84  85  5.7 205 130
+    85  86  8 50  162 # Bord P15
+    
+    83  87  4.9 120 58
+    87  88  5.3 170 53
+    88  89  5.1 125 34
+    89  90  8.3 235 105
+    90  91  2.5 300 115 # La rive à visée transverse
+    91  92  4.2 200 0
+    92  93  9.3 155 100 # diam 2
+    93  94  2.9 220 100 # faille trasverse 320 gr, RD = 5, RG = 5
+
+    82  95  5.6 392 100 # Départ
+    95  96  6.5 360 66
+    96  97  8.7 356 100 # Colmatage
+
+    95  98  5.4 340 83  # Diverticule "Quincocu", traversée salle
+    98  99  5.1 210 70  # Boyau terreux
+    99  100 6.7 190 88
+    100 101 7.4 193 84  # Suite Az 300, E8 à 3 m
+
+    flags approx
+      101 101b  3 300 84
+      101b  101c  8 0 0 
+    flags not approx
+
+    81  102 5.9 312 138 # Puits coulée, Ld = 3, LG = 4 (galerie fossile L = 4)
+    102 103 1.6  0 200
+    103 104 4.9 187 166 # MC + R3, pettite diffluence derrière
+    104 105 1.5 120 100
+    105 106 8.2 0  200  # P
+    106 107 6 240 165 # 5*3, diffluence Quincieu Puits
+    107 108 3.7 175 130 # Boyau
+    108 109 1.5 130 100
+    109 110 17.2  0 200 # Puits
+
+    #101 1102  3.162 215 50
+    110 1102  3.162 215 50
+    1102  1103  5.61  240 140 # Etr.
+    1103  1104  2 0 200 # R
+    1104  1105  7.14  302 164 # P15
+    1105  1106  9.282 385 190 # P15
+    1106  1107  3.774 345 130
+    1107  1108  10.2  275 155
+    1108  1109  13.46 307 159 # Fond
+
+    1106  1110  4.998 0 200
+    1110  1111  7.65  10  118 # Etr. Perte à Mi-chemin
+    1111  1112  7.854 387 122 # CF
+    1112  1113  8.262 332 123 # Diaclase
+    1113  1114  6.018 0 133
+
+
+
     
   endcenterline
 

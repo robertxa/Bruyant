@@ -10,60 +10,60 @@ therion: warning -- year 1972 magnetic declination used for undated surveys
 undated surveys:
 Prospection.Moucherotte
 output coordinate system: UTM31
-meridian convergence (deg): -1.8635
+meridian convergence (deg): -1.8606
 geomag declinations (deg):
-  1971.1.1  -3.7933
-  1972.1.1  -3.7130
-  1973.1.1  -3.6329
-  1974.1.1  -3.5531
-  1975.1.1  -3.4735
-  1976.1.1  -3.3320
-  1977.1.1  -3.1907
-  1978.1.1  -3.0497
-  1979.1.1  -2.9089
-  1980.1.1  -2.7684
-  1981.1.1  -2.6423
-  1982.1.1  -2.5162
-  1983.1.1  -2.3903
-  1984.1.1  -2.2645
-  1985.1.1  -2.1387
-  1986.1.1  -2.0334
-  1987.1.1  -1.9281
-  1988.1.1  -1.8229
-  1989.1.1  -1.7177
-  1990.1.1  -1.6125
-  1991.1.1  -1.5084
-  1992.1.1  -1.4043
-  1993.1.1  -1.3003
-  1994.1.1  -1.1964
-  1995.1.1  -1.0925
-  1996.1.1  -0.9756
-  1997.1.1  -0.8589
-  1998.1.1  -0.7422
-  1999.1.1  -0.6256
-  2000.1.1  -0.5091
-  2001.1.1  -0.3999
-  2002.1.1  -0.2909
-  2003.1.1  -0.1819
-  2004.1.1  -0.0730
-  2005.1.1  0.0357
-  2006.1.1  0.1507
-  2007.1.1  0.2655
-  2008.1.1  0.3801
-  2009.1.1  0.4946
-  2010.1.1  0.6089
-  2011.1.1  0.7411
-  2012.1.1  0.8732
-  2013.1.1  1.0051
-  2014.1.1  1.1368
-  2015.1.1  1.2683
-  2016.1.1  1.4192
-  2017.1.1  1.5699
-  2018.1.1  1.7203
-  2019.1.1  1.8706
-  2020.1.1  2.0207
-  2021.1.1  2.1540
-  2022.1.1  2.2872
+  1971.1.1  -3.7940
+  1972.1.1  -3.7137
+  1973.1.1  -3.6336
+  1974.1.1  -3.5537
+  1975.1.1  -3.4741
+  1976.1.1  -3.3325
+  1977.1.1  -3.1913
+  1978.1.1  -3.0502
+  1979.1.1  -2.9095
+  1980.1.1  -2.7690
+  1981.1.1  -2.6428
+  1982.1.1  -2.5168
+  1983.1.1  -2.3908
+  1984.1.1  -2.2650
+  1985.1.1  -2.1393
+  1986.1.1  -2.0339
+  1987.1.1  -1.9287
+  1988.1.1  -1.8234
+  1989.1.1  -1.7182
+  1990.1.1  -1.6130
+  1991.1.1  -1.5088
+  1992.1.1  -1.4048
+  1993.1.1  -1.3008
+  1994.1.1  -1.1968
+  1995.1.1  -1.0929
+  1996.1.1  -0.9761
+  1997.1.1  -0.8593
+  1998.1.1  -0.7427
+  1999.1.1  -0.6261
+  2000.1.1  -0.5096
+  2001.1.1  -0.4004
+  2002.1.1  -0.2913
+  2003.1.1  -0.1824
+  2004.1.1  -0.0735
+  2005.1.1  0.0352
+  2006.1.1  0.1501
+  2007.1.1  0.2649
+  2008.1.1  0.3795
+  2009.1.1  0.4940
+  2010.1.1  0.6083
+  2011.1.1  0.7405
+  2012.1.1  0.8726
+  2013.1.1  1.0044
+  2014.1.1  1.1361
+  2015.1.1  1.2676
+  2016.1.1  1.4185
+  2017.1.1  1.5691
+  2018.1.1  1.7195
+  2019.1.1  1.8698
+  2020.1.1  2.0198
+  2021.1.1  2.1531
+  2022.1.1  2.2863
 scanning centreline tree ... done
 searching for centerline loops ... done
 calculating station coordinates ... done
@@ -72,39 +72,59 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.4.17
  2> Copyright © 1990-2025 Olly Betts
- 3> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th2309/data.svx:1572: avertissement: Point fixe non utilisé « 1534 »
- 4> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th2309/data.svx:1579: avertissement: Point fixe non utilisé « 1535 »
- 5> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th2309/data.svx:1583: avertissement: Point fixe non utilisé « 1536 »
- 6> 
- 7> La topographie contient 1536 stations, connectées par 1530 visées.
- 8> Il y a 16 bouclages.
- 9> La topographie contient 22 composants connectés.
-10> Longueur totale de la topographie = 10710.73m (10687.07m ajusté)
-11> Longueur totale en projection horizontale = 8530.05m
-12> Longueur totale verticale = 4277.15m
-13> Intervalle vertical = 843.29m (de 1530 à 1848.00m jusqu’à 15 à 1004.71m)
-14> Intervalle Nord-Sud = 4837.79m (de 1533 à 5003335.53m jusqu’à 1509 à 4998497.74m)
-15> Intervalle Est-Ouest = 2473.35m (de 1533 à 708221.27m jusqu’à 9 à 705747.92m)
-16> 
-17> Il y a 3 avertissement(s).
-18> 
+ 3> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th39087/data.svx:1502: avertissement: Point fixe non utilisé « 1469 »
+ 4> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th39087/data.svx:1542: avertissement: Point fixe non utilisé « 1506 »
+ 5> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th39087/data.svx:2161: avertissement: Point fixe non utilisé « 2092 »
+ 6> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th39087/data.svx:2174: avertissement: Point fixe non utilisé « 2105 »
+ 7> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th39087/data.svx:2175: avertissement: Point fixe non utilisé « 2106 »
+ 8> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th39087/data.svx:2190: avertissement: Point fixe non utilisé « 2131 »
+ 9> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th39087/data.svx:2197: avertissement: Point fixe non utilisé « 2132 »
+10> /var/folders/yr/jp8bhrxs78db_6zmxvb7pbph0000gp/T/th39087/data.svx:2201: avertissement: Point fixe non utilisé « 2133 »
+11> 
+12> La topographie contient 2133 stations, connectées par 2113 visées.
+13> Il y a 16 bouclages.
+14> La topographie contient 36 composants connectés.
+15> Longueur totale de la topographie = 13687.86m (13664.20m ajusté)
+16> Longueur totale en projection horizontale = 10209.67m
+17> Longueur totale verticale = 6092.34m
+18> Intervalle vertical = 843.29m (de 2127 à 1848.00m jusqu’à 15 à 1004.71m)
+19> Intervalle Nord-Sud = 7429.90m (de 2130 à 5003335.53m jusqu’à 2094 à 4995905.64m)
+20> Intervalle Est-Ouest = 3060.95m (de 2130 à 708221.27m jusqu’à 2098 à 705160.32m)
+21> 
+22> Il y a 8 avertissement(s).
+23> 
 ######################### transcription ########################
  3> 8 : 6@Bruyant.Bruyant.Moucherotte -- 78 : 60@Vallier.Vallier.Moucherotte -- 6 : 4@Bruyant.Bruyant.Moucherotte -- 7 : 5@Bruyant.Bruyant.Moucherotte
- 3> input:1572 -- Data/Prospection/Data/Prospection.th [36]
- 3> 1534 : Grotte@Prospection.Moucherotte
+ 3> input:1502 -- Data/Ramees/Data/K3/Data/K3.th [20]
+ 3> 1469 : K2@K3.K3.Ramees.Moucherotte
  4> 8 : 6@Bruyant.Bruyant.Moucherotte -- 78 : 60@Vallier.Vallier.Moucherotte -- 6 : 4@Bruyant.Bruyant.Moucherotte -- 7 : 5@Bruyant.Bruyant.Moucherotte
- 4> input:1579 -- Data/Prospection/Data/Prospection.th [79]
- 4> 1535 : B2@Prospection.Moucherotte
+ 4> input:1542 -- Data/Ramees/Data/SaintJacques/Data/SaintJacques.th [20]
+ 4> 1506 : K14@SaintJacques.SaintJacques.Ramees.Moucherotte
  5> 8 : 6@Bruyant.Bruyant.Moucherotte -- 78 : 60@Vallier.Vallier.Moucherotte -- 6 : 4@Bruyant.Bruyant.Moucherotte -- 7 : 5@Bruyant.Bruyant.Moucherotte
- 5> input:1583 -- Data/Prospection/Data/Prospection.th [102]
- 5> 1536 : F13@Prospection.Moucherotte
- 7> 1536 : F13@Prospection.Moucherotte -- 1530 : F1@Prospection.Moucherotte
- 8> 16 : S1-4@Bruyant.Bruyant.Moucherotte
- 9> 22 : 5@Vallier.Vallier.Moucherotte
-13> 1530 : F1@Prospection.Moucherotte -- 15 : S1-3@Bruyant.Bruyant.Moucherotte
-14> 1533 : F15-1@Prospection.Moucherotte -- 1509 : GrandCheval@GrandCheval1.GrandCheval1.GrandCheval.GrandCheval.Moucherotte
-15> 1533 : F15-1@Prospection.Moucherotte -- 9 : 7@Bruyant.Bruyant.Moucherotte
-17> 3 : 1@Bruyant.Bruyant.Moucherotte
+ 5> input:2161 -- Data/PicSaintMichel/Data/CombeOursiere/Data/CombeOursiere.th [17]
+ 5> 2092 : CombeOursiere@CombeOursiere.CombeOursiere.PicSaintMichel.Moucherotte
+ 6> 8 : 6@Bruyant.Bruyant.Moucherotte -- 78 : 60@Vallier.Vallier.Moucherotte -- 6 : 4@Bruyant.Bruyant.Moucherotte -- 7 : 5@Bruyant.Bruyant.Moucherotte
+ 6> input:2174 -- Data/PicSaintMichel/Data/Tonnerre/Data/Tonnerre.th [17]
+ 6> 2105 : Tonnerre@Tonnerre.Tonnerre.PicSaintMichel.Moucherotte
+ 7> 8 : 6@Bruyant.Bruyant.Moucherotte -- 78 : 60@Vallier.Vallier.Moucherotte -- 6 : 4@Bruyant.Bruyant.Moucherotte -- 7 : 5@Bruyant.Bruyant.Moucherotte
+ 7> input:2175 -- Data/PicSaintMichel/Data/TonnerreDeBrest/Data/TonnerreDeBrest.th [17]
+ 7> 2106 : TonnerreDeBrest@TonnerreDeBrest.TonnerreDeBrest.PicSaintMichel.Moucherotte
+ 8> 8 : 6@Bruyant.Bruyant.Moucherotte -- 78 : 60@Vallier.Vallier.Moucherotte -- 6 : 4@Bruyant.Bruyant.Moucherotte -- 7 : 5@Bruyant.Bruyant.Moucherotte
+ 8> input:2190 -- Data/Prospection/Data/Prospection.th [36]
+ 8> 2131 : Grotte@Prospection.Moucherotte
+ 9> 8 : 6@Bruyant.Bruyant.Moucherotte -- 78 : 60@Vallier.Vallier.Moucherotte -- 6 : 4@Bruyant.Bruyant.Moucherotte -- 7 : 5@Bruyant.Bruyant.Moucherotte
+ 9> input:2197 -- Data/Prospection/Data/Prospection.th [79]
+ 9> 2132 : B2@Prospection.Moucherotte
+10> 8 : 6@Bruyant.Bruyant.Moucherotte -- 78 : 60@Vallier.Vallier.Moucherotte -- 6 : 4@Bruyant.Bruyant.Moucherotte -- 7 : 5@Bruyant.Bruyant.Moucherotte
+10> input:2201 -- Data/Prospection/Data/Prospection.th [102]
+10> 2133 : F13@Prospection.Moucherotte
+12> 2133 : F13@Prospection.Moucherotte -- 2113 : A1@Prospection.Moucherotte
+13> 16 : S1-4@Bruyant.Bruyant.Moucherotte
+14> 36 : 18@Vallier.Vallier.Moucherotte
+18> 2127 : F1@Prospection.Moucherotte -- 15 : S1-3@Bruyant.Bruyant.Moucherotte
+19> 2130 : F15-1@Prospection.Moucherotte -- 2094 : 2@Meduse.Meduse.PicSaintMichel.Moucherotte
+20> 2130 : F15-1@Prospection.Moucherotte -- 2098 : 5@Meduse.Meduse.PicSaintMichel.Moucherotte
+22> 8 : 6@Bruyant.Bruyant.Moucherotte
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
@@ -125,7 +145,7 @@ S  1011.29 SP-Bruyant-1@Bruyant.Moucherotte ()
 ########## end of export maps & scraps selection ###############
 writing Outputs/Moucherotte-plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  1 DEC 2025 17:21
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  4 DEC 2025 11:48
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -143,7 +163,7 @@ otte] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
 (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] )
  
 Here is how much of MetaPost's memory you used:
- 3857 strings using 101399 characters
+ 3861 strings using 101749 characters
  3728384 bytes of node memory
  1761 symbolic tokens
  9i,82n,18p,445b,5f stack positions out of 16i,98n,22p,487b,6f
@@ -154,7 +174,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.10.9)  1 DEC 2025 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.10.9)  4 DEC 2025 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -169,7 +189,7 @@ tex.map})
 Here is how much of TeX's memory you used:
  317 strings out of 494562
  4276 string characters out of 6145051
- 42497 words of memory out of 5000000
+ 42472 words of memory out of 5000000
  1987 multiletter control sequences out of 15000+600000
  21194 words of font info for 66 fonts, out of 8000000 for 9000
  1416 hyphenation exceptions out of 8191
@@ -179,7 +199,7 @@ Here is how much of TeX's memory you used:
 .pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
 pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
 local/texlive/2025/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
-Output written on data.pdf (1 page, 60887 bytes).
+Output written on data.pdf (1 page, 60873 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  36 compressed objects within 1 object stream
@@ -191,7 +211,7 @@ PDF statistics:
 done
 writing Outputs/Moucherotte.lox .... done
 ####################### metapost log file ########################
-This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  1 DEC 2025 17:21
+This is MetaPost, version 2.11 (TeX Live 2025) (kpathsea version 6.4.1)  4 DEC 2025 11:48
 **data.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/mpost.mp
 (/usr/local/texlive/2025/texmf-dist/metapost/base/plain.mp
@@ -234,11 +254,11 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
 ###################### scrap distortions #######################
  PROJECTION: plan
  AVERAGE  MAXIMAL  SCRAP
-   0.04%    0.37%  SP-Bruyant-1@Bruyant.Moucherotte
+   0.04%    0.51%  SP-Bruyant-1@Bruyant.Moucherotte
 ################### end of scrap distortions ###################
 
 ############# CRS transformations chosen by PROJ ###############
-  Area of Use (AoU): (5.617, 45.110) (5.649, 45.153)
+  Area of Use (AoU): (5.607, 45.087) (5.649, 45.153)
   [LAT-LONG → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
   [LAT-LONG → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
   [LAT-LONG → UTM31] AoU: [yes] transformation: [axis order change (2D) + UTM zone 31N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=31 ellps=WGS84] accuracy: [0.000 m]

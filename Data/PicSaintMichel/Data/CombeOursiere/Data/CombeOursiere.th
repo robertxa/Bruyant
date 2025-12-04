@@ -7,26 +7,157 @@ encoding utf-8
 survey CombeOursiere -title "Scialet de la Combe Oursiere (V2)"
 
   centerline
-	  date 1987.07.18 
-    	#team "Xavier Robert"
-		  #team "Stéphane Lips"
+	  date 1988.10.16 
+    	team "Philippe Audra"
+		  team "Pierre R."
+      team "Christophe Gauchon"
+      team "Patrice ?"
 	  #explo-date 1900.07.01
 	  #	explo-team "Inconnus"
 	
-	  cs EPSG:27573	# Lambert III
-    fix CombeOursiere 857990 3315240 1750
+	  #cs EPSG:27573	# Lambert III
+    #fix CombeOursiere 857990 3315240 1750
     station CombeOursiere "Scialet de la Combe Oursiere (V2)" entrance
     
     units length meters
     units compass clino grads
     units counter meters
     #calibrate counter 0 0.0975  # -2.5 %
-    calibrate counter 0 0.1
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
     calibrate clino 100 -1
 
-    #data topofil from to fromcount tocount compass clino
+    data topofil from to fromcount tocount compass clino
+    # Entrée à puits de la Pédale douce (base)
+    CombeOursiere 1 6171  6319  254 189 # Entrée
+    1 2 6319  6405  260 141
+    2 3 6405  6427  210 122
+    3 4 6427  6452  0 200 # Puits
+    4 5 6452  6490  285 148 # R
+    5 6 6490  6511  225 148
+    6 7 6511  6538  328 144 # MC
+    7 8 6538  6737  263 183
+    8 9 6737  6790  8 144
+    9 10  6790  6832  290 124 # Boyau
+    10  11  6937  7024  0 200 # P
+    11  12  7024  7052  60  100
+    12  13  7052  7204  60  190
+    13  14  7204  7364  0 200 # P
+    14  15  7364  7452  368 42
+    15  16  7452  7601  378 196
+    16  17  7601  7650  362 115 # MC
+    17  18  7650  7746  336 153
+
+    data normal from to length compass clino
+    18  19  0.8 0 0
+
+    date 1988.10.23
+    	team "Philippe Audra"
+		  team "Pierre R."
+      team "Christophe Gauchon"
+      team "Patrice ?"
+    data topofil from to fromcount tocount compass clino
+    19  20  7746  7794  392 100
+    20  21  7794  7879  319 136
+    21  22  7879  7943  346 144
+    22  23  7943  7962  296 130
+    23  24  7962  7980  233 125
+    24  25  4393  4441  262 112 # Galerie basse, l = 1, h = 0.5, Puits en dessous
+    25  26  4372  4393  330 178 # H = 2, lD= 2 (salle), lg = 3
+    26  27  4328  4372  270 135 # Boyau, l = 1, h = 0.4
+    27  28  4281  4328  335 130 # Boyau étroit, Départ en 28
+
+    28  29  3817  4250  0 200 # Palier à 3934, lucarne à 3997 ; Puits de la Pédale Douce
+    29  30  3758  3817  290 147 # P46, ld = 3, Lamont = 5, Laval = 3
+
+  endcenterline
+
+  centerline
+	  date 1988.10.16 
+    	team "Philippe Audra"
+		  team "Pierre R."
+      team "Christophe Gauchon"
+      team "Patrice ?"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
     
+    units length meters
+    units compass clino grads
+    units counter meters
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino  left right up down
+    # Puits de la Pédale douce (base) à fond -264 m
+    30  31  3706  3758  338 67  0 1.5 3 1  # base P, ld = 1.5, H = 4, perte actif
+    31  32  3664  3706  365 128 0 2.5 3 1 # Biffurcatin amont, étroit en RD, LD = 2.5, H = 4
+
+    32  33  3641  3664  370 103 3 0 2 1 # Lg = 3, h = 3
+    33  34  3607  3641  335 155 0.5 0.5 2 1 # Biffurcation vers actif, h = 2, l = 1, lucarne PR en RD
+
+    34  35  3339  3398  362 135 0 1.5 1 1 # h = 2, lG = 0.( lD = 1.5)
+    35  36  3317  3339  280 140 0.5 0.5 0.5 1
+    36  37  3235  3317  345 126 0.5 0.5 0.5 1 # Bifurcation RD, petite CF
+
+    37  38  3145  3235  350 122 1 1 0.5 1
+    38  39  3066  3145  388 115 0.5 0.5 0.5 1 #CF, arrivée sur P6, Départ
+
+    data topofil from to fromcount tocount compass clino # left right up down
+    39  40  7983  8044  0 200 # P6
+    40  41  8044  8071  292 100 # Départ
+
+    41  42  8071  8207  305 185
+    42  43  8207  8232  249 100
+    43  44  8232  8302  0 200
+    44  45  8302  8334  362 100 # Palier, l = 2.5 m
+    45  46  8334  8445  347 182 # n°45 = 1*2.5
+    46  47  8445  8521  0 200 # n°46 : 5*3  base P
+    47  48  8521  8545  327 100
+    48  49  8521  8602  228 113 # R3, 2.5 * 1.5
+    49  50  8602  8647  272 126 # h = 2, l = 1, MC
+    50  51  8647  9118  308 195 # Puits des Oignons
+    data normal from to length compass clino
+    51  57  1 0 0 
+    data topofil from to fromcount tocount compass clino # left right up down
+    57  58  9307  9340  310 156
+    58  59  9278  9307  290 160 # R
+    59  60  9250  9278  285 124 # l=1, h = 4, méandre
+    60  61  9205  9250  385 100 # l = 2.5 en 61, l=1 en 60, h = 4, lucarne
+    61  62  9120  9160  315 170
+
+  endcenterline
+
+  centerline
+	  date 1988.10.16 
+    	team "Philippe Audra"
+		  team "Pierre R."
+      team "Christophe Gauchon"
+      team "Patrice ?"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
     
+    units length meters
+    units compass clino grads
+    units counter meters
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino  left right up down
+    # Aval actif de la Pédale Douce
+    34  52  3398  3435  245 145 0.75  0.75  1 1 # Aval actif à partir de la lucarne
+    52  53  3435  3459  60  180 0.5 0.5 0.5 0.5 # 1R, diam 1
+    53  54  3439  3504  365 175 0.5 0.5 1.5 1.5 # Méandre, actif à -1.5 m
+    54  55  3504  3536  375 155 0.6 0.6 3 1 # Amont actif imp. en RD
+    55  56  3536  3607  320 144 1.75  1.75  7 5 # Traversée puits, PR
+    
+    units depth meters
+    data diving from to length compass depthchange # left right up down
+    flags approx
+      56  56b 7 0 7 # PR
+      56  56c 15  365 -8  # Etr., résonnance derrière
+    flags not approx
   endcenterline
 
 endsurvey

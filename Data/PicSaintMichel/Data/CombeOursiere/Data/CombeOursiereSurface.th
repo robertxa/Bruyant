@@ -1,0 +1,44 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey CombeOursiereSurface -title "Scialet de la Combe Oursiere (V2)"
+
+  centerline
+	  date 1987.07.18 
+    	#team "Xavier Robert"
+		  #team "Stéphane Lips"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+	
+	  cs EPSG:27573	# Lambert III
+    fix CombeOursiere 857990 3315240 1750 #10  10  10
+    station CombeOursiere "Scialet de la Combe Oursiere (V2)" entrance
+    #fix V23 858000 3315480 1765 10  10  10 # Faux, c'est le V23bis
+    station V23 "Scialet (V23)" entrance
+    fix V20 857940 3315390 1745 10  10  10
+    station V20 "Scialet (V20)" entrance
+    
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data topofil from to fromcount tocount compass clino
+      flags surface
+        CombeOursiere V23 3684  3880  45  78  # V23 =. doline
+        CombeOursiere 2 3880  4420  324 98
+        2 3 4420  4580  386 109
+        3 4 4580  5063  392 96
+        4 5 5063  5806  17  106
+        5 V20 5806  5898  310 122 # V20, bloc, V20 =. trou souffleur
+      flags not surface
+
+    
+  endcenterline
+
+endsurvey
