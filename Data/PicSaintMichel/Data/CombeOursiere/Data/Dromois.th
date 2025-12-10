@@ -1,0 +1,53 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Dromois -title "Scialet de la Combe Oursiere (V2)"
+
+  centerline
+	  date 1989
+    #	team "Bernard Faure"
+		#  team "Benoît Pin"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data normal from to length compass clino
+    # Réseau des Dromois
+    15  502 9 230 155 # Base P
+    502 503 9.3 295 174 # P9, gros palier, résdeau annexes
+    503 504 4.4 227 162 # Arrivée etre.
+    504 505 3 125 139 # ete. méandre
+    505 506 1 190 100 # m&andre
+    506 507 3.5 295 132 # méandre
+    507 508 1 130 100 # méandre
+    508 509 4.7 265 150 # méandre
+    509 510 9.7 255 150 # P7, voir croquis pour la suite
+    flags approx
+      510 510b 9.7 255 160 # P7, voir croquis pour la suite
+    flags not approx
+    
+    #data topofil from to fromcount tocount compass clino # left right up down
+    
+
+
+
+    #data normal from to length compass clino
+    #flags approx
+    #  226 226b  2 0 200
+    #flags not approx
+    #data topofil from to fromcount tocount compass clino
+    #227 228 6733  6772  330 100 # l2, arrivée MC
+
+  endcenterline
+
+endsurvey

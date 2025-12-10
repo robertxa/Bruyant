@@ -5,7 +5,7 @@
 <Style id="ThEntranceIcon"> <IconStyle> <Icon> <href>https://therion.speleo.sk/downloads/KmlIconEntrance.png</href> </Icon> <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction" /> </IconStyle> </Style>
 <Icon> <href>https://therion.speleo.sk/downloads/KmlIconMap.png</href> </Icon>
 <name><![CDATA[Réseau Moucherotte - Grand Cheval - Pic Saint Michel]]></name>
-<description><![CDATA[Longueur 13688 m<br>Dénivellation 843 m<br><it>Plan<ss> - Saint-Nizier, 38, France]]></description>
+<description><![CDATA[Longueur 17540 m<br>Dénivellation 843 m<br><it>Plan<ss> - Saint-Nizier, 38, France]]></description>
 <Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Résurgence du Bruyant]]></name>
 <Point> <coordinates>5.61728497754517,45.14655576085389,1012.00000000000000</coordinates> </Point>
@@ -79,6 +79,18 @@
 <Point> <coordinates>5.61453412146790,45.09089319111554,1750.00000000000000</coordinates> </Point>
 </Placemark>
 <Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Scialet (V23)]]></name>
+<Point> <coordinates>5.61468033574288,45.09102279807185,1756.64000000000010</coordinates> </Point>
+</Placemark>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Scialet (V20)]]></name>
+<Point> <coordinates>5.61385159885560,45.09228024915869,1742.39000000000010</coordinates> </Point>
+</Placemark>
+<Placemark>
+<styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Scialet de la Combe Oursiere (V2)]]></name>
+<Point> <coordinates>5.61453412146790,45.09089319111554,1750.00000000000000</coordinates> </Point>
+</Placemark>
+<Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Grotte de la  Meduse]]></name>
 <Point> <coordinates>5.60706745640659,45.08696133514123,1580.00000000000000</coordinates> </Point>
 </Placemark>
@@ -88,7 +100,7 @@
 </Placemark>
 <Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[Scialet du Tonnerre De Brest]]></name>
-<Point> <coordinates>5.61016747097742,45.09236708632314,1745.00000000000000</coordinates> </Point>
+<Point> <coordinates>5.61410795409973,45.09239500178738,1745.00000000000000</coordinates> </Point>
 </Placemark>
 <Placemark>
 <styleUrl>#ThEntranceIcon</styleUrl><name><![CDATA[ Scialet Dominique - C4]]></name>

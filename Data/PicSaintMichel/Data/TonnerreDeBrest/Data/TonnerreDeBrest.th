@@ -13,8 +13,10 @@ survey TonnerreDeBrest -title "Scialet du Tonnerre De Brest"
 	  #explo-date 1900.07.01
 	  #	explo-team "Inconnus"
 	
-	  cs EPSG:27573	# Lambert III
-    fix TonnerreDeBrest 857640 3315390 1745
+	  #cs EPSG:27573	# Lambert III
+    #fix TonnerreDeBrest 857640 3315390 1745
+    cs Lat-long
+    fix TonnerreDeBrest 45.092395 5.614108 1745
     station TonnerreDeBrest "Scialet du Tonnerre De Brest" entrance
     
     units length meters

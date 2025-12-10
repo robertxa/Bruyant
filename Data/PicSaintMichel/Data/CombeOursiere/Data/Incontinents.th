@@ -1,0 +1,116 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Incontinents -title "Scialet de la Combe Oursiere (V2)"
+
+  centerline
+	  date 1989
+    #	team "Bernard Faure"
+		#  team "Benoît Pin"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data normal from to length compass clino
+    # Réseau des Incontinents
+    
+    data topofil from to fromcount tocount compass clino left right up down
+    235 237 6275  6308  45  85  1 1 1 3 # Surcreusement, -3 m
+    237 238 6308  6377  395 125 1 1 1 1 # Départ galerie diam 2 m dans l'axe de la visée
+    238 239 6377  6436  90  60  1 1 2 1
+    239 240 6436  6501  30  90  1 1 0.5 0.5 # passage bas, courant d'air aspirant
+    240 241 6501  6550  75  85  3 0 10  1 # PR 10 m, Salle, R5
+    data normal from to length compass clino
+    flags approx
+      241 241b  10 0 0
+    flags not approx
+    data topofil from to fromcount tocount compass clino  left right up down
+    241 242 6550  6647  40  90  1 1.5 4 1 # Traversée salle
+    242 243 6647  6693  65  100 1 1 3 1
+    243 244 6693  6779  395 115 . . . . # Traversée puits de 4 m de diam en RG
+    244 245 6779  6854  370 110 . . . . # arrivée dans la salle
+    245 246 6854  6919  85  135 3 3 7 1 # Salle
+
+
+    244 247 6919  6992  135 100 . . . .
+    247 248 6992  7060  130 35  0.5 0.5 0.5 0.5 # Lucarne RD, puits parallèle
+    248 249 7060  7135  100 80  2 2 4 1 # Salle, départ faille à droit
+    249 250 7135  7227  390 85  1.5 1 4 1
+    250 251 7227  7320  10  110 1.24  1.25  2 1 
+    251 252 7320  7343  50  105 3 3 3 3 # Elargissement RD, blocs, arrivée d'eau
+    252 253 7448  7507  40  85  0.75  0.75  0.5 0.5
+    253 254 7507  7552  25  100 1 2 . . # Arrivée sur puits
+
+    254 255 7552  7603  40  75  1 1 2 1
+    255 256 7603  7637  340 90  1.5 1.5 3 1 # Courant d'air soufflant
+    256 257 7637  7753  360 125 2.5 2.5 2 1 # Condtuie forcée amont 15 m à droite
+    257 258 7753  7835  300 153 0.75  0.75  1 1
+    258 259 7835  7904  240 110 0 1.5  1  1 # CF
+    259 260 7904  7933  335 115 1 1 1 1 # Arrivée toboggan
+    260 261 7936  8035  330 175 1.25  1.25  1.25  1.25  # toboggan, diam 2.5 m à la base
+    261 262 8035  8086  300 125 1 1 1.5 1
+
+  endcenterline
+
+    
+  centerline
+	  date 1989
+    #	team "Bernard Faure"
+		#  team "Benoît Pin"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data normal from to length compass clino
+    # Réseau des Incontinents
+    
+    data topofil from to fromcount tocount backcompass backclino left right up down
+    254 263 9045  9104  310 154 . . . . # P8, bouchon blocs, puits P15 à désober
+    263 264 8976  9045  315 149 . . . . # E
+    264 265 8884  8924  315 69  0.5 0.5 4 1
+    265 266 8840  8884  340 14  5 3 15  1 # Galerie au Sud # P 
+    266 267 8751  8840  250 19  1.5 1.5 . .  # P, Diam 3 m
+    267 268 8703  8751  145 44  0.2 0.2 7 1 # PR
+    data normal from to length compass clino
+    268 269 1 240 100 
+    data topofil from to fromcount tocount backcompass backclino left right up down
+    269 270 8668  8703  130 54  . . . . 
+    270 271 8609  8668  185 29  0.6 0.6 8 3 
+    271 272 8567  8609  185 84  . . . .
+    272 273 8534  8567  95  94  0.6 0.6 7 1 # Galerie, méandre
+    273 274 8445  8534  175 59  3.5 3.5 7 1 # Salle
+    274 275 8404  8435  145 74  0.3 0.3 4 1 # CA aspirant, méandre
+    275 276 8326  8404  0 0 . . . . # 2 P parallèles
+    276 277 8240  8326  50  14  4.5 2.5 . . # P
+    277 278 8124  8340  50  34  . . . . # R3, R1, imp. V.M.
+    
+
+
+
+    #data normal from to length compass clino
+    #flags approx
+    #  226 226b  2 0 200
+    #flags not approx
+    #data topofil from to fromcount tocount compass clino
+    #227 228 6733  6772  330 100 # l2, arrivée MC
+
+  endcenterline
+
+endsurvey

@@ -14,6 +14,7 @@ encoding  utf-8
 # "nomcavite.th2")
 source Moucherotte-tot.th
 #source Data/DEMVallier.th
+source Data/DEMBruyant-5m.th
 
 # Add Coordinates
 #input legendes/entrances_coordinates.th

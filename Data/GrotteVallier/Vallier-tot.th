@@ -31,6 +31,7 @@ survey Vallier -title "Grotte Vallier"
    input Data/Baguettes/Baguettes.th
       equate 256@Baguettes 256@Vallier
 
+   input ../Prospection/Data/Prospection.th
 	
    #centerline
 ## Rajout des longueurs explorées, non topo, ou topos perdues

@@ -10,10 +10,31 @@ survey CombeOursiere -title "Scialet de la Combe Oursiere (V2)"
    input Data/CombeOursiereSurface.th
    input Data/CombeOursiere.th
       equate CombeOursiere@CombeOursiere CombeOursiere@CombeOursiereSurface
+   input Data/GNord.th
+      equate 39@GNord 39@CombeOursiere
    input Data/EtrangesLucarnes.th
       equate 41@EtrangesLucarnes 41@CombeOursiere
+   
+   input Data/Ramapidoc.th
+      equate 10@Ramapidoc  10@CombeOursiere
+   input Data/Dromois.th
+      equate 15@Dromois 15@CombeOursiere
+
    input Data/Maquereaux.th
       equate 28@Maquereaux 28@CombeOursiere
+   input Data/GRessauts.th
+      equate 201@GRessauts  201@Maquereaux
+      equate 34@GRessauts   34@CombeOursiere
+
+   input Data/Punch.th
+      equate 204@Punch  204@Maquereaux
+   input Data/Hexomedine.th
+      equate 236@Hexomedine   236@Punch
+   input Data/Incontinents.th
+      equate 235@Incontinents 235@Punch
+      
+   
+   
 
 ## Pour le plan
 #input Data/CombeOursiere.th2

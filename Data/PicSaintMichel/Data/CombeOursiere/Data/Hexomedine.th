@@ -1,0 +1,47 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Hexomedine -title "Scialet de la Combe Oursiere (V2)"
+
+  centerline
+	  date 1989
+    #	team "Bernard Faure"
+		#  team "Benoît Pin"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data normal from to length compass clino
+    # Sommet salle Hexomedine
+    
+    data topofil from to fromcount tocount compass clino  left right up down
+    236 365 3858  3907  230 113 . . . . # Sommet salle Hexomedine
+    365 366 3828  3858  210 63 . . . .
+    366 367 3796  3828  135 75  0.6 0.6 0.6 0.6
+    367 368 3731  3796  161 68  0.5 0.6 1 1
+    368 369 3676  3731  168 75   . . . .
+    369 370 3602  3633  118 76  0.5 0.5 0.5 1 # R4, fil en RD, Affluent, L = 6 m
+    370 371   3568  3602  58  110 . . . .
+    371 372 3528  3568  136 100 . . . .
+    372 373 3510  3528 12  100  0.4 0.4 . 30 # Sommet P30, PR imp au dessus, lucarne à -10 m, gal 5 m, PR, 
+
+    #data normal from to length compass clino
+    #flags approx
+    #  226 226b  2 0 200
+    #flags not approx
+    #data topofil from to fromcount tocount compass clino
+    #227 228 6733  6772  330 100 # l2, arrivée MC
+
+  endcenterline
+
+endsurvey

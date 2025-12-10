@@ -1,0 +1,64 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey GRessauts -title "Scialet de la Combe Oursiere (V2)"
+
+  centerline
+	  date 1989
+    #	team "Bernard Faure"
+		#  team "Benoît Pin"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    #data normal from to length compass clino
+    # Galerie des Ressauts
+    
+    data topofil from to fromcount tocount compass clino  left right up down
+    201 340 3916  4057  31  104 0.75  0.75  1.5 1 # bifurcation
+    340 341 4057  4113  126 56  1.25  1.25  1 1 # Galerie amont
+    341 342 4113  4132  144 100 1 0.5 1 1
+    342 343 4132  4164  59  90  1 1 5 1 # E5 en RD, colmaté
+    data normal from to length compass clino
+    flags approx
+      343 343b  5 0 0
+    flags not approx
+    data topofil from to fromcount tocount compass clino left right up down
+    343 344 4164  4217  35  96  0.6 0.6 0.6 0.6
+    344 345 4217  4270  60  87  0.5 0.5 0 0.5
+    345 346 4270  4295  130 110 0.5 0.5 1 1
+    346 347 4295 4313  106  68  0.5 0.5 0 0.5
+    347 348 4313  4333  140 32  0.5 0.5 5 1 # PR, courant d'air aspirant
+    348 349 4333  4364  155 75  0.25  0.25  0.25  0.25  # Colmatage
+
+    340 350 4364  4388  149 122 . . . .
+    350 351 4388  4425  0 200 . . . . # R
+    351 352 4425  4475  353 155 0.4 0.4 0.5 1 # courant d'air aspirant, 2 ressauts
+    352 353 4475  4503  123 178 1 1 1 1 # R
+    353 354 4503  4539  230 132 0.25  0.25  0.25  0.25  # Boyau actif
+    354 355 4539  4596  321 174  . . . .  # R actif
+    355 356 4596  4612  137 45   . . . .  # Visée correction
+    356 34  4612  4666  172 145  . . . .  # Repère aval-actif N°34
+
+
+
+    #data normal from to length compass clino
+    #flags approx
+    #  226 226b  2 0 200
+    #flags not approx
+    #data topofil from to fromcount tocount compass clino
+    #227 228 6733  6772  330 100 # l2, arrivée MC
+
+  endcenterline
+
+endsurvey

@@ -1,0 +1,177 @@
+encoding utf-8
+
+# Copyright (C) 1987-1989 : Furets Jaunes de Seyssins - 2024 Xavier Robert <xavier.robert***@***ird.fr>
+# This work is under the Creative Commons Attribution-ShareAlike-NonCommecial License:
+#	<http://creativecommons.org/licenses/by-nc-sa/4.0/> 
+
+survey Ramapidoc -title "Scialet de la Combe Oursiere (V2)"
+
+  centerline
+	  date 1989
+    #	team "Bernard Faure"
+		#  team "Benoît Pin"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data normal from to length compass clino
+    # Galerie du Rapamidoc Vorace à partir du sommet du P38
+    10  433 1.6 300 100 # Visée dans boyau important
+    433 434 5.7 380 110 # CF
+    434 435 4.2 345 125 # Salle, l+3 dans prolongement visée cheminée
+    435 436 4.7 80  90  # Biffurcation --> Jonction avec galerie de -82 par P10 puis P5
+
+    436 437 4.3 175 78  # Lucarne à gauche vers cheminée
+    437 438 5.7 90  80  # Salle
+    438 439 11.8  160 83  # Ete. verticale
+    439 440 3.4 180 145 # R descendant, salle, sol 1.5 m sous station, 2 départs imp.
+    440 441 4.3 120 48  # E
+    441 442 4.6 135 53  # R etroit
+    442 443 4.3 110 110 # MC RD, lg2.5, MC de 6 m
+    443 444 2 75  165 # fin MC, arrivée sur P26
+    444 445 26.5  0 200 # P26
+
+    445 446 4.3 355 127 # courant d'air aspirant, sommet P17
+    446 447 17.2  0 200 # P17
+
+    445 448 5.4 150 58
+    data normal from to length compass clino left right up down
+    448 449 6.3 96  132 2.5 4 10  1
+    flags approx
+      449 449b  10  0 0 . . . .
+    flags not approx
+
+    445 450 7.5 245 64  6 4 . . # galerie colmatée
+    data normal from to length compass clino #left right up down
+    450 451 6.8 260 78
+
+    451 452 5 150 100
+    452 453 1.5 0 200
+    453 454 4.6 185 177 # angle droit, L+3
+    454 455 9 95  100 # départ
+
+    455 456 8.3 85  153 # départ vers 2d aval, actif
+
+    455 457 11.1  75  115 # 6 derniers m dans galerir de diam 1 m
+    457 458 6 105 100 # dalle à gauche, diam 1 m en fin de visée
+    458 459 6.7 60  124
+    459 460 6.8 45  110 # Effondrement de 4 m de diam milieu de la galerie LD#1, LG 1.5, Hé, fil touche paroiF avant milieu visée
+    460 461 7 95  87  # Colmatage terminal
+
+    451 462 6.5 270 135 # Branche N, galerie fossile
+    462 463 5.7 190 100 # Clomatage, l2
+
+
+    #data topofil from to fromcount tocount compass clino  left right up down
+
+  endcenterline
+
+
+  centerline
+	  date 1989
+    #	team "Bernard Faure"
+		#  team "Benoît Pin"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data normal from to length compass clino  left right up down
+    447 464 4.5 352 85  0.5 0.5 1.5 3 # Lucarne --> Méandre
+    464 465 2.5 324 158 . . . . # Départ ménadre RD imp. après 2 m
+    465 466 3.2 266 153 . . . . # Fond m'andre
+    466 467 1.9 355 118 . . . . # 
+    467 468 0.8 295 100 . . . . # 
+    468 469 2.3 360 125 . . . . # Bord Puits, courant d'air aspirant
+    469 470 7.5 293 155 0.2 0.2 4 1 # P6, base de 2 m de diamn, départ méandre
+    470 471 1.2 347 100 0.2 0.2 4 1
+    471 472 1.9 284 83   . . 8 . # Sommet Puits, PR 8 m, Gallerie en RD
+    flags approx
+      472 472b  8 0 0 . . . . # 
+    flags not approx
+    472 473 0.4 25  100 . . . . #
+    473 474 13.6  193 170 4 2 . . # lucarne RD (P), Aplomb petit ressaut, suite en face
+    474 475 15.5  0 200 . . . . # Puits Gillette, G2, 3.5 m sous station, Lucarne RD, diam 3 m
+    475 476 7.7 295 132 . . . . # Descente 3 m, R5, Etr.
+    476 477 1.5 20  100 . . . . # 
+    477 478 2.5 354 166 2.5 6 . 7 # Lderriere 5 m dont 3 de palier, niveau spit, Lucarne en RG, P7 puis 5m de méandre imp.
+    flags approx
+      478 478b  7 0 200 . . . . # 
+      478b  478c  5 350 105 . . . . # imp.
+    flags not approx
+    478 479  9.7 348 185 . . . . # 
+    479 480 1.7 318 134  . . . . # Somet puits, courant d'air remotnant
+    480 481 16.6  0 200 2 8 17  4 # Fond 4 m plus bas, faille à 108gr
+    flags approx
+      481 481b  4 0 200  . . . . # 
+    flags not approx
+
+  endcenterline
+
+
+  centerline
+	  date 1989
+    #	team "Bernard Faure"
+		#  team "Benoît Pin"
+	  #explo-date 1900.07.01
+	  #	explo-team "Inconnus"
+
+    units length meters
+    units compass clino grads
+    units counter meters
+    #calibrate counter 0 0.0975  # -2.5 %
+    calibrate counter 0 0.0965  # -3.5 %
+    #calibrate counter 0 0.1
+    calibrate clino 100 -1
+
+    data normal from to length compass clino # left right up down
+    456 482 4.2 165 132
+    482 483 5.6 187 112
+    483 484 4.7 135 195
+    484 485 5.1 210 165
+    485 486 2.7 279 150
+    486 487 3.9 243 124
+    487 488 3.9 208 137
+    488 489 2.5 205 135
+    489 490 3 265 135 
+    490 491 2.9 260 140 # Puits
+    491 492 4.8 200 140
+    492 493 7.8 180 175
+    493 494 11.1  215 172
+    494 495 4.1 0 200
+    495 496 1.8 260 130
+    496 497 3.8 170 130
+    497 498 3.2 240 140
+    498 499 9.8 0 200
+    499 500 4.8 155 150
+    data normal from to length compass clino left right up down
+    500 501 5.1 140 100 1.5 1.5 6 1 # Sallet terreuse, avec cheminée de 6 m
+    data normal from to length compass clino #left right up down
+    flags approx
+      501 501b  6 0 0
+    flags not approx
+
+
+    #data normal from to length compass clino
+    #flags approx
+    #  226 226b  2 0 200
+    #flags not approx
+    #data topofil from to fromcount tocount compass clino
+    #227 228 6733  6772  330 100 # l2, arrivée MC
+
+  endcenterline
+
+endsurvey
